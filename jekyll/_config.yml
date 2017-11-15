@@ -1,0 +1,42 @@
+title:             Reisepassnummer
+email:             stefan@wintermeyer.de
+description:       Was man zum Reisen braucht.
+author:            Stefan Wintermeyer
+baseurl:           ""
+url:               "https://www.reisepassnummer.de"
+
+# Social Profiles
+twitter_username:  wintermeyer
+github_username:   wintermeyer
+facebook_username: stefan.wintermeyer
+
+# Collections
+collections:
+  ratgeber:
+    output: true
+    layout: post
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "ratgeber"
+    values:
+      layout: post
+  - scope:
+      path: "assets/imgages"
+    values:
+      image: true
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate

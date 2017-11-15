@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.background %}
+  <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+    <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ site.title }}</h1>
+            {% if site.description %}
+              <span class="subheading">{{ site.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <!-- Home Post List -->
+        {% for post in site.posts limit : 5 %}
+
+          <article class="post-preview">
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+              <h2 class="post-title">{{ post.title }}</h2>
+              {% if post.subtitle %}
+                <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+              {% else %}
+                <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+              {% endif %}
+            </a>
+            <p class="post-meta">Veröffentlicht von
+              {% if post.author %}
+                {{ post.author }}
+              {% else %}
+                {{ site.author }}
+              {% endif %}
+              am
+              {{ post.inserted_at | date: '%d. %B %Y' }}</p>
+          </article>
+
+          <hr>
+        {% endfor %}
+
+        {% if site.posts > 5 %}
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">Alle Posts anzeigen &rarr;</a>
+        </div>
+        {% endif %}
+
+        {% for item in site.ratgeber limit : 5 %}
+        <article class="post-preview">
+          <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="post-title">{{ item.title }}</h2>
+            {% if item.subtitle %}
+              <h3 class="post-subtitle">{{ item.subtitle }}</h3>
+            {% else %}
+              <h3 class="post-subtitle">{{ item.excerpt | strip_html | truncatewords: 15 }}</h3>
+            {% endif %}
+          </a>
+          <p class="post-meta">Veröffentlicht von
+            {% if item.author %}
+              {{ item.author }}
+            {% else %}
+              {{ site.author }}
+            {% endif %}
+            on
+            {{ item.inserted_at | date: '%d. %B %Y' }}</p>
+        </article>
+
+        {% endfor %}
+        <hr>
+
+        {% if site.ratgeber > 5 %}
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{"/ratgeber" | relative_url }}">Alle Ratgeber anzeigen &rarr;</a>
+        </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
