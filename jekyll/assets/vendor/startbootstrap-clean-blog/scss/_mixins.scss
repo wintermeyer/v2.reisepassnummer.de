@@ -62,7 +62,18 @@
 }
 @mixin serif-font() {
   font-family: 'Lora', 'Times New Roman', serif;
+  font-family: Georgia, 'Times New Roman', serif;
 }
 @mixin sans-serif-font() {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin hyphens() {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
