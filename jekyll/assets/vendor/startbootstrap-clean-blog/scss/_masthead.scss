@@ -28,9 +28,14 @@ header.masthead {
   .page-heading,
   .site-heading {
     text-align: center;
+    z-index: 200;
+    position: relative;
+    display: block;
     h1 {
-      font-size: 50px;
+      font-size: 35px;
       margin-top: 0;
+      @include hyphens();
+      margin: 0 25px;
     }
     .subheading {
       font-size: 24px;
