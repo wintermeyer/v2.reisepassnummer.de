@@ -49,24 +49,108 @@
     background-color: $color;
   }
 }
+
 @mixin transition-all() {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
+
 @mixin background-cover() {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-@mixin serif-font() {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-family: Georgia, 'Times New Roman', serif;
-}
-@mixin sans-serif-font() {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+@mixin font_sans_regular {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin font_sans_bold {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@mixin font_sans_black {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@mixin font_sans_light {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin font_serif_regular {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin font_serif_regular_italic {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+  font-style: italic;
+}
+
+@mixin font_serif_bold {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@mixin serif-font() {
+  @include font_serif_regular;
+}
+
+@mixin sans-serif-font() {
+  @include font_sans_regular;
+}
+
+@mixin font_size_xxxl {
+  font-size: $font_size_xxxl;
+  line-height: 1.2em;
+}
+
+@mixin font_size_xxl {
+  font-size: $font_size_xxl;
+  line-height: 1.2em;
+}
+
+@mixin font_size_xl {
+  font-size: $font_size_xl;
+  line-height: 1.2em;
+}
+
+@mixin font_size_l {
+  font-size: $font_size_l;
+  line-height: 1.2em;
+}
+
+@mixin font_size_m {
+  font-size: $font_size_m;  
+  line-height: 1.2em;
+}
+
+@mixin font_size_s {
+  font-size: $font_size_s;
+  line-height: 1.2em;
+}
+
+@mixin font_size_xs {
+  font-size: $font_size_xs;
+  line-height: 1.2em;
+}
+
+@mixin font_size_xxs {
+  font-size: $font_size_xxs;
+  line-height: 1.2em;
 }
 
 @mixin hyphens() {
@@ -76,4 +160,63 @@
   -ms-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin radius($size) {
+  -webkit-border-radius: $size;
+  -moz-border-radius: $size;
+  border-radius: $size;
+  overflow: hidden;
+}
+
+@mixin gradient($from, $to) {
+  background: -moz-linear-gradient(top,  $from 0%, $to 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$from), color-stop(100%,$to)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  $from 0%,$to 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  $from 0%,$to 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  $from 0%,$to 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  $from 0%,$to 100%); /* W3C */
+//  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */*/
+}
+
+@mixin box_shadow() {
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .15);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .15);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .15);
+}
+
+@mixin box_shadow_strong() {
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+
+@mixin box_shadow_small() {
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+@mixin box_shadow_small_strong() {
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+@mixin text_shadow() {
+  text-shadow: 1px 1px 5px rgba(0,0,0,.3);
+  filter: dropshadow(color=rgba(0,0,0,.3), offx=1, offy=1);
+}
+
+@mixin text_shadow_strong() {
+  text-shadow: 1px 1px 5px rgba(0,0,0,.5);
+  filter: dropshadow(color=rgba(0,0,0,.5), offx=1, offy=1);
 }

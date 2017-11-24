@@ -2,7 +2,14 @@
 body {
   font-size: 20px;
   color: $gray-900;
-  @include serif-font;
+  @include font_serif_regular;
+  font-size: $font_size_base;
+  @media #{$media_sm} {
+    font-size: $font_size_base_sm;
+  }
+  @media #{$media_xs} {
+    font-size: $font_size_base_xs;
+  }
 }
 
 p {
@@ -11,16 +18,6 @@ p {
   a {
     text-decoration: underline;
   }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 800;
-  @include sans-serif-font;
 }
 
 a {
@@ -78,4 +75,42 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: $primary;
+}
+
+h1,h2,h3,h4,h5 {
+  @include font_sans_bold;
+  margin: 1.414em 0 .5em;
+}
+
+h1 {
+  margin-top: 0;
+  @include font_size_xxl;
+}
+
+h2 {
+  @include font_size_xl;
+}
+
+h3 {
+  @include font_size_l;
+}
+
+h4 {
+  @include font_size_m;
+}
+
+figure {
+  figcaption,
+  .figure-caption {
+    @include font_size_s;
+    @include font_sans_regular;
+    line-height: 1.3em;
+  }
+}
+
+blockquote {
+  @include font_serif_regular_italic;
+  @include font_size_l;
+  border-left: 1em solid $color_grey_light;
+  padding: 0 0 0 1em;
 }

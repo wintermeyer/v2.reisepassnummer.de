@@ -1,12 +1,15 @@
 // Styling for the masthead
 header.masthead {
   // TIP: Background images are set within the HTML using inline CSS!
-  margin-bottom: 50px;
   background: no-repeat center center;
   background-color: $gray-600;
   background-attachment: scroll;
   position: relative;
   @include background-cover;
+  margin-bottom: 50px;
+  @media #{$media_xs} {
+    margin-bottom: 0px;
+  }
   .overlay {
     position: absolute;
     top: 0;
@@ -24,6 +27,28 @@ header.masthead {
     @media only screen and (min-width: 768px) {
       padding: 200px 0;
     }
+    h1 {
+      @include font_sans_bold;
+      @inlcude font_size_xxxl;
+      @include hyphens;
+      margin: 0 0 .25em;
+    }
+    .subheading {
+      margin: .25em 0 .75em;
+      @include font_sans_light;
+      @include font_size_l;
+    }
+    .meta {
+      margin: 0;
+      @include font_serif_regular_italic;
+      opacity: .80;
+      -moz-opacity: .80;
+      filter:alpha(opacity=80);
+      a {
+        color: $white;
+        text-decoration: underline;
+      }
+    }
   }
   .page-heading,
   .site-heading {
@@ -31,56 +56,20 @@ header.masthead {
     z-index: 200;
     position: relative;
     display: block;
-    h1 {
-      font-size: 35px;
-      margin-top: 0;
-      @include hyphens();
-      margin: 0 25px;
-    }
-    .subheading {
-      font-size: 24px;
-      font-weight: 300;
-      line-height: 1.1;
-      display: block;
-      margin: 10px 0 0;
-      @include sans-serif-font;
-    }
-    @media only screen and (min-width: 768px) {
-      h1 {
-        font-size: 80px;
-      }
-    }
   }
-  .post-heading {
-    h1 {
-      font-size: 35px;
-    }
-    .meta,
-    .subheading {
-      line-height: 1.1;
-      display: block;
-    }
-    .subheading {
-      font-size: 24px;
-      font-weight: 600;
-      margin: 10px 0 30px;
-      @include sans-serif-font;
-    }
-    .meta {
-      font-size: 20px;
-      font-weight: 300;
-      font-style: italic;
-      @include serif-font;
-      a {
-        color: $white;
-      }
-    }
-    @media only screen and (min-width: 768px) {
+  
+  &.masthead-start {
+    .page-heading,
+    .post-heading,
+    .site-heading {
       h1 {
-        font-size: 55px;
-      }
-      .subheading {
-        font-size: 30px;
+        @include font_size_xxxl;
+        @media #{$media_xs} {
+          @include font_size_xxl;
+        }
+        @media #{$media_sm} {
+          @include font_size_xxl;
+        }
       }
     }
   }
