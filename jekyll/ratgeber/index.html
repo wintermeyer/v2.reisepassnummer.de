@@ -1,48 +1,52 @@
 ---
-layout: page
-title: Ratgeber
-meta_description: >
-  Reiseratgeber. Themenbeispiele: Urlaub mit Kinder, Geschäftsreisen, etc.
-background: '/img/frankfurt-airport-von-oben.jpg'
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
 ---
 
-{% for post in site.ratgeber %}
+<section class="section">
+    <div class="container">
 
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-      <h2 class="post-title">{{ post.title }}</h2>
-      {% if post.subtitle %}
-      <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-      {% else %}
-      <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-      {% endif %}
-    </a>
-    <p class="post-meta">Veröffentlicht von
-      {% if post.author %}
-        {{ post.author }}
-      {% else %}
-        {{ site.author }}
-      {% endif %}
-      on {{ post.date | date: '%d. %B %Y' }}</p>
-  </article>
+        <div class="row">
+            <!-- Content-->
+            <div class="col-lg-8">
 
-  <hr>
+              <div class="text-center post-header">
+                <h1>Ratgeber Reisen</h1>
+                <hr>
+              </div>
 
-{% endfor %}
+              {% for item in site.ratgeber limit : 15 %}
+                <!-- Post-->
+                <article class="post">
+                  <div class="text-center post-header">
+                    <a class="badge badge-custom" href="#" title="">Ratgeber</a>
+                    {% for category in item.categories %}
+                    <a class="badge badge-custom" href="#" title="">{{ category }}</a>
+                    {% endfor %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
+                    <h2 class="post-title"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="">{{ item.title }}</a></h2>
+                    <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="" class="post-date">{{ item.inserted_at | date: '%d. %B %Y' }}</a>
+                  </div>
 
-  <div class="clearfix">
+                  <div class="post-preview">
+                      <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"><img src="{{ item.hero_image }}" alt="{{ item.hero_image_alt }}" class="img-fluid rounded"></a>
+                  </div>
 
-    {% if paginator.previous_page %}
-      <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Older<span class="d-none d-md-inline"> Posts</span></a>
-    {% endif %}
+                  <div class="post-content">
+                    <p>{{ item.excerpt | strip_html | truncatewords: 80 }}</p>
+                  </div>
 
-    {% if paginator.next_page %}
-      <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
-    {% endif %}
+                  <div class="text-center"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline-custom">Weiter lesen <i class="mdi mdi-arrow-right"></i></a></div>
+                </article>
+                <!-- Post end-->
+              {% endfor %}
 
-  </div>
+            </div>
+            <!-- Content end-->
 
-{% endif %}
+            {% include sidebar.html %}
+        </div>
+    </div> <!-- end container -->
+</section>

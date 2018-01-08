@@ -2,49 +2,57 @@
 layout: default
 ---
 
-<!-- Page Header -->
-{% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-{% else %}
-<header class="masthead">
-{% endif %}
-  <div class="overlay"></div>
+<section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-heading">
-          <h1>{{ page.title }}</h1>
-          {% if page.subtitle %}
-          <h2 class="subheading">{{ page.subtitle }}</h2>
-          {% endif %}
-          <span class="meta">von
-            <a href="#">Stefan Wintermeyer</a>
-            veröffentlicht am {{ page.inserted_at | date: '%d. %B %Y' }}</span>
-        </div>
+      <!-- Content-->
+      <div class="col-lg-8">
+
+        <!-- Post-->
+        <article class="post">
+            <div class="text-center post-header">
+                {% for category in page.categories %}
+                <a class="badge badge-custom" href="#" title="">{{ category }}</a>
+                {% endfor %}
+
+                <h1 class="post-title">{{ page.title }}</h1>
+                <p>{{ page.subtitle }}</p>
+
+                <a href="standard-post.html" title="" class="post-date">{{ page.inserted_at | date: '%d. %B %Y' }}</a>
+            </div>
+
+            <div class="post-preview">
+               {% if page.hero_image == blank %}
+                 <img src="/images/blog/blog-1.jpg" alt="" class="img-fluid rounded">
+               {% else %}
+                 <img src="{{ page.hero_image }}" alt="{{ page.hero_image_alt }}" class="img-fluid rounded">
+               {% endif %}
+            </div>
+
+            <div class="blog-detail-description">
+
+              {{ content }}
+
+              <div class="mt-5">
+                <h6>Tags:</h6>
+                <div class="tagcloud">
+                  {% for category in page.categories %}
+                  <a href="#">{{ category }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+
+              {% include post-author-box.html %}
+          </div>
+
+      </article>
+      <!-- Post end-->
+
       </div>
+      <!-- Content end-->
+
+      {% include sidebar.html %}
     </div>
-  </div>
-</header>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-md-10 mx-auto">
-
-      {{ content }}
-
-      <hr>
-
-      <div class="clearfix">
-
-        {% if page.previous.url %}
-        <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
-        {% endif %}
-        {% if page.next.url %}
-        <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
-        {% endif %}
-
-      </div>
-
-    </div>
-  </div>
-</div>
+  </div> <!-- end container -->
+</section>

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "de" }}">
 
   {% include head.html %}
 
   <body>
-    
-    {% include navbar.html %}
+    <div class="logo-box">
+      {% include responsive_ad.html %}
+    </div>
+
+    {% include topnav.html %}
 
     {{ content }}
 
     {% include footer.html %}
-
   </body>
-
 </html>

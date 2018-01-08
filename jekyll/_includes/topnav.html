@@ -1,0 +1,66 @@
+<!-- Navigation Bar-->
+<header id="topnav">
+
+    <div class="container">
+        <a href="#" class="logo-mobile">
+        </a>
+        <div class="menu-extras">
+            <div class="menu-item">
+            </div>
+        </div>
+
+        <div id="navigation">
+
+            <!-- Navigation Menu-->
+            <ul class="navigation-menu">
+
+                <li>
+                    <a href="/">Home</a>
+                </li>
+
+                <li class="has-submenu">
+                  <a href="/ratgeber/">Ratgeber</a>
+                  <span class="menu-arrow"></span>
+                  <ul class="submenu">
+                    {% for item in site.ratgeber limit : 10 %}
+                      <li>
+                          <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">{{ item.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+
+                <li class="has-submenu">
+                  <a href="/hotels/">Hotels</a>
+                  <span class="menu-arrow"></span>
+                  <ul class="submenu">
+                    {% for item in site.hotels limit : 10 %}
+                      <li>
+                          <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">{{ item.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+
+                <li class="has-submenu">
+                  <a href="/posts/">Blog</a>
+                  <span class="menu-arrow"></span>
+                  <ul class="submenu">
+                    {% for item in site.posts limit : 10 %}
+                      <li>
+                          <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">{{ item.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+
+                <li>
+                    <a href="/impressum.html">Impressum</a>
+                </li>
+
+            </ul>
+            <!-- End navigation menu-->
+        </div>
+    </div>
+</header>
+<!-- End Navigation Bar-->
