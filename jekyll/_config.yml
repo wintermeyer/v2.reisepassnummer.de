@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title:             Reisepassnummer
 email:             stefan@wintermeyer.de
-description:       "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und cool wie die jüngeren Blogger. Beruflich und privat auf Reisen. Mal mehr, mal weniger."
+description:       "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und cool wie die jüngeren Blogger. Dafür weniger käuflich. Beruflich und privat auf Reisen. Mal mehr, mal weniger."
 author:            Stefan Wintermeyer
 baseurl:           ""
 url:               "https://www.reisepassnummer.de"
@@ -49,7 +49,9 @@ collections:
     output: true
   hotels:
     output: true
-
+  schiffe:
+    output: true
+    
 # Defaults
 defaults:
   - scope:
@@ -65,6 +67,11 @@ defaults:
   - scope:
       path: ""
       type: "hotels"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "schiffe"
     values:
       layout: post
   - scope:
