@@ -12,8 +12,7 @@ description: "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und co
         <div class="row">
             <!-- Content-->
             <div class="col-lg-8">
-
-              {% for item in site.schiffe limit : 5 %}
+              {% for item in site.posts limit : 20 %}
                 <!-- Post-->
                 <article class="post">
                   <div class="text-center post-header">
@@ -37,60 +36,6 @@ description: "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und co
                 </article>
                 <!-- Post end-->
               {% endfor %}
-
-
-              {% for item in site.hotels limit : 5 %}
-                <!-- Post-->
-                <article class="post">
-                  <div class="text-center post-header">
-                    {% for category in item.categories %}
-                    <a class="badge badge-custom" href="#" title="">{{ category }}</a>
-                    {% endfor %}
-
-                    <h2 class="post-title"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="">{{ item.title }}</a></h2>
-                    <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="" class="post-date">{{ item.inserted_at | date: '%d. %B %Y' }}</a>
-                  </div>
-
-                  <div class="post-preview">
-                      <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"><img src="{{ item.hero_image }}" alt="{{ item.hero_image_alt }}" class="img-fluid rounded"></a>
-                  </div>
-
-                  <div class="post-content">
-                    <p>{{ item.teaser_text | strip_html | truncatewords: 80 }}</p>
-                  </div>
-
-                  <div class="text-center"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline-custom">Weiter lesen <i class="mdi mdi-arrow-right"></i></a></div>
-                </article>
-                <!-- Post end-->
-              {% endfor %}
-
-
-              {% for item in site.ratgeber limit : 5 %}
-                <!-- Post-->
-                <article class="post">
-                  <div class="text-center post-header">
-                    <a class="badge badge-custom" href="#" title="">Ratgeber</a>
-                    {% for category in item.categories %}
-                    <a class="badge badge-custom" href="#" title="">{{ category }}</a>
-                    {% endfor %}
-
-                    <h2 class="post-title"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="">{{ item.title }}</a></h2>
-                    <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="" class="post-date">{{ item.inserted_at | date: '%d. %B %Y' }}</a>
-                  </div>
-
-                  <div class="post-preview">
-                      <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"><img src="{{ item.hero_image }}" alt="{{ item.hero_image_alt }}" class="img-fluid rounded"></a>
-                  </div>
-
-                  <div class="post-content">
-                    <p>{{ item.excerpt | strip_html | truncatewords: 80 }}</p>
-                  </div>
-
-                  <div class="text-center"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline-custom">Weiter lesen <i class="mdi mdi-arrow-right"></i></a></div>
-                </article>
-                <!-- Post end-->
-              {% endfor %}
-
             </div>
             <!-- Content end-->
 

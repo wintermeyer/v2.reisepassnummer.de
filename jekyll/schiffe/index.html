@@ -17,7 +17,8 @@ layout: default
                 <hr>
               </div>
 
-              {% for item in site.schiffe limit : 15 %}
+              {% for item in site.posts %}
+                {% if item.categories contains "Schiff" %}
                 <!-- Post-->
                 <article class="post">
                   <div class="text-center post-header">
@@ -40,8 +41,9 @@ layout: default
                   <div class="text-center"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline-custom">Weiter lesen <i class="mdi mdi-arrow-right"></i></a></div>
                 </article>
                 <!-- Post end-->
+                {% endif %}
               {% endfor %}
-
+              
             </div>
             <!-- Content end-->
 

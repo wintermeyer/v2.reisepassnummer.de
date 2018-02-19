@@ -22,10 +22,12 @@
                   <a href="/ratgeber/">Ratgeber</a>
                   <span class="menu-arrow"></span>
                   <ul class="submenu">
-                    {% for item in site.ratgeber limit : 10 %}
-                      <li>
-                          <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">{{ item.title }}</a>
-                      </li>
+                    {% for post in site.posts %}
+                      {% if post.categories contains "Ratgeber" %}
+                        <li>
+                          <a href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
+                      {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
@@ -34,10 +36,12 @@
                   <a href="/hotels/">Hotels</a>
                   <span class="menu-arrow"></span>
                   <ul class="submenu">
-                    {% for item in site.hotels limit : 10 %}
-                      <li>
-                          <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">{{ item.title }}</a>
-                      </li>
+                    {% for post in site.posts %}
+                      {% if post.categories contains "Hotel" %}
+                        <li>
+                          <a href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
+                      {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
@@ -46,10 +50,12 @@
                   <a href="/schiffe/">Schiffe</a>
                   <span class="menu-arrow"></span>
                   <ul class="submenu">
-                    {% for item in site.schiffe limit : 10 %}
-                      <li>
-                          <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">{{ item.title }}</a>
-                      </li>
+                    {% for post in site.posts %}
+                      {% if post.categories contains "Schiff" %}
+                        <li>
+                          <a href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
+                      {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
@@ -58,10 +64,16 @@
                   <a href="/posts/">Blog</a>
                   <span class="menu-arrow"></span>
                   <ul class="submenu">
-                    {% for item in site.posts limit : 10 %}
-                      <li>
-                          <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">{{ item.title }}</a>
-                      </li>
+                    {% for post in site.posts %}
+                      {% unless post.categories contains "Schiff" %}
+                      {% unless post.categories contains "Hotel" %}
+                      {% unless post.categories contains "Ratgeber" %}
+                        <li>
+                          <a href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
+                      {% endunless %}
+                      {% endunless %}
+                      {% endunless %}
                     {% endfor %}
                   </ul>
                 </li>
