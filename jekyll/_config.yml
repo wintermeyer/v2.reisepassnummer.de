@@ -19,6 +19,7 @@ description:       "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip 
 author:            Stefan Wintermeyer
 baseurl:           ""
 url:               "https://www.reisepassnummer.de"
+lang:              de
 
 # Social Profiles
 twitter_username:  wintermeyer
@@ -51,7 +52,7 @@ collections:
     output: true
   schiffe:
     output: true
-    
+
 # Defaults
 defaults:
   - scope:

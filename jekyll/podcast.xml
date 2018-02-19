@@ -5,24 +5,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
 
     <channel>
-		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />
+		<atom:link href="{{ site.url }}/podcast.xml" rel="self" type="application/rss+xml" />
 		<title>{{ site.title }}</title>
 		<link>{{ site.url }}{{ site.baseurl }}</link>
 		<language>{{ site.lang }}</language>
-        <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
+    <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
-        <itunes:author>{{ site.author }}</itunes:author>
+    <itunes:author>{{ site.author }}</itunes:author>
 		<itunes:summary>Reise-Podcast von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und cool wie die jüngeren Podcaster. Beruflich und privat auf Reisen. Mal mehr, mal weniger, mal mit Familie und mal alleine.</itunes:summary>
-        <description>Reise-Podcast von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und cool wie die jüngeren Podcaster. Beruflich und privat auf Reisen. Mal mehr, mal weniger, mal mit Familie und mal alleine.</description>
+    <description>Reise-Podcast von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und cool wie die jüngeren Podcaster. Beruflich und privat auf Reisen. Mal mehr, mal weniger, mal mit Familie und mal alleine.</description>
 		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
-        <itunes:owner>
+    <itunes:owner>
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-    <itunes:image href="{{ site.url }}/assets/stefan-wintermeyer_500x500.png" />
-    <itunes:category text="Society & Culture">
-        <itunes:category text="Places & Travel" />
+    <itunes:category text="Society &amp; Culture">
+    <itunes:category text="Places &amp; Travel"/>
     </itunes:category>
+    <itunes:image href="{{ site.url }}/assets/stefan-wintermeyer_1400x1400.jpg" />
     <itunes:explicit>no</itunes:explicit>
 
     {% for post in site.posts %}
@@ -30,9 +30,12 @@
         <item>
             <title>{{ post.title | xml_escape }}</title>
             <itunes:author>{{ site.author }}</itunes:author>
-            <itunes:subtitle>{{ site.title | xml_escape }}: {{ post.title | xml_escape }}</itunes:subtitle>
+            <itunes:subtitle>{{ post.podcast_subtitle | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.podcast_summary | xml_escape }}</itunes:summary>
-            <itunes:image href="{{ site.url }}/assets/stefan-wintermeyer_500x500.png" />
+            <itunes:image href="{{ site.url }}/assets/stefan-wintermeyer_1400x1400.jpg" />
+            <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Places &amp; Travel"/>
+            </itunes:category>
             <enclosure url="{{ site.url }}{{ post.podcast_file }}" length="{{ post.length }}" type="audio/mp3"/>
             <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
             <pubDate>{{ post.inserted_at | date_to_rfc822 }}</pubDate>
@@ -41,7 +44,7 @@
             <description>{{ post.summary | xml_escape }} {{ post.description | xml_escape }} Weitere Informationen finden Sie auf {{ site.url }}{{ site.baseurl }}{{ post.url }}</description>
             <itunes:keywords>{{ post.keywords }}</itunes:keywords>
             <itunes:block>{{ post.block }}</itunes:block>
-		  </item>
+  		  </item>
     {% endif %}
   {% endfor %}
 	</channel>
