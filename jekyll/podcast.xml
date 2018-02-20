@@ -22,7 +22,7 @@
     <itunes:category text="Society &amp; Culture">
     <itunes:category text="Places &amp; Travel"/>
     </itunes:category>
-    <itunes:image href="{{ site.url }}/assets/stefan-wintermeyer_1400x1400.jpg" />
+    <itunes:image href="{{ site.url }}/assets/podcast-cover-1400x1400.jpg" />
     <itunes:explicit>no</itunes:explicit>
 
     {% for post in site.posts %}
@@ -32,7 +32,7 @@
             <itunes:author>{{ site.author }}</itunes:author>
             <itunes:subtitle>{{ post.podcast_subtitle | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.podcast_summary | xml_escape }}</itunes:summary>
-            <itunes:image href="{{ site.url }}/assets/stefan-wintermeyer_1400x1400.jpg" />
+            <itunes:image href="{{ site.url }}{{ post.podcast_cover }}" />
             <itunes:category text="Society &amp; Culture">
             <itunes:category text="Places &amp; Travel"/>
             </itunes:category>

@@ -21,6 +21,8 @@ baseurl:           ""
 url:               "https://www.reisepassnummer.de"
 lang:              de
 
+permalink: /:year/:month/:day/:title:output_ext
+
 # Social Profiles
 twitter_username:  wintermeyer
 github_username:   wintermeyer
