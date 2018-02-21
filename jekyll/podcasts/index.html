@@ -3,7 +3,6 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-description: "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und cool wie die jüngeren Blogger. Dafür weniger käuflich. Beruflich und privat auf Reisen. Mal mehr, mal weniger."
 ---
 
 <section class="section">
@@ -12,7 +11,9 @@ description: "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und co
         <div class="row">
             <!-- Content-->
             <div class="col-lg-8">
-              {% for item in site.posts limit : 20 %}
+
+              {% for item in site.posts %}
+                {% if item.categories contains "Podcast" %}
                 <!-- Post-->
                 <article class="post">
                   <div class="text-center post-header">
@@ -29,31 +30,32 @@ description: "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und co
                   </div>
 
                   <div class="post-content">
-                    <p>{{ item.teaser_text | strip_html | truncatewords: 80 }}</p>
+                    <p>{{ item.excerpt | strip_html | truncatewords: 80 }}</p>
                   </div>
 
                   <div class="text-center"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline-custom">Weiter lesen <i class="mdi mdi-arrow-right"></i></a></div>
                 </article>
                 <!-- Post end-->
+                {% endif %}
               {% endfor %}
+
             </div>
             <!-- Content end-->
+
 
             <!-- Sidebar-->
             <div class="col-lg-4">
                 <div class="sidebar">
 
-                    <aside class="widget">
-                        <div class="widget-title">Podcast</div>
+                  <aside class="widget">
+                      <div class="about-widget">
+                        <ul>
+                          <li><a href="https://www.reisepassnummer.de/podcast.xml">RSS Feed aller Reisepassnummer-Podcasts.</a><li>
+                        </ul>
+                        <a href="https://itunes.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/de-de/podcast-lrg.svg) no-repeat;width:133px;height:34px;background-size:contain;"></a>
+                      </div>
+                  </aside>
 
-                        <div class="about-widget">
-                          <ul>
-                            <li><a href="https://www.reisepassnummer.de/podcast.xml">RSS Feed aller Reisepassnummer-Podcasts.</a><li>
-                          </ul>
-                          <a href="https://itunes.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/de-de/podcast-lrg.svg) no-repeat;width:133px;height:34px;background-size:contain;"></a>
-                        </div>
-                    </aside>
-                  
                     <!-- About widget-->
                     <aside class="widget">
                         <div class="widget-title">Stefan Wintermeyer</div>
@@ -80,6 +82,7 @@ description: "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und co
                 </div>
             </div>
             <!-- Sidebar end-->
+
 
         </div>
     </div> <!-- end container -->
