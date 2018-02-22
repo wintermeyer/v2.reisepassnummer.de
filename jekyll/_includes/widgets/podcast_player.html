@@ -1,0 +1,30 @@
+{% if page.podcast_file and page.podcast_subtitle and page.podcast_cover %}
+  <div class="pcast-player">
+    <div class="pcast-player-controls">
+      <div class="row h-100">
+        <div class="col-md-1 col-2 my-auto">
+          <button class="pcast-play"><i class="mdi mdi-play-circle-outline"></i><span>Starten</span></button>
+          <button class="pcast-pause"><i class="mdi mdi-pause-circle-outline"></i><span>Pause</span></button>
+        </div>
+        <div class="col-md-9 col-10 my-auto">
+          <h5>{{ page.podcast_subtitle }}</h5>
+          <span style="display: none" class="pcast-currenttime pcast-time">00:00</span>
+          <div class="row progress-wrapper">
+            <div class="col-md-10 col-8"><progress class="pcast-progress" value="0"></progress></div>
+            <div class="col-md-2 col-4"><span class="pcast-duration pcast-time col-md-2">00:00</span></div>
+          </div>
+
+        </div>
+        <div class="col-md-2 my-auto d-none d-md-block">
+          <img class="pcast-thumbnail" src="{{ page.podcast_cover }}" alt="podcast thumbnail">
+        </div>
+      </div>
+      <audio src="{{ page.podcast_file }}"></audio>
+      <button style="display: none" class="pcast-rewind"><i class="mdi mdi-skip-backward"></i><span>Zurück</span></button>
+      <button class="badge badge-podcast pcast-speed">1x</button>
+      <button class="badge badge-podcast pcast-mute"><i class="mdi mdi-volume-high"></i><span>Stumm/Laut</span></button>
+      <a class="badge badge-podcast pcast-download" href="{{ page.podcast_file }}" download><i class="mdi mdi-download"></i>&nbsp;download</a>
+      <a class="badge badge-podcast" href="https://itunes.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2"><i class="mdi mdi-library-music"></i>&nbsp;Alle Folgen</a>
+    </div>
+  </div>
+{% endif %}

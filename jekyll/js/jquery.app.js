@@ -72,7 +72,7 @@
         initNavbar();
         initSearch();
         initNavitemActive();
-        initMainSlider();
+        // initMainSlider();
     }
 
     init();
