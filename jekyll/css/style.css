@@ -829,9 +829,9 @@ h1,h2,h3,h4,h5,h6 {
 
 .widget ul,
 .widget ol {
-    list-style: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
+    text-align: left;
 }
 
 .widget ul li,
