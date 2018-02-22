@@ -1,0 +1,141 @@
+// body {
+//   font-size: 0.925em;
+//   padding: 3%;
+// }
+// body a {
+//   color: #09c;
+// }
+// body a:hover, body a:focus, body a:active {
+//   color: #069;
+// }
+
+// .visually-hidden, .pcast-player button span {
+//   position: absolute !important;
+//   clip: rect(1px 1px 1px 1px);
+//   /* IE6, IE7 */
+//   clip: rect(1px, 1px, 1px, 1px);
+//   padding: 0 !important;
+//   border: 0 !important;
+//   height: 1px !important;
+//   width: 1px !important;
+//   overflow: hidden;
+// }
+
+// /* Pcast Player */
+// .pcast-player .pcast-player-controls {
+//   box-sizing: border-box;
+//   background: #000;
+//   color: #fff;
+//   font-size: 14px;
+//   height: 42px;
+//   overflow: hidden;
+//   padding: 5px 5px 5px 5px;
+// }
+// .pcast-player button {
+//   background: #2a2a2a;
+//   color: #fff;
+//   border: 0;
+//   border-radius: 2px;
+//   padding: 5px;
+//   line-height: 22px;
+//   -webkit-appreance: none;
+//   min-width: 32px;
+// }
+// .pcast-player progress {
+//   height: 13px;
+//   width: calc(100% - 281px);
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   appearance: none;
+// }
+// .pcast-player progress[value]::-webkit-progress-bar {
+//   background-color: #555;
+//   border-radius: 0;
+//   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+// }
+// .pcast-player progress[value]::-webkit-progress-value {
+//   background: #fff;
+// }
+// .pcast-player .pcast-time {
+//   display: inline-block;
+//   font-size: 13px;
+//   padding: 0 5px;
+//   text-align: center;
+//   width: 4em;
+// }
+// .pcast-player .pcast-speed {
+//   width: 2.5em;
+// }
+// .pcast-player .pcast-download {
+//   font-size: 12px;
+//   margin-top: 0.5em;
+//   display: inline-block;
+//   color: black;
+// }
+// .pcast-player .pcast-download:hover, .pcast-player .pcast-download:focus {
+//   color: #666;
+// }
+
+
+.pcast-player button span {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.badge-podcast {
+  background-color: transparent;
+  border: 1px solid #eedcd8;
+  color: #666;
+  font-weight: normal;
+  margin-left: 7px;
+  margin-right: -5px;
+  padding: 6px;
+}
+
+.pcast-player {
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: 4px double rgba(208, 156, 142, 0.32);
+  padding: 15px 0px;
+}
+
+.pcast-player button {
+  cursor: pointer;
+}
+
+.pcast-player button:focus {
+  outline: none;
+}
+
+.pcast-player button.pcast-play,
+.pcast-player button.pcast-pause {
+  background: transparent;
+  border: none;
+  color: #333;
+  font-size: 50px;
+  padding-left: 4px;
+}
+
+.pcast-player .progress-wrapper div:first-child {
+  padding-right: 0;
+}
+
+.pcast-player .progress-wrapper div:nth-child(2) {
+  padding: 0;
+}
+
+.pcast-player .progress-wrapper .pcast-progress {
+  margin-top: 4px;
+  width: 100%;
+}
+
+.pcast-player .pcast-thumbnail {
+  width: 95%;
+}
