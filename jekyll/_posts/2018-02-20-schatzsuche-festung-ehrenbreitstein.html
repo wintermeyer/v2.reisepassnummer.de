@@ -76,7 +76,8 @@ voices: "Stefan Wintermeyer"
                 Unsere Kinder hatten Spaß. Ich habe die Gelegenheit genutzt und
                 unseren ersten gemeinsamen Podcast produziert (<a href="/assets/podcasts/2018-02-20-schatzsuche-festung-ehrenbreitstein.mp3">MP3-Datei des Podcasts</a>).
               </p>
-              <a href="https://itunes.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/de-de/podcast-lrg.svg) no-repeat;width:133px;height:34px;background-size:contain;"></a>
+
+              {% include widgets/podcast_player.html %}
 
               <div class="row">
                 <div class="col-sm-6">
@@ -297,19 +298,7 @@ voices: "Stefan Wintermeyer"
 <div class="col-lg-4">
     <div class="sidebar">
 
-      <aside class="widget">
-          <div class="widget-title">Podcast</div>
-
-          <div class="about-widget">
-            <p>Zu diesem Beitrag gibt es einen 11:21 min. Podcast.</p>
-            <ul>
-              <li><a href="https://www.reisepassnummer.de/podcast.xml">RSS Feed aller Reisepassnummer-Podcasts (z.B. für Android-User).</a><li>
-              <li><a href="/assets/podcasts/2018-02-20-schatzsuche-festung-ehrenbreitstein.mp3">MP3-Datei des Podcasts</a></li>
-            </ul>
-            <p><a href="https://itunes.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/de-de/podcast-lrg.svg) no-repeat;width:133px;height:34px;background-size:contain;"></a></p>
-          </div>
-      </aside>
-
+      {% include widgets/podcast_widget.html %}
 
       <aside class="widget">
           <div class="widget-title">Infokasten</div>
@@ -336,9 +325,9 @@ voices: "Stefan Wintermeyer"
             <div class="about-widget">
               <h3>Seilbahn</h3>
               <p>Von der Talstation in den Rheinanlagen (Konrad-Adenauer-Ufer, 56068 Koblenz) über den Rhein schweben.
-<a href="https://www.seilbahn-koblenz.de">www.seilbahn-koblenz.de</a></p>
+              <a href="https://www.seilbahn-koblenz.de">www.seilbahn-koblenz.de</a></p>
 
-<a href="https://www.seilbahn-koblenz.de"><img src="/assets/2018/02/20/seilbahn-screenshot.png" alt="Screenshot der Seilbahn Homepage" class="img-fluid"></a>
+              <a href="https://www.seilbahn-koblenz.de"><img src="/assets/2018/02/20/seilbahn-screenshot.png" alt="Screenshot der Seilbahn Homepage" class="img-fluid"></a>
 
               <h3>Schrägaufzug</h3>
               <p>Es gibt nicht nur eine Seilbahn, sondern auch noch einen
@@ -371,15 +360,7 @@ Bahn bis Bahnhof <i>Koblenz-Ehrenbreitstein</i> (ca. 10 Minuten Fußweg, weiter 
 
 
         <!-- Social widget-->
-        <aside class="widget">
-            <div class="widget-title">Subscribe & Follow</div>
-
-            <ul class="socials">
-              <li><a href="https://www.facebook.com/stefan.wintermeyer"><i class="mdi mdi-facebook"></i></a></li>
-              <li><a href="https://twitter.com/wintermeyer"><i class="mdi mdi-twitter"></i></a></li>
-              <li><a href="https://www.instagram.com/wintermeyer/"><i class="mdi mdi-instagram"></i></a></li>
-            </ul>
-        </aside>
+        {% include widgets/social_widget.html %}
 
       </div>
 </div>

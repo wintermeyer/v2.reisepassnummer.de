@@ -826,6 +826,8 @@ voices: "Stefan Wintermeyer"
                 </div>
               </div>
 
+              {% include widgets/podcast_player.html %}
+
               <h2>Empfehlung?</h2>
 
               <div class="row">
@@ -849,8 +851,7 @@ voices: "Stefan Wintermeyer"
                 </div>
               </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K-V2QoI7aq8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/K-V2QoI7aq8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
               <div class="mt-5">
                 <h6>Tags:</h6>
@@ -874,6 +875,8 @@ voices: "Stefan Wintermeyer"
 <!-- Sidebar-->
 <div class="col-lg-4">
     <div class="sidebar">
+
+      {% include widgets/podcast_widget.html %}
 
       <aside class="widget">
           <div class="widget-title">Infokasten</div>
@@ -930,15 +933,7 @@ voices: "Stefan Wintermeyer"
 
 
         <!-- Social widget-->
-        <aside class="widget">
-            <div class="widget-title">Subscribe & Follow</div>
-
-            <ul class="socials">
-              <li><a href="https://www.facebook.com/stefan.wintermeyer"><i class="mdi mdi-facebook"></i></a></li>
-              <li><a href="https://twitter.com/wintermeyer"><i class="mdi mdi-twitter"></i></a></li>
-              <li><a href="https://www.instagram.com/wintermeyer/"><i class="mdi mdi-instagram"></i></a></li>
-            </ul>
-        </aside>
+        {% include widgets/social_widget.html %}
 
       </div>
 </div>
