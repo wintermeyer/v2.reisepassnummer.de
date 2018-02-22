@@ -1,4 +1,12 @@
 (function(){
+  var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    }
+  };
 
   var pcastPlayers = document.querySelectorAll('.pcast-player');
   var speeds = [ 1, 1.5, 2, 2.5, 3 ]
@@ -13,6 +21,8 @@
     var mute = player.querySelector('.pcast-mute');
     var currentTime = player.querySelector('.pcast-currenttime');
     var duration = player.querySelector('.pcast-duration');
+    var itunes = player.querySelector('.pcast-itunes');
+    var rss = player.querySelector('.pcast-rss');
 
     var currentSpeedIdx = 0;
 
@@ -31,6 +41,16 @@
         var time = hours+':'+minutes+':'+seconds;
         return time;
     }
+
+    if( isMobile.iOS() ) {
+      itunes.style.display = 'inline'
+      rss.style.display = 'none'
+    };
+
+    if( isMobile.Android() ) {
+      itunes.style.display = 'none'
+      rss.style.display = 'inline'
+    };
 
     audio.addEventListener('loadedmetadata', function(){
       progress.setAttribute('max', Math.floor(audio.duration));
