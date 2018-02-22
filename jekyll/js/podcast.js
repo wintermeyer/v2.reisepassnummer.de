@@ -8,7 +8,6 @@
     var audio = player.querySelector('audio');
     var play = player.querySelector('.pcast-play');
     var pause = player.querySelector('.pcast-pause');
-    var rewind = player.querySelector('.pcast-rewind');
     var progress = player.querySelector('.pcast-progress');
     var speed = player.querySelector('.pcast-speed');
     var mute = player.querySelector('.pcast-mute');
@@ -54,10 +53,6 @@
       this.style.display = 'none';
       play.style.display = 'inline-block';
       audio.pause();
-    }, false);
-
-    rewind.addEventListener('click', function(){
-      audio.currentTime -= 30;
     }, false);
 
     progress.addEventListener('click', function(e){
