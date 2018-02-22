@@ -14,28 +14,28 @@ layout: default
 
               {% for item in site.posts %}
                 {% if item.categories contains "Podcast" %}
-                <!-- Post-->
-                <article class="post">
-                  <div class="text-center post-header">
-                    {% for category in item.categories %}
-                    <a class="badge badge-custom" href="#" title="">{{ category }}</a>
-                    {% endfor %}
+                  <!-- Post-->
+                  <article class="post">
+                    <div class="text-center post-header">
+                      {% for category in item.categories %}
+                      <a class="badge badge-custom" href="#" title="">{{ category }}</a>
+                      {% endfor %}
 
-                    <h2 class="post-title"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="">{{ item.title }}</a></h2>
-                    <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="" class="post-date">{{ item.inserted_at | date: '%d. %B %Y' }}</a>
-                  </div>
+                      <h2 class="post-title"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="">{{ item.title }}</a></h2>
+                      <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="" class="post-date">{{ item.inserted_at | date: '%d. %B %Y' }}</a>
+                    </div>
 
-                  <div class="post-preview">
-                      <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"><img src="{{ item.hero_image }}" alt="{{ item.hero_image_alt }}" class="img-fluid rounded"></a>
-                  </div>
+                    <div class="post-preview">
+                        <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"><img src="{{ item.hero_image }}" alt="{{ item.hero_image_alt }}" class="img-fluid rounded"></a>
+                    </div>
 
-                  <div class="post-content">
-                    <p>{{ item.excerpt | strip_html | truncatewords: 80 }}</p>
-                  </div>
+                    <div class="post-content">
+                      <p>{{ item.teaser_text | strip_html | truncatewords: 80 }}</p>
+                    </div>
 
-                  <div class="text-center"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline-custom">Weiter lesen <i class="mdi mdi-arrow-right"></i></a></div>
-                </article>
-                <!-- Post end-->
+                    <div class="text-center"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline-custom">Weiter lesen <i class="mdi mdi-arrow-right"></i></a></div>
+                  </article>
+                  <!-- Post end-->
                 {% endif %}
               {% endfor %}
 
