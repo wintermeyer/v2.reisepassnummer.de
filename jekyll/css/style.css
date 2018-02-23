@@ -10,14 +10,22 @@ body {
 }
 
 a {
-    color: #d09c8e;
+    text-decoration: none !important;
+    color: #555;
 }
 
 a:hover {
-    text-decoration: underline;
     color: #d09c8e;
 }
 
+p a {
+    color: #d09c8e;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: #d09c8e;
+}
 
 h1,h2,h3,h4,h5,h6 {
 
@@ -695,6 +703,10 @@ h1,h2,h3,h4,h5,h6 {
 .post-title a {
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
+}
+
+.post-title a:hover {
+    color: #d09c8e;
 }
 
 .post-tags {
