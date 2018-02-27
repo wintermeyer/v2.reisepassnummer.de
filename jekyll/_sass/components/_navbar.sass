@@ -1,0 +1,338 @@
+.logo-box
+  background-color: #ffffff
+  text-align: center
+  padding: 20px
+
+#topnav
+  z-index: 1030
+  background-color: #ffffff
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+  border: 0
+  -webkit-transition: all .5s ease
+  transition: all .5s ease
+  min-height: 70px
+  margin-bottom: 1px
+  .navigation-menu
+    list-style: none
+    margin: 0
+    padding: 0
+    text-align: center
+    > li
+      display: inline-block
+      position: relative
+      margin: 0 5px
+      > a
+        display: block
+        font-size: 15px
+        color: #353535
+        text-transform: uppercase
+        letter-spacing: 1px
+        font-weight: 600
+        -webkit-transition: all .3s ease
+        transition: all .3s ease
+        line-height: 20px
+        padding-left: 15px
+        padding-right: 15px
+      &.has-submenu > a
+        padding-right: 20px
+      .submenu li a i
+        margin-right: 10px
+        font-size: 14px
+  .logo
+    float: left
+    line-height: 70px
+    -webkit-transition: all .3s ease
+    transition: all .3s ease
+    color: #333
+    font-weight: 700
+    font-size: 22px
+  .menu-extras
+    float: right
+  .has-submenu.active
+    .submenu li.active > a, a
+      color: #d09c8e
+  .navigation-menu li.active > a
+    color: #d09c8e
+  .has-submenu.active .menu-arrow
+    border-color: #d09c8e
+
+.has-submenu
+  position: relative
+
+#topnav
+  .navbar-toggle
+    border: 0
+    position: relative
+    padding: 0
+    margin: 0
+    cursor: pointer
+    .lines
+      width: 25px
+      display: block
+      position: relative
+      margin: 28px auto
+      height: 15px
+    span
+      height: 2px
+      width: 100%
+      background-color: #ffffff
+      display: block
+      margin-bottom: 5px
+      -webkit-transition: -webkit-transform .5s ease
+      transition: -webkit-transform .5s ease
+      transition: transform .5s ease, -webkit-transform .5s ease
+      &:last-child
+        margin-bottom: 0
+    &.open span
+      position: absolute
+      &:first-child
+        top: 6px
+        -webkit-transform: rotate(45deg)
+        transform: rotate(45deg)
+      &:nth-child(2)
+        visibility: hidden
+      &:last-child
+        width: 100%
+        top: 6px
+        -webkit-transform: rotate(-45deg)
+        transform: rotate(-45deg)
+      &:hover
+        background-color: #d09c8e
+    &:hover, &:focus
+      background-color: transparent
+  .navigation-menu > li > a
+    &:hover, &:focus
+      background-color: transparent
+
+.menu-arrow
+  border: solid #777777
+  border-width: 0 1px 1px 0
+  display: inline-block
+  padding: 3px
+  transform: rotate(45deg)
+  -webkit-transform: rotate(45deg)
+  position: absolute
+  right: 5px
+  top: 30px
+
+.submenu-arrow
+  border: solid #777777
+  border-width: 0 1px 1px 0
+  display: inline-block
+  padding: 3px
+  transform: rotate(-45deg)
+  -webkit-transform: rotate(-45deg)
+  position: absolute
+  right: 20px
+  top: 18px
+
+@media (min-width: 992px)
+  #topnav
+    .navigation-menu
+      > li
+        > a
+          padding-top: 25px
+          padding-bottom: 25px
+          min-height: 62px
+        &.last-elements .submenu
+          left: auto
+          right: 0
+          > li.has-submenu .submenu
+            left: auto
+            right: 100%
+            margin-left: 0
+            margin-right: 10px
+        .submenu
+          position: absolute
+          top: 100%
+          left: 0
+          z-index: 1000
+          padding: 10px 0
+          list-style: none
+          min-width: 180px
+          visibility: hidden
+          opacity: 0
+          margin-top: 10px
+          -webkit-transition: all .2s ease
+          transition: all .2s ease
+          background-color: #ffffff
+          box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.1)
+          &.megamenu
+            white-space: nowrap
+            width: auto
+            > li
+              overflow: hidden
+              width: 180px
+              display: inline-block
+              vertical-align: top
+          > li .submenu
+            left: 100%
+            top: 0
+            margin-left: 10px
+            margin-top: -1px
+          li
+            position: relative
+            ul
+              list-style: none
+              padding-left: 0
+              margin: 0
+            a
+              display: block
+              padding: 10px 20px
+              clear: both
+              white-space: nowrap
+              font-size: 14px
+              letter-spacing: 0.03em
+              color: #7a7d84
+              transition: all 0.3s
+              text-transform: uppercase
+              text-align: left
+              font-weight: 600
+              &:hover
+                color: #d09c8e
+      .has-submenu .submenu > li:hover > a
+        color: #d09c8e
+    .navbar-toggle, .logo-mobile
+      display: none
+    #navigation
+      display: block
+    .navigation-menu > li:hover >
+      a
+        color: #d09c8e
+      .menu-arrow
+        border-color: #d09c8e
+    &.scroll-active .navigation-menu > li > a
+      padding-top: 25px
+      padding-bottom: 25px
+    &.scroll
+      .navigation-menu > li > a
+        padding-top: 20px
+        padding-bottom: 20px
+      top: 0
+
+@media (max-width: 991px)
+  .logo-box
+    display: none
+  .menu-arrow
+    top: 15px
+    right: 20px
+  .logo-mobile img
+    height: 70px
+    padding: 17px 0
+  .submenu-arrow
+    transform: rotate(45deg)
+    -webkit-transform: rotate(45deg)
+    position: absolute
+    right: 20px
+    top: 12px
+  .logo
+    padding: 0
+    line-height: 0
+  #topnav
+    .container
+      width: auto
+    .navigation-menu
+      float: none
+      max-height: 400px
+      text-align: left
+      > li
+        display: block
+        > a
+          color: #28282e
+          padding: 10px 20px
+          &:hover
+            color: #d09c8e
+        .submenu li a:hover, &.has-submenu.open > a
+          color: #d09c8e
+    .menu-extras .menu-item
+      .cart > a:hover, .search > a:hover
+        color: #d09c8e
+    .navigation-menu
+      > li
+        > a:after
+          position: absolute
+          right: 15px
+        .submenu
+          display: none
+          list-style: none
+          padding-left: 20px
+          margin: 0
+          li a
+            display: block
+            padding: 6px 15px
+            clear: both
+            white-space: nowrap
+            font-size: 14px
+            letter-spacing: 0.03em
+            color: #7a7d84
+            transition: all 0.3s
+      .submenu.open .has-submenu.open > a
+        color: #d09c8e
+      > li .submenu
+        &.open
+          display: block
+        .submenu
+          display: none
+          list-style: none
+          &.open
+            display: block
+        &.megamenu > li > ul
+          list-style: none
+          padding-left: 0
+          > li > span
+            display: block
+            position: relative
+            padding: 10px 15px
+            text-transform: uppercase
+            font-size: 12px
+            letter-spacing: 2px
+            color: #7a7d84
+    .navbar-toggle span
+      background-color: #7a7d84
+    .navbar-header
+      float: left
+    .logo
+      padding: 11px 0
+      .logo-light
+        display: none
+      .logo-dark
+        display: block
+    .has-submenu.active a
+      color: #d09c8e
+  #navigation
+    position: absolute
+    top: 70px
+    left: 0
+    width: 100%
+    display: none
+    height: auto
+    padding-bottom: 0
+    overflow: auto
+    border-top: 1px solid #f0f0f0
+    border-bottom: 1px solid #f0f0f0
+    background-color: #ffffff
+    z-index: 9
+    &.open
+      display: block
+      overflow-y: auto
+
+@media (min-width: 768px)
+  #topnav .navigation-menu > li.has-submenu:hover > .submenu
+    visibility: visible
+    opacity: 1
+    margin-top: 0
+    > li.has-submenu:hover > .submenu
+      visibility: visible
+      opacity: 1
+      margin-left: 0
+      margin-right: 0
+  .navbar-toggle
+    display: block
+
+.section
+  padding-top: 80px
+  padding-bottom: 80px
+
+.badge-custom
+  color: #fff
+  background-color: #d09c8e
