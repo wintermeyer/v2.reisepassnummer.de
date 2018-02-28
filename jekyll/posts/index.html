@@ -38,7 +38,7 @@ layout: default
                     <p>{{ item.excerpt | strip_html | truncatewords: 80 }}</p>
                   </div>
 
-                  <div class="text-center"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline-custom">Weiter lesen <i class="mdi mdi-arrow-right"></i></a></div>
+                  <div class="text-center"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline-custom">Weiter lesen <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
                 </article>
                 <!-- Post end-->
               {% endfor %}

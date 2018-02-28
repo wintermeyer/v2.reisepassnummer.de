@@ -3,8 +3,8 @@
     <div class="pcast-player-controls">
       <div class="row h-100">
         <div class="col-md-1 col-2 my-auto">
-          <button class="pcast-play"><i class="mdi mdi-play-circle-outline"></i><span>Starten</span></button>
-          <button class="pcast-pause"><i class="mdi mdi-pause-circle-outline"></i><span>Pause</span></button>
+          <button class="pcast-play"><i class="fa fa-play-circle-o" aria-hidden="true"></i><span>Starten</span></button>
+          <button class="pcast-pause"><i class="fa fa-pause-circle-o" aria-hidden="true"></i><span>Pause</span></button>
         </div>
         <div class="col-md-9 col-10 my-auto">
           <h5>{{ page.podcast_subtitle }}</h5>
@@ -20,12 +20,12 @@
         </div>
       </div>
       <audio src="{{ page.podcast_file }}"></audio>
-      <button style="display: none" class="pcast-rewind"><i class="mdi mdi-skip-backward"></i><span>Zurück</span></button>
+      <button style="display: none" class="pcast-rewind"><i class="fa fa-fast-backward" aria-hidden="true"></i><span>Zurück</span></button>
       <button class="badge badge-podcast pcast-speed">1x</button>
-      <button class="badge badge-podcast pcast-mute"><i class="mdi mdi-volume-high"></i><span>Stumm/Laut</span></button>
-      <a class="badge badge-podcast pcast-download" href="{{ page.podcast_file }}" download><i class="mdi mdi-download"></i>&nbsp;MP3 download</a>
-      <a class="badge badge-podcast pcast-itunes" href="https://itunes.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2"><i class="mdi mdi-library-music"></i>&nbsp;Podcast auf iTunes</a>
-      <a class="badge badge-podcast pcast-rss" href="https://www.reisepassnummer.de/podcast.xml"><i class="mdi mdi-rss"></i>&nbsp;RSS Feed</a>
+      <button class="badge badge-podcast pcast-mute"><i class="fa fa-volume-up" aria-hidden="true"></i><span>Stumm/Laut</span></button>
+      <a class="badge badge-podcast pcast-download" href="{{ page.podcast_file }}" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp;MP3 download</a>
+      <a class="badge badge-podcast pcast-itunes" href="https://itunes.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2"><i class="fa fa-music" aria-hidden="true"></i>&nbsp;Podcast auf iTunes</a>
+      <a class="badge badge-podcast pcast-rss" href="https://www.reisepassnummer.de/podcast.xml"><i class="fa fa-rss" aria-hidden="true"></i>&nbsp;RSS Feed</a>
     </div>
   </div>
 {% endif %}
