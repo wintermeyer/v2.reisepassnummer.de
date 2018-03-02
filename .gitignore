@@ -4,6 +4,7 @@ _site
 _drafts
 .sass-cache
 .asset-cache
+_includes/main.css
 
 # OS X
 #

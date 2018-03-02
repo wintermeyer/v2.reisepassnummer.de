@@ -83,21 +83,6 @@
       transition: transform .5s ease, -webkit-transform .5s ease
       &:last-child
         margin-bottom: 0
-    &.open span
-      position: absolute
-      &:first-child
-        top: 6px
-        -webkit-transform: rotate(45deg)
-        transform: rotate(45deg)
-      &:nth-child(2)
-        visibility: hidden
-      &:last-child
-        width: 100%
-        top: 6px
-        -webkit-transform: rotate(-45deg)
-        transform: rotate(-45deg)
-      &:hover
-        background-color: #d09c8e
     &:hover, &:focus
       background-color: transparent
   .navigation-menu > li > a
@@ -214,7 +199,7 @@
   .logo-box
     display: none
   .menu-arrow
-    top: 15px
+    top: 5px
     right: 20px
   .logo-mobile img
     height: 70px
@@ -235,6 +220,7 @@
       float: none
       max-height: 400px
       text-align: left
+      min-width: 80vw
       > li
         display: block
         > a
@@ -259,7 +245,7 @@
           margin: 0
           li a
             display: block
-            padding: 6px 15px
+            padding: 1px 15px
             clear: both
             white-space: nowrap
             font-size: 14px
@@ -269,8 +255,6 @@
       .submenu.open .has-submenu.open > a
         color: #d09c8e
       > li .submenu
-        &.open
-          display: block
         .submenu
           display: none
           list-style: none
@@ -312,9 +296,6 @@
     border-bottom: 1px solid #f0f0f0
     background-color: #ffffff
     z-index: 9
-    &.open
-      display: block
-      overflow-y: auto
 
 @media (min-width: 768px)
   #topnav .navigation-menu > li.has-submenu:hover > .submenu
@@ -336,3 +317,38 @@
 .badge-custom
   color: #fff
   background-color: #d09c8e
+
+#sidebar
+  background-color: white
+
+.i-amphtml-element
+  #topnav
+    margin-top: 25px
+    position: relative
+    .close-sidebar
+      position: absolute
+      right: 17px
+      top: -20px
+      font-size: 16px
+
+.i-amphtml-layout-container
+  padding: 4px 0
+  section
+    h4
+      background-color: transparent
+      border: none
+      a
+        display: block
+        font-size: 15px
+        color: #353535
+        text-transform: uppercase
+        letter-spacing: 1px
+        font-weight: 600
+        -webkit-transition: all .3s ease
+        transition: all .3s ease
+        line-height: 20px
+        padding-left: 19px
+        padding-right: 15px
+        white-space: break-word
+        &:hover
+          color: #d09c8e
