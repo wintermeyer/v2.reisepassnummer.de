@@ -50,11 +50,11 @@
     float: right
   .has-submenu.active
     .submenu li.active > a, a
-      color: #d09c8e
+      color: $ci-color
   .navigation-menu li.active > a
-    color: #d09c8e
+    color: $ci-color
   .has-submenu.active .menu-arrow
-    border-color: #d09c8e
+    border-color: $ci-color
 
 .has-submenu
   position: relative
@@ -83,21 +83,6 @@
       transition: transform .5s ease, -webkit-transform .5s ease
       &:last-child
         margin-bottom: 0
-    &.open span
-      position: absolute
-      &:first-child
-        top: 6px
-        -webkit-transform: rotate(45deg)
-        transform: rotate(45deg)
-      &:nth-child(2)
-        visibility: hidden
-      &:last-child
-        width: 100%
-        top: 6px
-        -webkit-transform: rotate(-45deg)
-        transform: rotate(-45deg)
-      &:hover
-        background-color: #d09c8e
     &:hover, &:focus
       background-color: transparent
   .navigation-menu > li > a
@@ -189,18 +174,18 @@
               text-align: left
               font-weight: 600
               &:hover
-                color: #d09c8e
+                color: $ci-color
       .has-submenu .submenu > li:hover > a
-        color: #d09c8e
+        color: $ci-color
     .navbar-toggle, .logo-mobile
       display: none
     #navigation
       display: block
     .navigation-menu > li:hover >
       a
-        color: #d09c8e
+        color: $ci-color
       .menu-arrow
-        border-color: #d09c8e
+        border-color: $ci-color
     &.scroll-active .navigation-menu > li > a
       padding-top: 25px
       padding-bottom: 25px
@@ -214,7 +199,7 @@
   .logo-box
     display: none
   .menu-arrow
-    top: 15px
+    top: 5px
     right: 20px
   .logo-mobile img
     height: 70px
@@ -235,18 +220,19 @@
       float: none
       max-height: 400px
       text-align: left
+      min-width: 80vw
       > li
         display: block
         > a
           color: #28282e
           padding: 10px 20px
           &:hover
-            color: #d09c8e
+            color: $ci-color
         .submenu li a:hover, &.has-submenu.open > a
-          color: #d09c8e
+          color: $ci-color
     .menu-extras .menu-item
       .cart > a:hover, .search > a:hover
-        color: #d09c8e
+        color: $ci-color
     .navigation-menu
       > li
         > a:after
@@ -259,18 +245,16 @@
           margin: 0
           li a
             display: block
-            padding: 6px 15px
+            padding: 1px 15px
             clear: both
-            white-space: nowrap
+            white-space: normal
             font-size: 14px
             letter-spacing: 0.03em
             color: #7a7d84
             transition: all 0.3s
       .submenu.open .has-submenu.open > a
-        color: #d09c8e
+        color: $ci-color
       > li .submenu
-        &.open
-          display: block
         .submenu
           display: none
           list-style: none
@@ -298,7 +282,7 @@
       .logo-dark
         display: block
     .has-submenu.active a
-      color: #d09c8e
+      color: $ci-color
   #navigation
     position: absolute
     top: 70px
@@ -312,9 +296,6 @@
     border-bottom: 1px solid #f0f0f0
     background-color: #ffffff
     z-index: 9
-    &.open
-      display: block
-      overflow-y: auto
 
 @media (min-width: 768px)
   #topnav .navigation-menu > li.has-submenu:hover > .submenu
@@ -335,4 +316,38 @@
 
 .badge-custom
   color: #fff
-  background-color: #d09c8e
+  background-color: $ci-color
+
+#sidebar
+  background-color: white
+
+.i-amphtml-element
+  #topnav
+    margin-top: 25px
+    position: relative
+    .close-sidebar
+      position: absolute
+      right: 17px
+      top: -20px
+      font-size: 16px
+
+.i-amphtml-layout-container
+  padding: 4px 0
+  section
+    h4
+      background-color: transparent
+      border: none
+      a
+        display: block
+        font-size: 15px
+        color: #353535
+        text-transform: uppercase
+        letter-spacing: 1px
+        font-weight: 600
+        -webkit-transition: all .3s ease
+        transition: all .3s ease
+        line-height: 20px
+        padding-left: 19px
+        padding-right: 15px
+        &:hover
+          color: $ci-color

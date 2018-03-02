@@ -5,13 +5,16 @@ a
   text-decoration: none
   color: #555
   &:hover
-    color: #d09c8e
+    color: $ci-color
 
 p a
-  color: #d09c8e
+  color: $ci-color
   &:hover
     text-decoration: underline
-    color: #d09c8e
+    color: $ci-color
+
+a.badge:hover
+  color: white
 
 .btn
   text-transform: uppercase
@@ -22,19 +25,19 @@ p a
   padding: .6rem .8rem
 
 .btn-outline-custom
-  color: #d09c8e
+  color: $ci-color
   background-color: transparent
   background-image: none
-  border-color: #d09c8e
+  border-color: $ci-color
   &.active, &:hover, &:active
     color: #fff
-    background-color: #d09c8e
-    border-color: #d09c8e
+    background-color: $ci-color
+    border-color: $ci-color
 
 .show > .btn-outline-custom.dropdown-toggle
   color: #fff
-  background-color: #d09c8e
-  border-color: #d09c8e
+  background-color: $ci-color
+  border-color: $ci-color
 
 .btn-outline-custom
   &.focus, &:focus
