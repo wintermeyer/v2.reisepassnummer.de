@@ -24,9 +24,11 @@ description: "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und co
                     <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}" title="" class="post-date">{{ item.inserted_at | date: '%d. %B %Y' }}</a>
                   </div>
 
-                  <div class="post-preview">
-                      <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"><img src="{{ item.hero_image }}" alt="{{ item.hero_image_alt }}" class="img-fluid rounded"></a>
-                  </div>
+                  {% if item.hero_image %}
+                    <div class="post-preview">
+                        <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"><amp-img src="{{ item.hero_image }}" width="{{ item.hero_image_width }}" height="{{ item.hero_image_height }}" layout="responsive" alt="{{ item.hero_image_alt }}"></amp-img></a>
+                    </div>
+                  {% endif %}
 
                   <div class="post-content">
                     <p>{{ item.teaser_text | strip_html | truncatewords: 80 }}</p>
@@ -59,7 +61,7 @@ description: "Reiseblog von Stefan Wintermeyer. Mit Mitte 40 nicht so hip und co
                         <div class="widget-title">Stefan Wintermeyer</div>
 
                         <div class="about-widget">
-                            <img src="/assets/stefan-wintermeyer_500x500.jpg" alt="Stefan Wintermeyer" class="rounded-circle">
+                            <amp-img class="rounded-circle" src="/assets/stefan-wintermeyer_500x500.jpg" width="200" height="200" layout="responsive" alt="Stefan Wintermeyer"></amp-img>
                             <p>Gelegenheits Reiseblogger und -Fotograf. Mit Mitte 40 nicht so hip und cool wie die jüngeren Blogger. Dafür weniger käuflich. Beruflich und privat auf Reisen. Mal mehr, mal weniger. Mit Frau und Kindern oder alleine.</p>
                             <a href="https://www.wintermeyer.de" class="btn-read-more mt-2">Private Homepage <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
