@@ -23,9 +23,9 @@ layout: default
 
             <div class="post-preview">
                {% if page.hero_image == blank %}
-                 <img src="/images/blog/blog-1.jpg" alt="" class="img-fluid rounded">
+                 {% image_tag /images/blog/blog-1.jpg |  | img-fluid rounded %}
                {% else %}
-                 <img src="{{ page.hero_image }}" alt="{{ page.hero_image_alt }}" class="img-fluid rounded">
+                 {% image_tag hero_image | hero_image_alt | img-fluid rounded %}
                {% endif %}
             </div>
 
