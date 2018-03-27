@@ -87,7 +87,7 @@ module Jekyll
     end
 
     def convert(content)
-      doc = Nokogiri::HTML(content)
+      doc = Nokogiri::HTML::DocumentFragment.parse(content)
 
       doc.css('img').each do |img|
         dimensions = Helper::ImageSize::get_image_dimensions(img.attr('src'))
@@ -96,6 +96,10 @@ module Jekyll
         img['layout'] = "responsive"
         img['width'] = dimensions[:width]
         img['height'] = dimensions[:height]
+      end
+
+      doc.css('iframe').each do |iframe|
+        iframe.name = "amp-youtube"
       end
 
       doc.to_s

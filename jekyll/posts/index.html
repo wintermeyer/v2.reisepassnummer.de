@@ -31,7 +31,9 @@ layout: default
                   </div>
 
                   <div class="post-preview">
+                    {% if item.hero_image %}
                       <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"><img src="{{ item.hero_image }}" alt="{{ item.hero_image_alt }}" class="img-fluid rounded"></a>
+                    {% endif %}
                   </div>
 
                   <div class="post-content">
