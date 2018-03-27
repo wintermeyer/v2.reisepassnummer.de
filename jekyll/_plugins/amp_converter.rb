@@ -51,12 +51,22 @@ module Jekyll
     end
 
     def render(context)
+      return if context.registers[:page][@options[0]].nil? && !is_link?(@options[0])
+
       src = context.registers[:page][@options[0]] || @options[0]
       alt = context.registers[:page][@options[1]] || @options[1]
       classes = @options[2]
 
       dimensions = Helper::ImageSize::get_image_dimensions(src)
       "<amp-img class='#{classes}' alt='#{alt}' src='#{src}' width='#{dimensions[:width]}' height='#{dimensions[:height]}' layout='responsive'></amp-img>"
+    end
+
+    private
+
+    def is_link?(src)
+      match_data = src.match('(jpg|png|gif)')
+
+      !match_data.nil?
     end
   end
 end
