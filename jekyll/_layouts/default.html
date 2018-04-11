@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "de" }}">
+<html ⚡ lang="{{ page.lang | default: site.lang | default: "de" }}">
 
   {% include head.html %}
 
   <body>
-    <div class="logo-box">
-      {% include responsive_ad.html %}
-    </div>
-
+    {% if jekyll.environment == 'production' %}
+    {% include google-analytics.html %}
+    {% endif %}
     {% include topnav.html %}
 
     {{ content }}
 
     {% include footer.html %}
-
-    {% include scripts.html %}
   </body>
 </html>

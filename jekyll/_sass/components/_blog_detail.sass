@@ -1,0 +1,123 @@
+.blog-detail-description
+  color: #666
+  p
+    line-height: 24px
+
+.blockquote
+  font-size: 16px
+  font-style: italic
+  padding: 20px
+
+.blockquote-text
+  line-height: 24px
+
+.blockquote:before
+  content: "“"
+  float: left
+  position: relative
+  top: 15px
+  left: 0
+  color: #cdced0
+  font-size: 68px
+  font-weight: 400
+  line-height: 24px
+
+.media, .media-list
+  margin-top: 50px
+
+.media img
+  width: 74px
+  height: 74px
+
+.media-heading
+  font-size: 16px
+  a
+    color: #000
+    &:hover
+      color: $ci-color
+
+.media-body
+  a.reply-btn
+    float: right
+    font-size: 13px
+    text-transform: uppercase
+    font-weight: 700
+    color: #777
+  p.post-date
+    margin-bottom: 20px
+    font-size: 12px
+
+.form-control
+  box-shadow: none
+  border-radius: 2px
+  padding: 12px 15px
+  height: 49px
+  font-size: 14px
+  &:focus
+    border-color: #777
+
+textarea.form-control
+  height: auto
+
+.post-author-box
+  padding: 20px
+  border: 1px solid #eee
+
+.related-post
+  margin-top: 30px
+  .post-preview
+    margin-bottom: 15px
+  .post-header a
+    color: #333
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+    display: block
+    &:hover
+      color: $ci-color
+
+.page-title-alt
+  text-transform: uppercase
+  font-weight: 600
+  font-size: 16px
+  letter-spacing: 1px
+
+.post-author-box .socials li a
+  width: 36px
+  height: 36px
+  line-height: 34px
+  background-color: #ffffff
+  color: #070e14
+  border: 1px solid #eee
+  &:hover
+    background-color: $ci-color
+    color: #ffffff
+    border-color: $ci-color
+
+.quote-post
+  .blockquote
+    border: 2px solid $ci-color
+    border-radius: 5px
+    padding: 30px
+    &:before
+      color: $ci-color
+      padding-right: 10px
+  .blockquote-text
+    line-height: 32px
+
+.link-post
+  background-color: $ci-color
+  color: rgba(255, 255, 255, 0.6)
+  text-align: center
+  padding: 20px
+  border-radius: 5px
+  i
+    font-size: 48px
+    display: block
+
+.link-post-content
+  border: 3px solid rgba(255, 255, 255, 0.3)
+  padding: 10px
+
+.link-post a
+  color: #fff

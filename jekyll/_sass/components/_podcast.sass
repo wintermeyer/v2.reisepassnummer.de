@@ -1,0 +1,46 @@
+.pcast-player button span
+  position: absolute
+  clip: rect(1px 1px 1px 1px)
+  clip: rect(1px, 1px, 1px, 1px)
+  padding: 0
+  border: 0
+  height: 1px
+  width: 1px
+  overflow: hidden
+
+a.badge-podcast
+  background-color: transparent
+  border: 1px solid #eedcd8
+  color: #666
+  font-weight: normal
+  margin-left: 7px
+  margin-right: -5px
+  padding: 6px
+  &:hover
+    color: #666
+    background-color: #f0f0f0
+
+.pcast-player
+  background-color: #fafafa
+  border-radius: 5px
+  border: 4px double $ci-color-light
+  margin: 40px 0
+  padding: 15px 0px
+
+  amp-audio
+    margin-left: 8px
+    margin-bottom: 10px
+  .pcast-headline
+    padding-left: 10px
+  button
+    cursor: pointer
+    &:focus
+      outline: none
+  .progress-wrapper
+    div
+      &:first-child
+        padding-right: 0
+      &:nth-child(2)
+        padding: 0
+  .pcast-thumbnail
+    width: 95%

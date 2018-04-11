@@ -1,0 +1,56 @@
+.pagination >
+  li
+    display: inline-block
+    margin-right: 5px
+    >
+      a, span
+        border: 2px solid #eeeeee
+        color: #777777
+        display: block
+        float: none
+        height: 36px
+        width: 36px
+        border-radius: 50%
+        text-align: center
+        line-height: 32px
+  .active >
+    a, span
+      background-color: $ci-color
+      border-color: $ci-color
+      color: #ffffff
+  li >
+    a
+      &:hover, &:focus
+        background-color: $ci-color
+        border-color: $ci-color
+        color: #ffffff
+    span
+      &:hover, &:focus
+        background-color: $ci-color
+        border-color: $ci-color
+        color: #ffffff
+  .active >
+    a
+      background-color: $ci-color
+      border-color: $ci-color
+      color: #fff
+      cursor: default
+      z-index: 3
+      &:focus, &:hover
+        background-color: $ci-color
+        border-color: $ci-color
+        color: #fff
+        cursor: default
+        z-index: 3
+    span
+      background-color: $ci-color
+      border-color: $ci-color
+      color: #fff
+      cursor: default
+      z-index: 3
+      &:focus, &:hover
+        background-color: $ci-color
+        border-color: $ci-color
+        color: #fff
+        cursor: default
+        z-index: 3
