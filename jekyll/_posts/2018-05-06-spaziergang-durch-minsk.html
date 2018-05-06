@@ -1,0 +1,110 @@
+---
+title:  "Spaziergang durch Minsk"
+subtitle: "Ein Besuch in der Hauptstadt von Weißrussland (Belarus)."
+description: "Ein Besuch in der Hauptstadt von Weißrussland (Belarus)."
+teaser_text: "Ein stürmischer Besuch in der modernen Hauptstadt von Weißrussland (Belarus). Dabei habe ich mir u.a. zwei Kirchen, ein Kaufhaus und das KGB Gebäude angeschaut. Und natürlich die gigantische Bibliothek."
+inserted_at: 2018-05-06 20:36:16 +0100
+updated_at: 2018-05-06 20:36:16 +0100
+categories: Reiseblogger Podcast Belarus
+hero_image: '/assets/2018/05/06/minsk/minsk-2677096_1920_klein.jpg'
+hero_image_alt: 'Rote Kirche in Minsk'
+layout: default
+
+
+podcast_file: '/assets/podcasts/2018-05-06-minsk.mp3'
+podcast_cover: '/assets/podcasts/cover/2018-05-06-minsk.jpg'
+podcast_summary: "Ein stürmischer Besuch in der modernen Hauptstadt von Weißrussland (Belarus). Dabei habe ich mir u.a. zwei Kirchen, ein Kaufhaus und das KGB Gebäude angeschaut. Und natürlich die gigantische Bibliothek."
+podcast_subtitle: "Spaziergang durch Minsk"
+duration: "43:38"
+length: "41957295"
+explicit: "no"
+keywords: "Podcast, Travelblog, Reisepodcast"
+block: "no"
+voices: "Stefan Wintermeyer"
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <!-- Content-->
+      <div class="col-lg-8">
+
+        <!-- Post-->
+        <article class="post">
+            <div class="text-center post-header">
+                {% for category in page.categories %}
+                <a class="badge badge-custom" href="#" title="">{{ category }}</a>
+                {% endfor %}
+
+                <h1 class="post-title">{{ page.title }}</h1>
+                <p>{{ page.subtitle }}</p>
+
+                <a href="standard-post.html" title="" class="post-date">{{ page.inserted_at | date: '%d. %B %Y' }}</a>
+            </div>
+
+            <div class="post-preview">
+               {% if page.hero_image == blank %}
+                 <img src="/images/blog/blog-1.jpg" alt="" class="img-fluid rounded">
+               {% else %}
+                 <img src="{{ page.hero_image }}" alt="{{ page.hero_image_alt }}" class="img-fluid rounded">
+               {% endif %}
+            </div>
+
+            <div class="blog-detail-description">
+              <p>
+                Nach meinem Vortrag bei der <a href="https://rubyconference.by">RubyConfBY</a> hatte ich
+                Gelegenheit mir die Hauptstadt von Weißrussland (Belarus) anzuschauen.
+              </p>
+              {% include widgets/podcast_player.html %}
+              <p>
+                Links und mehr Text werde ich noch nachtragen.
+              </p>
+
+              <div class="mt-5">
+                <h6>Tags:</h6>
+                <div class="tagcloud">
+                  {% for category in page.categories %}
+                  <a href="#">{{ category }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+
+              {% include post-author-box.html %}
+          </div>
+
+      </article>
+      <!-- Post end-->
+
+      </div>
+      <!-- Content end-->
+
+
+<!-- Sidebar-->
+<div class="col-lg-4">
+    <div class="sidebar">
+      <aside class="widget">
+          <div class="widget-title">Infokasten</div>
+
+          <div class="about-widget">
+            <address>
+              Minsk<br>
+              Belarus
+            </address>
+
+            <a href="http://www.belarus.by/en/about-belarus/geography/minskcity"><img src="/assets/2018/05/06/minsk/minsk-homepage-screenshot.png" alt="Screenshot der Homepage von Minsk" class="img-fluid"></a>
+            <a href="http://www.belarus.by/en/about-belarus/geography/minskcity" class="btn-read-more mt-2">www.belarus.by/en/.../minskcity</a>
+
+          </div>
+      </aside>
+      <!-- Social widget-->
+      {% include widgets/social_widget.html %}
+      </div>
+</div>
+<!-- Sidebar end-->
+
+
+
+    </div>
+
+  </div> <!-- end container -->
+</section>
