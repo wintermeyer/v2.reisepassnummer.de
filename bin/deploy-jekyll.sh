@@ -22,8 +22,8 @@ cp -r jekyll/_site export/jekyll/
 
 # Run HTML Minifier
 #
-echo "* Run html-minifier for all HTML files"
-html-minifier -c conf/html-minifier.conf  --file-ext html --input-dir jekyll/_site/ --output-dir export/jekyll/_site/ 2>&1 /dev/null
+#echo "* Run html-minifier for all HTML files"
+#html-minifier -c conf/html-minifier.conf  --file-ext html --input-dir jekyll/_site/ --output-dir export/jekyll/_site/ 2>&1 /dev/null
 
 echo "* Compress HTML files"
 echo "** gzip"
