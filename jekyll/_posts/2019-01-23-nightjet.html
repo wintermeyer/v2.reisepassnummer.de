@@ -1,0 +1,101 @@
+---
+title: "Nightjet (Schlaf- und Liegewagen)"
+subtitle: "Schlafend durch Deutschland reisen."
+description: "Mit dem Nachtzug von Koblenz nach München. Einmal im Schlaf- und
+einmal im Liegewagen."
+teaser_text: "Mit dem Nachtzug von Koblenz nach München. Einmal im Schlaf- und
+einmal im Liegewagen."
+inserted_at: 2019-01-23 20:36:16 +0100
+updated_at: 2019-01-23 20:36:16 +0100
+categories: Reiseblogger Podcast Deutschand Zug
+hero_image: '/assets/2019/01/23/IMG_0651.jpg'
+hero_image_alt: 'Foto vom Nightjet'
+layout: default
+
+
+podcast_file: '/assets/podcasts/2019-01-23-nightjet.mp3'
+podcast_cover: '/assets/podcasts/cover/2019-01-23-nightjet.jpg'
+podcast_summary: "Mit dem Nachtzug von Koblenz nach München."
+podcast_subtitle: "Nightjet (Schlaf- und Liegewagen)"
+duration: "00:17:03"
+length: "24624109"
+explicit: "no"
+keywords: "Podcast, Travelblog, Reisepodcast"
+block: "no"
+voices: "Stefan Wintermeyer"
+---
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <!-- Content-->
+      <div class="col-lg-8">
+
+        <!-- Post-->
+        <article class="post">
+          <div class="text-center post-header">
+            {% for category in page.categories %}
+            <a class="badge badge-custom" href="#" title="">{{ category }}</a>
+            {% endfor %}
+
+            <h1 class="post-title">{{ page.title }}</h1>
+            <p>{{ page.subtitle }}</p>
+
+            <a href="standard-post.html" title="" class="post-date">{{
+              page.inserted_at | date: '%d. %B %Y' }}</a>
+          </div>
+
+          <div class="post-preview">
+            {% if page.hero_image == blank %}
+            <img src="/images/blog/blog-1.jpg" alt="" class="img-fluid rounded">
+            {% else %}
+            <img src="{{ page.hero_image }}" alt="{{ page.hero_image_alt }}"
+              class="img-fluid rounded">
+            {% endif %}
+          </div>
+
+          <div class="blog-detail-description">
+            <p>
+              Im Dezember 2018 bin ich zwei mal mit dem <a href="https://www.nightjet.com">Nightjet</a>
+              von Koblenz nach München gefahren. Einmal im Schlaf- und einmal
+              im Liegewagen.</p>
+            </p>
+            {% include widgets/podcast_player.html %}
+
+            <h2>Transkription</h2>
+            <p>Kommt noch.</p>
+
+            <div class="mt-5">
+              <h6>Tags:</h6>
+              <div class="tagcloud">
+                {% for category in page.categories %}
+                <a href="#">{{ category }}</a>
+                {% endfor %}
+              </div>
+            </div>
+
+            {% include post-author-box.html %}
+          </div>
+
+        </article>
+        <!-- Post end-->
+
+      </div>
+      <!-- Content end-->
+
+
+      <!-- Sidebar-->
+      <div class="col-lg-4">
+        <div class="sidebar">
+          <!-- Social widget-->
+          {% include widgets/social_widget.html %}
+        </div>
+      </div>
+      <!-- Sidebar end-->
+
+
+
+    </div>
+
+  </div> <!-- end container -->
+</section>
