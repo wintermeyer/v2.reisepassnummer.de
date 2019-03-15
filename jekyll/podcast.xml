@@ -6,7 +6,7 @@
 
     <channel>
 		<atom:link href="{{ site.url }}/podcast.xml" rel="self" type="application/rss+xml" />
-		<title>Reisepassnummer Reisepodcast</title>
+		<title>Reisepassnummer</title>
 		<link>{{ site.url }}{{ site.baseurl }}</link>
 		<language>{{ site.lang }}</language>
     <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
