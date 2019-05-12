@@ -12,8 +12,8 @@
     <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
     <itunes:author>{{ site.author }}</itunes:author>
-		<itunes:summary>Reiseberichte mit vielen O-Tönen. Beruflich und privat auf Reisen. Stefan Wintermeyer und Familie.</itunes:summary>
-    <description>Reiseberichte mit vielen O-Tönen. Beruflich und privat auf Reisen. Stefan Wintermeyer und Familie.</description>
+		<itunes:summary>Reisefeatures mit vielen O-Tönen. Beruflich und privat auf Reisen. Stefan Wintermeyer und Familie.</itunes:summary>
+    <description>Reisefeatures mit vielen O-Tönen. Beruflich und privat auf Reisen. Stefan Wintermeyer und Familie.</description>
 		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
     <itunes:owner>
 			<itunes:name>{{ site.author }}</itunes:name>
