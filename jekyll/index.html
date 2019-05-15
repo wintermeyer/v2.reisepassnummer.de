@@ -3,9 +3,9 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-title: "Reisepassnummer Reiseblog und Podcast"
-description: "Beruflich und privat
-auf Reisen. Mal mehr, mal weniger. Alleine oder mit Familie."
+title: "Reisepodcast mit Reiseberichten"
+description: "Reisefeatures mit Stefan Wintermeyer. Beruflich und privat
+auf Reisen. Alleine oder mit Familie."
 ---
 
 <section class="section">
@@ -23,7 +23,8 @@ auf Reisen. Mal mehr, mal weniger. Alleine oder mit Familie."
                             category }}</a>
                         {% endfor %}
 
-                        <h2 class="post-title"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"
+                        <h2 class="post-title"><a
+                                href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"
                                 title="">{{ item.title }}</a></h2>
                         <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"
                             title="" class="post-date">{{ item.inserted_at |
@@ -32,8 +33,10 @@ auf Reisen. Mal mehr, mal weniger. Alleine oder mit Familie."
 
                     {% if item.hero_image %}
                     <div class="post-preview">
-                        <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">
-                            <img src="{{ item.hero_image }}" alt="{{ item.hero_image_alt }}">
+                        <a
+                            href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">
+                            <img src="{{ item.hero_image }}"
+                                alt="{{ item.hero_image_alt }}">
                         </a>
                     </div>
                     {% endif %}
@@ -43,9 +46,11 @@ auf Reisen. Mal mehr, mal weniger. Alleine oder mit Familie."
                             }}</p>
                     </div>
 
-                    <div class="text-center"><a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"
+                    <div class="text-center"><a
+                            href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}"
                             class="btn btn-outline-custom">Weiter lesen <i
-                                class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+                                class="fa fa-angle-right"
+                                aria-hidden="true"></i></a></div>
                 </article>
                 <!-- Post end-->
                 {% endfor %}
@@ -61,12 +66,15 @@ auf Reisen. Mal mehr, mal weniger. Alleine oder mit Familie."
 
                         <div class="about-widget">
                             <ul>
-                                <li><a href="https://www.reisepassnummer.de/podcast.xml">RSS-Feed
+                                <li><a
+                                        href="https://www.reisepassnummer.de/podcast.xml">RSS-Feed
                                         aller Reisepassnummer-Podcasts.</a></li>
-                                <li><a href="https://open.spotify.com/show/4DLyBfvs4f8vUHO6RRMIZQ?si=1I_IGg_nRxicbKxvOOsymw">Auf
+                                <li><a
+                                        href="https://open.spotify.com/show/4DLyBfvs4f8vUHO6RRMIZQ?si=1I_IGg_nRxicbKxvOOsymw">Auf
                                         Spotify</a></li>
                             </ul>
-                            <a class="rss-btn" href="https://itunes.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2"></a>
+                            <a class="rss-btn"
+                                href="https://itunes.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2"></a>
                         </div>
                     </aside>
 
@@ -75,12 +83,14 @@ auf Reisen. Mal mehr, mal weniger. Alleine oder mit Familie."
                         <div class="widget-title">Stefan Wintermeyer</div>
 
                         <div class="about-widget">
-                            <img class="rounded-circle" src="/assets/stefan-wintermeyer_500x500.jpg"
+                            <img class="rounded-circle"
+                                src="/assets/stefan-wintermeyer_500x500.jpg"
                                 alt="Stefan Wintermeyer">
                             <p>Gelegenheits Reisepodcaster. Beruflich und
                                 privat auf Reisen. Mal mehr, mal weniger. Mit
                                 Frau und Kindern oder alleine.</p>
-                            <a href="https://www.wintermeyer.de" class="btn-read-more mt-2">Private
+                            <a href="https://www.wintermeyer.de"
+                                class="btn-read-more mt-2">Private
                                 Homepage <i class="fa fa-angle-right"
                                     aria-hidden="true"></i></a>
                         </div>
@@ -92,12 +102,17 @@ auf Reisen. Mal mehr, mal weniger. Alleine oder mit Familie."
                         <div class="widget-title">Subscribe & Follow</div>
 
                         <ul class="socials">
-                            <li><a href="https://www.facebook.com/stefan.wintermeyer"><i
-                                        class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a
+                                    href="https://www.facebook.com/stefan.wintermeyer"><i
+                                        class="fa fa-facebook"
+                                        aria-hidden="true"></i></a></li>
                             <li><a href="https://twitter.com/wintermeyer"><i
-                                        class="fa fa-twitter" aria-hidden="true"></i></i></a></li>
-                            <li><a href="https://www.instagram.com/wintermeyer/"><i
-                                        class="fa fa-instagram" aria-hidden="true"></i>
+                                        class="fa fa-twitter"
+                                        aria-hidden="true"></i></i></a></li>
+                            <li><a
+                                    href="https://www.instagram.com/wintermeyer/"><i
+                                        class="fa fa-instagram"
+                                        aria-hidden="true"></i>
                                     </i></a></li>
                         </ul>
                     </aside>
@@ -110,4 +125,5 @@ auf Reisen. Mal mehr, mal weniger. Alleine oder mit Familie."
     </div> <!-- end container -->
 </section>
 
-<link type="application/rss+xml" rel="alternate" title="Reisepassnummer" href="https://www.reisepassnummer.de/podcast.xml" />
+<link type="application/rss+xml" rel="alternate" title="Reisepassnummer"
+    href="https://www.reisepassnummer.de/podcast.xml" />
