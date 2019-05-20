@@ -12,8 +12,8 @@
     <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
     <itunes:author>{{ site.author }}</itunes:author>
-		<itunes:summary>Reisefeatures mit vielen O-Tönen. Beruflich und privat auf Reisen. Stefan Wintermeyer und Familie.</itunes:summary>
-    <description>Reisefeatures mit vielen O-Tönen. Beruflich und privat auf Reisen. Stefan Wintermeyer und Familie.</description>
+		<itunes:summary>Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das Mikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen, die Sie mit an die jeweiligen Ziele nehmen.</itunes:summary>
+    <description>Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das Mikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen, die Sie mit an die jeweiligen Ziele nehmen.</description>
 		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
     <itunes:owner>
 			<itunes:name>{{ site.author }}</itunes:name>
