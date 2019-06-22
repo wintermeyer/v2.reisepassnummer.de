@@ -1,13 +1,15 @@
-# Source-Code zu reisepassnummer.de
+# Source-Code of reisepassnummer.de
 
-Die Webseite https://www.reisepassnummer.de wird mit dem Jekyll Framework
-erstellt.
+To run the Jekyll server on the development system:
 
     cd jekyll
     bundle install
     bundle exec jekyll serve
 
+To see future posts
+
+    bundle exec jekyll serve --future
+
 # Links
 
 - https://jekyllrb.com
-- https://wrapbootstrap.com/theme/ablogia-responsive-blog-template-WB01DJM2F
