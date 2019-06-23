@@ -1,0 +1,35 @@
+title:             Reisepassnummer
+email:             stefan@wintermeyer.de
+description:       "Reisepodcast von Stefan Wintermeyer. Beruflich und privat auf Reisen. Mal mehr, mal weniger."
+author:            Stefan Wintermeyer
+baseurl:           ""
+url:               "https://www.reisepassnummer.de"
+lang:              de
+
+permalink: /:year/:month/:day/:title:output_ext
+
+# Social Profiles
+twitter_username:  wintermeyer
+github_username:   wintermeyer
+facebook_username: stefan.wintermeyer
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Includes
+include: ["_pages"]
+
+# Excludes
+exclude: [ "vendor/", "Gemfile", "Gemfile.lock", "node_modules"]
+
+# To allow fonts from assets/font in css file
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
