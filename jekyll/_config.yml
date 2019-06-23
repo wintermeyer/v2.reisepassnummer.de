@@ -18,10 +18,15 @@ markdown: kramdown
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 sass:
   sass_dir: _sass
   style: compressed
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
 
 # Includes
 include: ["_pages"]
