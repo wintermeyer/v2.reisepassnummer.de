@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign author = site.authors[page.author] %}
+{% include default-author.html %}
 
 <!-- Page title -->
 <div class="page-title">
@@ -17,15 +17,17 @@ layout: default
                 <!-- Post Thumbnail -->
                 <div class="post-thumb-cover">
                     <div class="post-thumb">
-                        <img src="{{ "/assets/img/blog/1.jpg" | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
+                        <img src="{{ page.background | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
                     </div>
                     <!-- Post Meta Info -->
                     <div class="post-meta-info">
                         <!-- Category -->
-                        <p class="cats">
-                            <a href="#">Featured</a>
-                            <a href="#">Adventure</a>
-                        </p>
+                        {% for category in page.categories %}
+                            <!-- Category -->
+                            <span class="cats">
+                                <a href="#">{{ category }}</a>
+                            </span>
+                        {% endfor %}
                         <!-- Title -->
                         <div class="title">
                             <h2>{{ page.title }}</h2>
@@ -45,17 +47,14 @@ layout: default
                     {{ page.content }}
                 </div>
                 <!-- End of Post Content -->
+                {% for tag in page.tag %}
                 <!-- Tags -->
                 <div class="post-all-tags">
-                    <a href="#">Fashion</a>
-                    <a href="#">Art</a>
-                    <a href="#">Lifestyle</a>
-                    <a href="#">Love</a>
-                    <a href="#">Travel</a>
-                    <a href="#">Movie</a>
-                    <a href="#">Games</a>
+                    <a href="#">{{ tag[0] }}</a>
                 </div>
                 <!-- End of Tags -->
+                {% endfor %}
+
                 {% include post-author-box.html %}
             </div>
         </div>

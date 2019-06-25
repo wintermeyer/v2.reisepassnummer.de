@@ -1,120 +1,67 @@
 ---
 layout: default
 ---
+
+{% assign post = site.posts | sort: 'inserted_at' | reverse %}
+{% assign podcast = site.podcast | sort: 'inserted_at' | reverse %}
+{% assign merge = post | concat: podcast %}
+{% assign all = merge | sort: 'inserted_at' | reverse %}
+
+{% include default-author.html %}
 <!-- post with sidebar -->
 <div class="container pt-40 pb-90">
     <div class="row">
         <div class="col-lg-8">
             <!-- Popular Post -->
             <section class="popular-post pb-10">
-                <!-- Section title -->
-                <div class="section-title">
-                    <h2>Popular Posts</h2>
-                </div>
-                <!-- End of Section title -->
                 <div class="post-blog-list">
-                    {% assign latest_post = site.posts[0] %}
-                    <!-- Post -->
+                  {% for item in all %}
+                    <!-- Latest Post -->
                     <div class="post-default post-has-right-thumb">
                         <div class="d-flex flex-wrap">
                             <div class="post-thumb align-self-stretch order-md-2">
-                                <a href="blog-details.html">
-                                    <div data-bg-img="/assets/img/blog/1.jpg"></div>
+                                <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
+                                    <div data-bg-img="{{ post.background | prepend: site.baseurl | prepend: site.url }}"></div>
                                 </a>
                             </div>
                             <div class="post-data order-md-1">
-                                <!-- Category -->
-                                <div class="cats"><a href="category-result.html">Love</a></div>
+                                {% for category in item.categories %}
+                                    <!-- Category -->
+                                    <span class="cats"><a href="#">{{ category }}</a></span>
+                                {% endfor %}
                                 <!-- Title -->
                                 <div class="title">
-                                    <h2><a href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a></h2>
+                                    <h2><a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">{{ item.title }}</a></h2>
                                 </div>
                                 <!-- Post Meta -->
                                 <ul class="nav meta align-items-center">
                                     <li class="meta-author">
-                                        <img src="/assets/img/blog/author.jpg" alt="" class="img-fluid">
-                                        <a href="#">Alex Garry</a>
+                                        <img src="{{ author.gravatar | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
+                                        {{ author.name | capitalize }}
                                     </li>
-                                    <li class="meta-date"><a href="#">2 Feb 2019</a></li>
+                                    <li class="meta-date">{{ item.date | date: '%b %d, %Y' }}</li>
                                 </ul>
                                 <!-- Post Desc -->
                                 <div class="desc">
                                     <p>
-                                       {{ latest_post.title | strip_html | truncatewords: 50 }}
+                                        {{ item.content | strip_html | truncatewords: 50 }}
                                     </p>
                                 </div>
                                 <!-- Read More Button -->
-                                <a href="{{site.baseurl}}{{latest_post.url}}" class="btn btn-primary">View More</a>
+                                <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary">View More</a>
                             </div>
                         </div>
                     </div>
                     <!-- End of Post -->
+                    {% endfor %}
                 </div>
             </section>
             <!-- End of Popular Post  -->
-            <!-- Most Viewed Post -->
-            <section class="pt-40 pb-10 most-viewed">
-                <!-- Section title -->
-                <div class="section-title">
-                    <h2>Popular Podcast</h2>
-                </div>
-                <!-- End of Section title -->
-                <div class="post-blog-list">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <!-- Post -->
-                            <div class="post-default post-has-front-title">
-                                <div class="post-thumb">
-                                    <a href="blog-details.html"> <img src="/assets/img/blog/4.jpg" alt="" class="img-fluid"> </a>
-                                </div>
-                                <div class="post-data">
-                                    <!-- Category -->
-                                    <div class="cats"><a href="category-result.html">Adventure</a></div>
-                                    <ul class="nav meta align-items-center">
-                                        <li class="meta-author">
-                                            <img src="/assets/img/blog/author.jpg" alt="" class="img-fluid">
-                                            <a href="#">Alex Garry</a>
-                                        </li>
-                                        <li class="meta-date"><a href="#">2 Feb 2019</a></li>
-                                    </ul>
-                                    <!-- Title -->
-                                    <div class="title">
-                                        <h2><a href="blog-details.html">Top Things To Look For When There choosing A Safari Lodge</a></h2>
-                                        <a href="blog-details.html" class="btn btn-primary">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                            <!-- End of Post -->
-                            <!-- Post -->
-                            <div class="post-default">
-                                <div class="post-thumb">
-                                    <a href="blog-details.html"> <img src="/assets/img/blog/4.jpg" alt="" class="img-fluid"> </a>
-                                </div>
-                                <div class="post-data">
-                                    <!-- Category -->
-                                    <div class="cats"><a href="category-result.html">Adventure</a></div>
-                                    <ul class="nav meta align-items-center">
-                                        <li class="meta-author">
-                                            <img src="/assets/img/blog/author.jpg" alt="" class="img-fluid">
-                                            <a href="#">Alex Garry</a>
-                                        </li>
-                                        <li class="meta-date"><a href="#">2 Feb 2019</a></li>
-                                    </ul>
-                                    <!-- Title -->
-                                    <div class="title">
-                                        <h2><a href="blog-details.html">Top Things To Look For When There choosing A Safari Lodge</a></h2>
-                                        <a href="blog-details.html" class="btn btn-primary">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                            <!-- End of Post -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End of Most Viewed Post -->
+            <!-- All Post Link -->
+            <div class="pt-40 pb-40 text-center">
+                <a class="btn btn-primary" href="{{ "/blog" | prepend: site.baseurl | prepend: site.url }}">View All</a>
+            </div>
+            <!-- End of All Post Link -->
         </div>
         <div class="col-lg-4">
             <div class="pt-88">

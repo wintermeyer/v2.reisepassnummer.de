@@ -1,8 +1,8 @@
 ---
 layout: default
+premalink: podcast
 ---
-
-{% assign author = site.authors[page.author] %}
+{% include default-author.html %}
 <!-- Page title -->
 <div class="page-title">
     <div class="container">
@@ -21,8 +21,12 @@ layout: default
                     </div>
                     <!-- Post Meta Info -->
                     <div class="post-meta-info">
-                        <!-- Category -->
-                        <div class="cats">Jekyll, Post</div>
+                        {% for category in post.categories %}
+                            <!-- Category -->
+                            <span class="cats">
+                                <a href="#">{{ category }}</a>
+                            </span>
+                        {% endfor %}
                         <!-- Title -->
                         <div class="title">
                             <h2>{{ page.title }}</h2>
@@ -42,17 +46,14 @@ layout: default
                     {{ page.content }}
                 </div>
 
+                {% for tag in post.tags %}
                 <!-- Tags -->
                 <div class="post-all-tags">
-                    <a href="#">Fashion</a>
-                    <a href="#">Art</a>
-                    <a href="#">Lifestyle</a>
-                    <a href="#">Love</a>
-                    <a href="#">Travel</a>
-                    <a href="#">Movie</a>
-                    <a href="#">Games</a>
+                    <a href="#">{{ tag[0] }}</a>
                 </div>
                 <!-- End of Tags -->
+                {% endfor %}
+
                 {% include post-author-box.html %}
 
             </div>

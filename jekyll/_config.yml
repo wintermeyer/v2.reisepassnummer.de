@@ -56,6 +56,11 @@ defaults:
     values:
       layout: podcast
       author: stefan
+  - scope:
+      path: _post
+    values:
+      layout: post
+      author: stefan
 
 # Authors
 authors:

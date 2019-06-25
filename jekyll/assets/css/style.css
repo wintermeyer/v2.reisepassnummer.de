@@ -19,7 +19,7 @@
  *
  * 2.3: Banner
  *
- * 2.4: Blog Cards
+ * 2.4: Blog Card
  *
  * 2.5: Newsletter
  *
@@ -1562,20 +1562,6 @@ body {
 .post-default {
   margin-bottom: 30px;
 }
-.post-default:hover .post-thumb:after {
-  bottom: 160%;
-  left: 160%;
-  -webkit-transition: 0.9s ease;
-  transition: 0.9s ease;
-}
-.post-default:hover .post-thumb img {
-  -webkit-transform: scale(1.2) rotate(1deg);
-          transform: scale(1.2) rotate(1deg);
-}
-.post-default:hover .post-thumb .bg-img {
-  -webkit-transform: scale(1.2) rotate(1deg);
-          transform: scale(1.2) rotate(1deg);
-}
 .post-default .post-thumb {
   overflow: hidden;
   position: relative;
@@ -1591,18 +1577,10 @@ body {
   height: 200%;
   width: 200%;
   background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transition: 0.8s ease;
-  transition: 0.8s ease;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
   z-index: 2;
 }
 .post-default .post-thumb a {
   display: block;
-}
-.post-default .post-thumb img {
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
 }
 .post-default .post-thumb .bg-img {
   position: absolute;
@@ -1613,8 +1591,6 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
   overflow: hidden;
 }
 .post-default .post-data {
@@ -1671,8 +1647,6 @@ body {
   content: "";
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
   left: 100%;
   height: 4px;
   width: 4px;
@@ -1939,14 +1913,10 @@ body {
   font-family: FontAwesome;
   position: absolute;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   left: 50%;
   color: #fff;
   font-size: 24px;
   z-index: 9;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
 }
 .post-default.post-has-video .post-data {
   background-color: #fff;
@@ -1968,10 +1938,6 @@ body {
 .post-default.post-has-video .post-data .title h2 a {
   font-size: 20px;
 }
-.post-default.post-has-general-video .post-thumb:hover a .bg-img:before {
-  -webkit-transform: translate(-50%, -50%) rotate(-1deg);
-          transform: translate(-50%, -50%) rotate(-1deg);
-}
 .post-default.post-has-general-video .post-thumb a .bg-img:before {
   content: "";
   font-family: FontAwesome;
@@ -1980,8 +1946,6 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   z-index: 9;
 }
 
