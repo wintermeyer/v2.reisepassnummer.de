@@ -1,13 +1,48 @@
 <!-- Footer -->
-<footer class="bg-black small text-center text-white-50">
+<footer class="footer-container d-flex align-items-center">
     <div class="container">
-        Copyright &copy; Your Website 2019
+        <div class="row align-items-center footer">
+            <div class="col-md-6 order-md-1 order-1">
+                <div class="footer-cradit text-center text-md-left">
+                    <p>&copy; 2017 - 2019 Stefan Wintermeyer - All Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-right order-md-2 order-2">
+                <div class="footer-social">
+                    {% if site.facebook_username %}
+                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    {% endif %}
+                    {% if site.twitter_username %}
+                        <a href="https://twitter.com/{{ site.twitter_username }}">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    {% endif %}
+                    {% if site.instagram_username %}
+                    <a href="https://www.instagram.com/{{ site.instagram_username }}/">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.github_username %}
+                        <a href="https://www.github.com/{{ site.github_username }}">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
+<!-- End of Footer -->
 <script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
 <script src="{{ "/assets/js/bootstrap.bundle.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
-<script src="{{ "/assets/js/jquery.easing.min.js" | prepend: site.baseurl | prepend: site.url}} "></script>
-<script src="{{ "/assets/js/grayscale.js" | prepend: site.baseurl | prepend: site.url}}"></script>
+<script src="{{ "/assets/js/scripts.js" | prepend: site.baseurl | prepend: site.url}}"></script>
+
+{% if jekyll.environment == 'production' %}
+    {% include tracking-footer.html %}
+{% endif %}
+
 </body>
 
 </html>

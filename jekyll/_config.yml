@@ -12,10 +12,12 @@ permalink: /:year/:month/:day/:title:output_ext
 twitter_username:  wintermeyer
 github_username:   wintermeyer
 facebook_username: stefan.wintermeyer
+instagram_username: wintermeyer
 
 # Build settings
 markdown: kramdown
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-paginate
@@ -26,7 +28,7 @@ sass:
 
 # Pagination
 paginate: 10
-paginate_path: "/page:num/"
+paginate_path: "/blog/page:num/"
 
 # Includes
 include: ["_pages"]
@@ -38,3 +40,32 @@ exclude: [ "vendor/", "Gemfile", "Gemfile.lock", "node_modules"]
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
+
+# Collections
+collections:
+  podcast:
+    output: true
+    permalink: /:title:output_ext
+    paginate_path: "/podcast/page:num/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "_podcast"
+    values:
+      layout: podcast
+      author: stefan
+
+# Authors
+authors:
+  stefan:
+    name:        Stefan Wintermeyer
+    bio:         Opportunity travel podcaster. Professionally and privately traveling. Sometimes more sometimes less. With wife and children or alone.
+    gravatar:    /assets/img/blog/author.jpg
+    email:       stefan@wintermeyer.de
+    website:     https://www.wintermeyer.de/
+    instagram:   https://www.instagram.com/wintermeyer/
+    twitter:     https://twitter.com/wintermeyer
+    facebook:    https://www.facebook.com/stefan.wintermeyer
+

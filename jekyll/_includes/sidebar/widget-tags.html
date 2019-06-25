@@ -1,0 +1,25 @@
+<!-- Tags Cloud Widget -->
+<div class="widget widget-tag-cloud">
+    <!-- Widget Title -->
+    <h4 class="widget-title">
+        Tags
+    </h4>
+    <!-- End of Widget Title -->
+    <!-- Widget Content -->
+    <div class="widget-content tagcloud">
+        {% for tag in site.tags %}
+        <a href="{{ site.baseurl }}/tag/{{ tag[0] }}">{{ tag[0] }}</a>
+        {% endfor %}
+        <a href="#">Art</a>
+        <a href="#">Lifestyle</a>
+        <a href="#">Love</a>
+        <a href="#">Travel</a>
+        <a href="#">Health</a>
+        <a href="#">Education</a>
+        <a href="#">Movie</a>
+        <a href="#">Games</a>
+        <a href="#">Sports</a>
+    </div>
+    <!-- End of Widget Content -->
+</div>
+<!-- End of Tags Cloud Widget -->

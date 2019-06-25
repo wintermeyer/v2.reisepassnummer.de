@@ -1,0 +1,35 @@
+<!-- Header -->
+<header class="header">
+    <div class="header-fixed">
+        <div class="container-fluid pl-120 pr-120 position-relative">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-3 col-md-4 col-6">
+                </div>
+                <div class="col-lg-9 col-md-8 col-6 d-flex justify-content-end position-static">
+                    <!-- Nav Menu -->
+                    <div class="nav-menu-cover">
+                        <ul class="nav nav-menu">
+                            <li><a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}">Home</a></li>
+                            <li><a href="{{ "/podcast" | prepend: site.baseurl | prepend: site.url }}">Podcast</a></li>
+                            <li><a href="{{ "/blog" | prepend: site.baseurl | prepend: site.url }}">Blog</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Nav Menu -->
+                    <!-- Mobile Menu -->
+                    <div class="mobile-menu-cover">
+                        <ul class="nav mobile-nav-menu">
+                            <li class="search-toggle-close hide">
+                                <img src="{{ "/assets/img/close.svg" | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
+                            </li>
+                            <li class="nav-menu-toggle">
+                                <img src="{{ "/assets/img/menu-toggler.svg" | prepend: site.baseurl | prepend: site.url }}" class="img-fluid svg">
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End of Mobile Menu -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End of Header -->
