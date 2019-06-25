@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+{% assign author = site.authors[page.author] %}
+<!-- Page title -->
+<div class="page-title">
+    <div class="container">
+        <h2>Podcast</h2>
+    </div>
+</div>
+<!-- End of Page title -->
+<div class="container pt-120 pb-120">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="post-details-cover post-has-audio-thumb">
+                <!-- Post Thumbnail -->
+                <div class="post-thumb-cover">
+                    <div class="post-thumb">
+                        <iframe allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/315461526&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    </div>
+                    <!-- Post Meta Info -->
+                    <div class="post-meta-info">
+                        <!-- Category -->
+                        <div class="cats">Jekyll, Post</div>
+                        <!-- Title -->
+                        <div class="title">
+                            <h2>{{ page.title }}</h2>
+                        </div>
+                        <!-- Meta -->
+                        <ul class="nav meta align-items-center">
+                            <li class="meta-author">
+                                <img src="{{ author.gravatar | prepend: site.baseurl | prepend: site.url }}" alt="{{ author.name }}" class="img-fluid"> {{ author.name }} </li>
+                            <li class="meta-date">{{ page.date | date: '%d %b %Y' }}</li>
+                        </ul>
+                    </div>
+                    <!-- End of Post Meta Info -->
+                </div>
+                <!-- End oF Post Thumbnail -->
+                <!-- Post Content -->
+                <div class="post-content-cover my-drop-cap">
+                    {{ page.content }}
+                </div>
+
+                <!-- Tags -->
+                <div class="post-all-tags">
+                    <a href="#">Fashion</a>
+                    <a href="#">Art</a>
+                    <a href="#">Lifestyle</a>
+                    <a href="#">Love</a>
+                    <a href="#">Travel</a>
+                    <a href="#">Movie</a>
+                    <a href="#">Games</a>
+                </div>
+                <!-- End of Tags -->
+                {% include post-author-box.html %}
+
+            </div>
+        </div>
+    </div>
+</div>
