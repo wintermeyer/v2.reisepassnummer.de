@@ -15,11 +15,15 @@ title: Podcast
             {% for post in site.podcast %}
             <!-- Post -->
             <div class="post-default post-has-front-title">
-                <div class="post-thumb">
-                    <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-                        <img src="{{ post.background | prepend: site.baseurl | prepend: site.url }}" alt="" class="img-fluid">
-                    </a>
-                </div>
+                {% if post.hero_image %}
+                    <div class="post-thumb">
+                        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ post.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.hero_image_alt }}" class="img-fluid"></a>
+                    </div>
+                {% else %}
+                    <div class="post-thumb">
+                        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ '/assets/img/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid"></a>
+                    </div>
+                {% endif %}
                 <div class="post-data">
                      {% for category in post.categories %}
                         <!-- Category -->
@@ -33,17 +37,6 @@ title: Podcast
             </div>
             <!-- End of Post -->
             {% endfor %}
-            {% include pagination.html %}
-            <!-- Post Pagination -->
-        <div class="post-pagination d-flex justify-content-center">
-            <span class="current">1</span>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#"><i class="fa fa-angle-right"></i></a>
-        </div>
-        <!-- End of Post Pagination -->
-
-{{site.podcast.next}}
 
         </div>
         <div class="col-lg-4">

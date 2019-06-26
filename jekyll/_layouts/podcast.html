@@ -6,22 +6,28 @@ premalink: podcast
 <!-- Page title -->
 <div class="page-title">
     <div class="container">
-        <h2>Podcast</h2>
+        <h2>{{ page.title }}</h2>
     </div>
 </div>
 <!-- End of Page title -->
 <div class="container pt-120 pb-120">
     <div class="row">
         <div class="col-md-10 offset-md-1">
-            <div class="post-details-cover post-has-audio-thumb">
+            <div class="post-details-cover">
                 <!-- Post Thumbnail -->
                 <div class="post-thumb-cover">
-                    <div class="post-thumb">
-                        <iframe allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/315461526&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                    </div>
+                    {% if page.hero_image %}
+                        <div class="post-thumb">
+                            <img src="{{ page.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ page.hero_image_alt }}" class="img-fluid">
+                        </div>
+                    {% else %}
+                        <div class="post-thumb">
+                            <img src="{{ '/assets/img/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
+                        </div>
+                    {% endif %}
                     <!-- Post Meta Info -->
                     <div class="post-meta-info">
-                        {% for category in post.categories %}
+                        {% for category in page.categories %}
                             <!-- Category -->
                             <span class="cats">
                                 <a href="#">{{ category }}</a>

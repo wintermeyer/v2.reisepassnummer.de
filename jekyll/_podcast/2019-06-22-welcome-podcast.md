@@ -3,7 +3,6 @@ layout: podcast
 title:  Welcome to Jekyll!
 inserted_at:   2019-06-22 20:22:58 +0530
 subtitle: "An subtitle for post"
-background: /assets/img/blog/1.jpg
 teaser_text: A teaser text
 categories: Jekyll Post
 ---

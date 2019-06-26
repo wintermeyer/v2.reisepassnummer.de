@@ -17,11 +17,15 @@ title: Blog
                     {% for post in paginator.posts %}
                     <!-- Post -->
                     <div class="post-default">
+                        {% if post.hero_image %}
                         <div class="post-thumb">
-                            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-                                <img src="{{ post.background | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
-                            </a>
+                            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ post.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.hero_image_alt }}" class="img-fluid"></a>
                         </div>
+                        {% else %}
+                            <div class="post-thumb">
+                                <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ '/assets/img/blog/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid"></a>
+                            </div>
+                        {% endif %}
                         <div class="post-data">
                             {% for category in post.categories %}
                                 <!-- Category -->

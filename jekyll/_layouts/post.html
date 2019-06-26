@@ -16,9 +16,15 @@ layout: default
             <div class="post-details-cover">
                 <!-- Post Thumbnail -->
                 <div class="post-thumb-cover">
-                    <div class="post-thumb">
-                        <img src="{{ page.background | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
-                    </div>
+                    {% if page.hero_image %}
+                        <div class="post-thumb">
+                            <img src="{{ page.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ page.hero_image_alt }}" class="img-fluid">
+                        </div>
+                    {% else %}
+                        <div class="post-thumb">
+                            <img src="{{ '/assets/img/blog/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
+                        </div>
+                    {% endif %}
                     <!-- Post Meta Info -->
                     <div class="post-meta-info">
                         <!-- Category -->
