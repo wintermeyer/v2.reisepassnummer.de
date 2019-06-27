@@ -1,0 +1,274 @@
+.post-default
+    margin-bottom: 30px
+    .post-thumb
+        overflow: hidden
+        position: relative
+        transition: .5s
+        margin-bottom: 30px
+        &:after
+            content: ""
+            position: absolute
+            bottom: -200%
+            left: -200%
+            height: 200%
+            width: 200%
+            background-color: rgba(255,255,255,0.1)
+            z-index: 2
+        a
+            display: block
+        .bg-img
+            position: absolute
+            top: 0
+            left: 0
+            height: 100%
+            width: 100%
+            background-size: cover
+            background-position: center center
+            background-repeat: no-repeat
+            overflow: hidden
+    .post-data
+        z-index: 9
+        .cats
+            margin-bottom: 10px
+            a
+                color: $hover
+                font-weight: 700
+                font-family: $spec
+                font-size: 18px
+                &:hover
+                    color: #fe9494
+                &:after
+                    content: ","
+                    color: $para
+                &:last-child
+                    &:after
+                        display: none
+        .title
+            margin-bottom: 10px
+            h2
+                line-height: .8
+                a
+                    color: $head
+                    font-weight: 700
+                    font-size: 20px
+                    line-height: 1.2
+                    &:hover
+                        color: $hover
+        .meta
+            margin-bottom: 20px
+            li
+                margin-right: 36px
+                position: relative
+                color: $para
+                +tab
+                    margin-right: 22px
+                &:after
+                    content: ""
+                    position: absolute
+                    top: 50%
+                    left: 100%
+                    height: 4px
+                    width: 4px
+                    background-color: $para
+                    border-radius: 50%
+                    margin-left: 16px
+                    +tab
+                        margin-left: 10px
+                &:last-child
+                    margin-right: 0px
+                    &:after
+                        display: none
+                a
+                    color: $para
+                    font-size: 14px
+                    +tab
+                        font-size: 12px
+                    &:hover
+                        color: #232323
+                &.meta-author
+                    img
+                        @extend .br50p
+                        height: 30px
+                        width: 30px
+                        margin-right: 6px
+                        +tab
+                            height: 20px
+                            width: 20px
+        .btn
+            margin-top: 30px
+        .desc
+            p
+                line-height: 1.6
+
+    &.post-has-no-thumb
+        background-color: #fff
+        padding: 40px 40px 35px 40px
+        min-height: 297.5px
+        +mobileMd
+                padding: 30px
+        .post-data
+            padding-top: 0
+            .title h2 a
+                font-size: 26px
+                +mobileXs
+                    font-size: 20px
+
+    &.post-has-bg-img
+        min-height: 623px
+        height: 623px
+        position: relative
+        background-color: #f3f3f3
+        text-align: center
+        z-index: 9
+        background-size: cover
+        background-position: center center
+        display: flex
+        align-items: center
+        justify-content: center
+        overflow: hidden
+        +tab
+            min-height: 400px
+            height: 400px
+        .post-thumb
+            position: static
+            a
+                z-index: 9
+                display: block
+                &:before
+                    content: ""
+                    position: absolute
+                    top: 0
+                    left: 0
+                    height: 100%
+                    width: 100%
+                    background-color: rgba(0,0,0,0.4)
+                    z-index: 9
+        .title
+            h2
+                max-width: 400px
+                margin: 0 auto
+                a
+                    color: #f3f3f3
+                    font-size: 26px
+                    &:hover
+                        color: $white
+                    +mobileXs
+                        font-size: 20px
+                +tab
+                    padding: 0px 15px
+                +mobileXs
+                    padding: 0px 10px
+        .meta
+            justify-content: center
+            li
+                &:after
+                    background-color: #fff
+                a
+                    color: #f3f3f3
+                    &:hover
+                        color: $white
+    &.post-has-right-thumb
+        background-color: #fff
+        .post-data
+            padding: 40px
+            flex-basis: 65%
+            max-width: 65%
+            +mobileLg
+                flex-basis: 100%
+                max-width: 100%
+            +mobileMd
+                padding: 30px
+            .title h2 a
+                font-size: 26px
+                +mobileXs
+                    font-size: 20px
+        .post-thumb
+            flex-basis: 35%
+            max-width: 35%
+            background-position: center
+            background-size: cover
+            background-color: #f1f1f1
+            margin-bottom: 0px
+            +mobileLg
+                flex-basis: 100%
+                min-height: 300px
+                max-width: 100%
+            +mobileXs
+                min-height: 160px
+    &.post-has-front-title
+        position: relative
+        .post-thumb
+            min-height: 300px
+            background-size: cover
+            background-repeat: no-repeat
+            background-color: #f1f1f1
+            background-position: center center
+            margin-bottom: 0
+            +tab
+                min-height: 160px
+        .post-data
+            background-color: #fff
+            padding: 40px
+            text-align: center
+            margin: -98px 95px 0px 95px
+            z-index: 9
+            position: relative
+            +tab
+                margin-left: 30px
+                margin-right: 30px
+            +mobileMd
+                padding: 30px
+            +mobileXs
+                padding: 20px
+            .title h2 a
+                font-size: 26px
+                +mobileXs
+                    font-size: 20px
+    &.post-has-video
+        position: relative
+        .post-thumb
+            min-height: 300px
+            background-size: cover
+            background-repeat: no-repeat
+            background-color: #f1f1f1
+            background-position: center center
+            margin-bottom: 0
+            a
+                .bg-img
+                    &:before
+                        content: "\f04b"
+                        font-family: FontAwesome
+                        position: absolute
+                        top: 50%
+                        left: 50%
+                        color: #fff
+                        font-size: 24px
+                        z-index: 9
+        .post-data
+            background-color: #fff
+            padding: 20px
+            text-align: center
+            margin: -58px 20px 0px 20px
+            z-index: 9
+            position: relative
+            .cats
+                margin-bottom: 0
+                a
+                    font-size: 14px
+            .title
+                margin-bottom: 0px
+                h2 a
+                    font-size: 20px
+    &.post-has-general-video
+        .post-thumb
+            a
+                .bg-img
+                    &:before
+                        content: "\f04b"
+                        font-family: $fa
+                        color: #ffffff
+                        font-size: 26px
+                        position: absolute
+                        top: 50%
+                        left: 50%
+                        z-index: 9

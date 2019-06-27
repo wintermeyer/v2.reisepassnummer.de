@@ -36,6 +36,9 @@ premalink: podcast
                         <!-- Title -->
                         <div class="title">
                             <h2>{{ page.title }}</h2>
+                            {% if page.subtitle %}
+                                <p>{{ page.subtitle }}</p>
+                            {% endif %}
                         </div>
                         <!-- Meta -->
                         <ul class="nav meta align-items-center">

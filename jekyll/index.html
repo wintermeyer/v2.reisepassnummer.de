@@ -15,13 +15,17 @@ layout: default
             <!-- Popular Post -->
             <section class="popular-post pb-10">
                 <div class="post-blog-list">
-                  {% for item in all %}
+                    {% for item in all %}
                     <!-- Latest Post -->
                     <div class="post-default post-has-right-thumb">
                         <div class="d-flex flex-wrap">
                             <div class="post-thumb align-self-stretch order-md-2">
                                 <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
-                                    <div data-bg-img="{{ post.background | prepend: site.baseurl | prepend: site.url }}"></div>
+                                    {% if item.hero_image %}
+                                    <div data-bg-img="{{ item.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ item.hero_image_alt }}"></div>
+                                    {% else %}
+                                    <div data-bg-img="{{ '/assets/img/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}"></div>
+                                    {% endif %}
                                 </a>
                             </div>
                             <div class="post-data order-md-1">
@@ -65,7 +69,7 @@ layout: default
             <!-- End of All Post Link -->
         </div>
         <div class="col-lg-4">
-                {% include sidebar.html %}
+            {% include sidebar.html %}
         </div>
     </div>
 </div>

@@ -1,0 +1,171 @@
+.header
+    min-height: 107px
+    .header-fixed
+        padding: 20px 0px
+        transition: .4s
+        z-index: 9999
+        position: fixed
+        width: 100%
+        top: 0
+        &.is-sticky
+            padding: 0px 0px
+            background-color: #fff
+    .logo
+        +tab
+            margin-left: 30px
+        +mobileMd
+            margin-left: 0
+.nav-menu
+    +tab
+        display: block
+        position: absolute
+        top: 100%
+        left: 0
+        background-color: #fff
+        width: 100%
+        padding: 0px 15px 0px 45px
+        opacity: 0
+        visibility: hidden
+        transition: .3s
+        z-index: -99
+    +mobileMd
+        padding: 0px 0px 0px 15px
+    &.show
+        opacity: 1
+        visibility: visible
+        z-index: 99
+        +tab
+            margin-top: 0
+    li
+        position: relative
+        &:hover
+            > a
+                color: $hover
+        &.current-menu-item
+            a
+                color: $hover
+        &.menu-item-has-children
+            padding-right: 30px
+            position: relative
+            +tab
+                position: static
+            &:hover
+                > .sub-menu
+                    visibility: visible
+                    opacity: 1
+                    margin-top: 0
+            > a
+                position: relative
+                &:after
+                    content: "\f105"
+                    position: absolute
+                    top: 50%
+                    transform: translateY(-50%)
+                    left: 100%
+                    margin-left: -23px
+                    font-family: $fa
+        a
+            color: #333
+            display: block
+        .sub-menu
+            position: absolute
+            top: 0
+            left: 100%
+            min-width: 185px
+            height: auto
+            box-shadow: 0px 3px 16px rgba(0,0,0,.04)
+            background-color: #fff
+            padding: 25px 0px
+            visibility: hidden
+            opacity: 0
+            transition: .4s ease-in-out
+            z-index: 9
+            margin-top: -10px
+            +tab
+                width: 100%
+                height: 100%
+                overflow-x: hidden
+                overflow-y: auto
+                margin-top: 0
+            &.show
+                +tab
+                    left: 0
+                    opacity: 1
+                    visibility: visible
+            li  
+                &.sub-menu-close
+                    display: none
+                    +tab
+                        display: block
+                        font-size: 20px
+                        font-family: $spec
+                        padding: 5px 30px
+                        padding-bottom: 15px
+                        cursor: pointer
+                        color: $hover
+                a
+                    font-size: 16px
+                    font-family: $spec
+                    padding: 8px 30px
+
+    > li 
+        margin-right: 30px
+        padding: 20px 0px
+        +tab
+            padding: 15px 0px
+        &:first-child
+            +tab
+                margin-top: 15px   
+        &:last-child
+            +tab
+                margin-bottom: 15px
+        &.menu-item-has-children
+            padding-right: 15px
+            position: relative
+            +tab
+                position: static
+            > a
+                position: relative
+                &:after
+                    content: "\f107"
+                    position: absolute
+                    top: 50%
+                    transform: translateY(-50%)
+                    left: 100%
+                    margin-left: 5px
+                    font-family: $fa
+                    +tab
+                        content: "\f105"
+        > a
+            font-family: $spec
+            font-weight: 500
+            font-size: 18px
+            +tab
+                font-size: 20px
+        > .sub-menu
+            position: absolute
+            top: 100%
+            left: 0
+            +tab
+                top: 0
+                left: 100%
+.mobile-nav-menu
+    li
+        padding: 20px 0px
+        cursor: pointer
+        &.nav-menu-toggle
+            display: none
+            margin-right: 30px
+            +tab
+                display: block
+            +mobileMd
+                margin-right: 0
+        &.search-toggle-open,
+        &.search-toggle-close
+            width: 18px
+            +tab
+                margin-right: 20px
+        &.hide
+            display: none
+        svg
+            height: 15px

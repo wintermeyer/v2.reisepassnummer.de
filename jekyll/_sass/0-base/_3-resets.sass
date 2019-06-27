@@ -1,0 +1,165 @@
+*
+    list-style: none
+    outline: none !important
+
+ul,
+p
+    margin: 0
+    padding: 0
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+    -webkit-appearance: none
+    appearance: none
+    margin: 0
+
+input[type="number"]
+    -moz-appearance: textfield
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active 
+    transition: background-color 5000s ease-in-out 0s
+
+::selection 
+    text-shadow: none
+    color: #fff
+    background: #232323
+
+::placeholder
+    color: #7f7f7f !important
+    opacity: 1 !important
+
+iframe
+    width: 100%
+    height: 347px
+    border: 0px
+    overflow: hidden
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus
+    outline: none !important
+
+.form-control
+    box-shadow: none
+    outline: none
+    border: 0px
+    border-radius: 0px
+    height: 52px
+    padding: 0px 20px
+.form-control:hover,
+.form-control:focus,
+.form-control:active 
+    box-shadow: none
+    outline: none
+    border: 0px
+textarea
+    &.form-control
+        height: 250px
+        padding: 30px 20px
+
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active
+    box-shadow: none
+    outline: none
+    border: 0px
+    border-radius: 0px
+
+button,
+button[type="submit"],
+input[type="submit"]
+    border: none
+    background-color: transparent
+    cursor: pointer
+    -webkit-appearance: button
+    -moz-appearance: button
+    appearance: button
+
+textarea
+    resize: none
+
+img
+    max-width: 100%
+    height: auto
+
+a 
+    color: #232323
+    +transition(0.2s, ease)
+
+a:hover,
+a:active,
+a:focus
+    color: $hover
+    text-decoration: none
+    outline: none !important
+    +transition(0.2s, ease)
+
+input,
+select,
+textarea
+    text-decoration: none
+    outline: none !important
+    border: 0px
+    box-shadow: none
+    border-radius: 0px
+    padding: 0px 20px
+    color: #232323
+    position: relative
+    margin-bottom: 30px
+select 
+    margin-bottom: 0
+    width: 100%
+input:hover,
+input:focus,
+input:active
+    text-decoration: none
+    outline: none !important
+    border: 0px
+    box-shadow: none
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p 
+    margin-bottom: 0
+    padding: 0
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    font-family: $spec
+    color: #232323
+
+p 
+    font-family: $quick
+    color: #7f7f7f
+    line-height: 1.6
+
+h1
+    font-size: 48px
+h2
+    font-size: 30px
+h3
+    font-size: 26px
+h4
+    font-size: 18px
+h5
+    font-size: 17px
+h6
+    font-size: 14px
+
+body
+    overflow-x: hidden !important
+    font-family: $quick
+    background-color: #f9f9f9
+    

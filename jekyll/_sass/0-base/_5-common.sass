@@ -1,0 +1,105 @@
+// Buttons
+.btn
+    &.btn-primary
+        position: relative
+        padding: 0
+        background-color: transparent
+        color: #232323
+        font-size: 16px
+        font-weight: 500
+        z-index: 9
+        &:before
+            content: ""
+            position: absolute
+            bottom: 3px
+            left: 0
+            height: 4px
+            width: 100%
+            background-color: #FF9F9F
+            transition: .3s ease
+            z-index: -1
+        &:hover:before
+            height: 8px
+            background-color: $hover
+        &:focus,
+        &:not(:disabled),
+        &:not(.disabled):active,
+        &:active,
+        &:not(:disabled):not(.disabled):active:focus
+            outline: none !important
+            box-shadow: none
+            background-color: transparent
+            color: #232323
+            cursor: pointer
+    &.btn-comment
+        font-size: 22px
+        font-weight: 700
+        font-family: $spec
+        padding: 0
+        margin: 30px 0px
+        position: relative
+        &:after
+            content: "\f106"
+            font-family: $fa
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            left: 100%
+            margin-left: 6px
+            transition: .4s
+        &.collapsed
+            &:after
+                content: "\f107"
+    &.btn-instagram
+        padding: 16px 10px
+        text-align: center
+        background-color: #ffeeee
+        color: $head
+        font-weight: 500
+        font-size: 16px
+        &:hover
+            background-color: $hover
+            color: #ffffff
+
+// Border Radius
+.br50p
+    border-radius: 50%
+
+// Section Title
+.section-title 
+    margin-bottom: 32px
+    h2
+        display: inline
+        font-size: 36px
+        color: #232323
+        font-weight: 700
+        background-image: linear-gradient(0deg, $title 25%,transparent 0%)
+        line-height: 1.55
+        background-position: center bottom 8px
+        +mobileMd
+            font-size: 30px
+            line-height: 1.4
+
+// Post Pagination
+.post-pagination
+    padding-top: 30px
+    padding-bottom: 30px
+    span,
+    a
+        height: 50px
+        width: 50px
+        line-height: 50px
+        text-align: center
+        background-color: #fff
+        color: $para
+        cursor: pointer
+        margin: 0px 5px
+        transition: .4s ease-in-out
+        font-family: $spec
+        font-weight: 700
+        font-size: 20px
+        &.current,
+        &:hover
+            color: $white
+            background-color: $hover
+
