@@ -1,0 +1,85 @@
+{
+  "show": {
+    "title": "Reisepassnummer",
+    "subtitle": "Reisepodcast von Stefan Wintermeyer. Beruflich und privat auf Reisen. Mal mehr, mal weniger.",
+    "summary": "Travel features with many o-tones. When Stefan Wintermeyer travels professionally (alone) or privately (with family), he always takes the microphone with him. This creates exciting travel reports that you take with you to the respective goals.",
+    "poster": "/images/podcast/podcast-cover-1400x1400.jpg",
+    "url": "https://www.reisepassnummer.de/"
+  },
+  "license": {
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "profiles": [
+    {
+      "serviceName": "facebook",
+      "profile": "stefan.wintermeyer"
+    },
+    {
+      "serviceName": "email",
+      "profile": "stefan@wintermeyer.de"
+    },
+    {
+      "serviceName": "instagram",
+      "profile": "wintermeyer"
+    },
+    {
+      "serviceName": "twitter",
+      "profile": "wintermeyer"
+    }
+  ],
+  "episodes": [
+    {
+      "duration": "22:08.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 21315544,
+          "url": "https://www.reisepassnummer.de/assets/podcasts/2018-01-25-queen-victoria.mp3",
+          "directAccess": "https://www.reisepassnummer.de/assets/podcasts/2018-01-25-queen-victoria.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/assets/podcasts/2018-01-25-queen-victoria.mp3"
+        }
+      ],
+      "title": "Episood #1 - Queen Victoria",
+      "permalink": "https://www.reisepassnummer.de/episodes/1/",
+      "subtitle": "In 2 Tagen von Southampton nach Hamburg.",
+      "publicationDate": "2018-01-25 09:12:16 +0100",
+      "recordingDate":"2018-01-25 09:12:16 +0100",
+      "imageUrl":"/images/podcasts/cover/2018-01-25-queen-victoria.jpg",
+      "summary": "🛳 🇬🇧 -> 🇩🇪In zwei Tagen mit dem Ocean Liner Queen Elizabeth von Southampton nach Hamburg.",
+      "tags":"Cruise, Travel, Ship, Travelblog"
+    },
+    {
+      "duration": "23:40.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/assets/podcasts/2019-05-11-everglades.mp3",
+          "directAccess": "https://www.reisepassnummer.de/assets/podcasts/2019-05-11-everglades.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/assets/podcasts/2019-05-11-everglades.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        },
+        {
+          "start": "00:01:27.000",
+          "title": "Frau"
+        },
+        {
+          "start": "00:24:04.000",
+          "title": "Aurelius"
+        }
+      ],
+      "title": "Episood #2 Everglades - Florida",
+      "permalink": "https://www.reisepassnummer.de/episodes/2/",
+      "subtitle": "Everglades - Florida",
+      "publicationDate": "2019-05-11 20:24:16 +0100",
+      "summary": "👨‍👧‍👦 🐊🇺🇸 Für 308 US-Dollar driften wir mit einem Airboat durch die Everglades. 90 Kilometer wird hier der langsamste Fluss der Welt breit. Einen Riesenpropeller im Rücken, Ohrstöpsel in den Ohren, begegnen wir am Ufer einem Alligator: „Mathilda“. Ob man hier auch zu Fuß laufen könnte? Ja, sagt unser Begleiter. „Aber…“",
+      "explicit":"no"
+    }
+  ]
+}

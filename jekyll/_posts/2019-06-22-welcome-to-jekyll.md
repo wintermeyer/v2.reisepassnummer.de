@@ -4,7 +4,7 @@ title:  Jekyll
 author: stefan
 inserted_at:   2019-06-22 20:22:58 +0530
 subtitle: "An subtitle for post"
-hero_image: /assets/img/blog/1.jpg
+hero_image: /images/blog/1.jpg
 teaser_text: A teaser text
 categories: Jekyll Post
 tags: Jekyll Post

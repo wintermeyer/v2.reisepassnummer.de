@@ -1,0 +1,69 @@
+---
+---
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{% if page.title %}{{ page.title | escape }} | {% endif %} {{ site.title | escape }} </title>
+
+  <link href="{{ site.url }}/assets/bower_components/podlove-web-player/dist/css/pwp-silver-blaze.min.css" rel="stylesheet" media="screen" type="text/css" />
+  <link href="{{ site.url }}/assets/bower_components/podlove-web-player/dist/css/vendor/progress-polyfill.css" rel="stylesheet" media="screen" type="text/css" />
+
+  <script src="{{ site.url }}/assets/bower_components/podlove-web-player/dist/js/vendor/html5shiv.js"></script>
+  <script src="{{ site.url }}/assets/bower_components/podlove-web-player/dist/js/vendor/jquery.min.js"></script>
+  <script src="{{ site.url }}/assets/bower_components/podlove-web-player/dist/js/vendor/progress-polyfill.min.js"></script>
+
+  <script src="{{ "assets/js/vendor/modernizr-2.7.1.custom.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
+<script src="{{ "/assets/bower_components/podlove-web-player/dist/js/vendor/jquery.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
+
+</head>
+<body>
+<audio>
+
+</audio>
+
+<script src="{{ site.url }}/assets/bower_components/podlove-web-player/dist/js/podlove-web-player.min.js"></script>
+<script>
+
+// Get URL query param value
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+
+// On page load, get a list of all episodes and their meta-data
+$.getJSON( "/episodes.json", function( podcastInfo ) {
+
+  // Get requested episode number from the URL. Substract 0 as the JSON data indexes from 0
+  currentEpisode = getUrlParameter('episode') - 1;
+
+  // Build a JSON object that has data on the show as well as (only) the current episode
+  episode = podcastInfo.episodes[currentEpisode]
+  episode.poster = podcastInfo.show.poster
+  episode.profiles = podcastInfo.show.profiles
+  delete podcastInfo.episodes
+  playerConfig = $.extend(podcastInfo, episode)
+
+  $('audio').append('<source src="'+episode.downloads[0].directAccess+'" type="audio/mpeg">');
+  if(episode.downloads[1]) {
+    $('audio').append('<source src="'+episode.downloads[1].directAccess+'" type="audio/mp4">');
+  }
+  console.log(playerConfig);
+  $('audio').podlovewebplayer(playerConfig);
+});
+</script>
+
+</body>
+</html>
