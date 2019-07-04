@@ -11,53 +11,51 @@ layout: default
     <div class="row">
         <div class="col-lg-8">
             <!-- Popular Post -->
-            <section class="popular-post pb-10">
-                <div class="post-blog-list">
+            <div class="row">
+                <div class="col-sm-12">
                     {% for item in all %}
                     <!-- Latest Post -->
-                    <div class="post-default post-has-right-thumb">
-                        <div class="d-flex flex-wrap">
-                            <div class="post-thumb align-self-stretch order-md-2">
-                                <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
-                                    {% if item.hero_image %}
-                                    <div data-bg-img="{{ item.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ item.hero_image_alt }}"></div>
-                                    {% else %}
-                                    <div data-bg-img="{{ '/images/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}"></div>
-                                    {% endif %}
-                                </a>
+                    <div class="post-default">
+                        <div class="post-thumb">
+                            <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
+                                {% if item.hero_image %}
+                                <img src="{{ item.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ item.hero_image_alt }}" class="img-fluid">
+                                {% else %}
+                                <img src="{{ '/images/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
+                                {% endif %}
+                            </a>
+                        </div>
+                        <div class="post-data order-md-1">
+                            {% for category in item.categories %}
+                            <!-- Category -->
+                            <span class="cats"><a href="#">{{ category }}</a></span>
+                            {% endfor %}
+                            <!-- Title -->
+                            <div class="title">
+                                <h2><a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">{{ item.title }}</a></h2>
                             </div>
-                            <div class="post-data order-md-1">
-                                {% for category in item.categories %}
-                                    <!-- Category -->
-                                    <span class="cats"><a href="#">{{ category }}</a></span>
-                                {% endfor %}
-                                <!-- Title -->
-                                <div class="title">
-                                    <h2><a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">{{ item.title }}</a></h2>
-                                </div>
-                                <!-- Post Meta -->
-                                <ul class="nav meta align-items-center">
-                                    <li class="meta-author">
-                                        <img src="{{ author.gravatar | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
-                                        {{ author.name | capitalize }}
-                                    </li>
-                                    <li class="meta-date">{{ item.date | date: '%b %d, %Y' }}</li>
-                                </ul>
-                                <!-- Post Desc -->
-                                <div class="desc">
-                                    <p>
-                                        {{ item.teaser_text | strip_html | truncatewords: 80 }}
-                                    </p>
-                                </div>
-                                <!-- Read More Button -->
-                                <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary">View More</a>
+                            <!-- Post Meta -->
+                            <ul class="nav meta align-items-center">
+                                <li class="meta-author">
+                                    <img src="{{ author.gravatar | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
+                                    {{ author.name | capitalize }}
+                                </li>
+                                <li class="meta-date">{{ item.date | date: '%b %d, %Y' }}</li>
+                            </ul>
+                            <!-- Post Desc -->
+                            <div class="desc">
+                                <p>
+                                    {{ item.teaser_text | strip_html | truncatewords: 80 }}
+                                </p>
                             </div>
+                            <!-- Read More Button -->
+                            <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary">View More</a>
                         </div>
                     </div>
                     <!-- End of Post -->
                     {% endfor %}
                 </div>
-            </section>
+            </div>
             <!-- End of Popular Post  -->
             <!-- All Post Link -->
             <div class="pt-40 pb-40 text-center">
