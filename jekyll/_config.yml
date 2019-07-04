@@ -45,8 +45,7 @@ webrick:
 collections:
   podcast:
     output: true
-    permalink: /:title:output_ext
-    paginate_path: "/podcast/page:num/"
+    permalink: /episode/:title
 
 # Defaults
 defaults:

@@ -1,12 +1,10 @@
 ---
 layout: default
 ---
-
-{% assign post = site.posts | sort: 'inserted_at' | reverse %}
-{% assign podcast = site.podcast | sort: 'inserted_at' | reverse %}
+{% assign post = site.posts | sort: date | reverse %}
+{% assign podcast = site.podcast | sort: date | reverse %}
 {% assign merge = post | concat: podcast %}
-{% assign all = merge | sort: 'inserted_at' | reverse %}
-
+{% assign all = merge | sort: date | reverse %}
 {% include default-author.html %}
 <!-- post with sidebar -->
 <div class="container pt-40 pb-90">
@@ -48,7 +46,7 @@ layout: default
                                 <!-- Post Desc -->
                                 <div class="desc">
                                     <p>
-                                        {{ item.content | strip_html | truncatewords: 50 }}
+                                        {{ item.teaser_text | strip_html | truncatewords: 80 }}
                                     </p>
                                 </div>
                                 <!-- Read More Button -->

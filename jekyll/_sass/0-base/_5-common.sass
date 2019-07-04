@@ -66,7 +66,7 @@
     border-radius: 50%
 
 // Section Title
-.section-title 
+.section-title
     margin-bottom: 32px
     h2
         display: inline
@@ -103,3 +103,60 @@
             color: $white
             background-color: $hover
 
+// Tables
+table
+    border-collapse: collapse
+    width: 100%
+    float: left
+    margin: 0 0 2em
+    color: #7f7f7f
+    thead
+        border-bottom: 3px solid $hover
+        tr
+            border-bottom: 2px solid #ddd
+            padding: .75em 0
+            th
+                padding: 0.35em 0 .35em
+                font-weight: 400
+                text-align: left
+                font-size: 1.25em
+
+    tbody
+        tr
+            border-bottom: 2px solid #ddd
+            padding: .75em 0
+            td
+                padding: .75em 0
+                a
+                    color: $hover
+                    text-decoration: none
+                    display: inline-block
+                    margin: 0 .5em 0 0
+                    &:hover, &:active, &:focus
+                        color: darken($hover, 10%)
+                        border: none
+
+    tfoot
+        td
+            padding: 0.35em 0 .35em
+            text-align: left
+            font-size: 1.25em
+
+
+// Figure
+.figure
+    &--left
+        float: left
+        padding-right: .8rem
+    &--right
+        float: right
+        padding-left: .8rem
+    &--center
+        text-align: center
+        clear: both
+
+figcaption.caption
+    color: #232323
+    font-size: 14px
+    width: 300px
+    text-align: left

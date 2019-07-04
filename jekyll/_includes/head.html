@@ -10,10 +10,11 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500%7CSpectral:400,400i,500,600,700" rel="stylesheet">
     <link href="{{ "/assets/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }} " rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl | prepend: site.url}}">
+
+    <script src="{{ "/assets/js/vendor/jquery.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
     <link href="{{ "/assets/css/style.css" | prepend: site.baseurl | prepend: site.url}}" rel="stylesheet">
-    <script src="{{ "/assets/bower_components/podlove-web-player/dist/js/vendor/jquery.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
     {% if jekyll.environment == 'production' %}
-        {% include tracking-header.html %}
+    	{% include tracking-header.html %}
     {% endif %}
 </head>
 

@@ -7,7 +7,11 @@
     <!-- End of Widget Title -->
     <!-- Widget Content -->
     <div class="widget-content">
-        {% for post in site.posts limit:4 %}
+        {% assign post = site.posts | sort: 'inserted_at' | reverse %}
+        {% assign podcast = site.podcast | sort: 'inserted_at' | reverse %}
+        {% assign merge = post | concat: podcast %}
+        {% assign all = merge | sort: 'inserted_at' | reverse %}
+        {% for post in all limit:4 %}
         {% if post.url != page.url %}
         <!-- Single Post -->
         <div class="wrp-cover">

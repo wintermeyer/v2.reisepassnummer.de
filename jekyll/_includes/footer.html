@@ -39,17 +39,17 @@
 <script src="{{ "/assets/js/bootstrap.bundle.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
 <script src="{{ "/assets/js/scripts.js" | prepend: site.baseurl | prepend: site.url}}"></script>
 
-{% if jekyll.environment == 'production' %}
-    {% include tracking-footer.html %}
-{% endif %}
-
 <script type="text/javascript">
   var BASE_URL = '{{ site.url }}';
 </script>
 
-<script>window.jQuery || document.write('<script src="{{ site.url }}/assets/bower_components/podlove-web-player/dist/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="{{ site.url }}/assets/js/scripts.min.js"></script>
-<script src="{{ site.url }}/assets/bower_components/podlove-web-player/dist/js/podlove-web-moderator.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.min.js" | prepend: site.baseurl | prepend: site.url }}"><\/script>')</script>
+<script src="{{ "/assets/js/script-player.js" | prepend: site.baseurl | prepend: site.url}}"></script>
+<script src="{{ "/assets/js/podlove-web-moderator.js" | prepend: site.baseurl | prepend: site.url}}"></script>
+
+{% if jekyll.environment == 'production' %}
+    {% include tracking-footer.html %}
+{% endif %}
 
 </body>
 

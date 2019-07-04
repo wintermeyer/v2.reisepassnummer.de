@@ -12,32 +12,34 @@ title: Podcast
 <div class="container pt-120 pb-90">
     <div class="row">
         <div class="col-lg-8 pb-50">
-            {% for post in site.podcast %}
+            {% assign podcast_list = site.podcast | reverse %}
+            {% for post in podcast_list %}
             <!-- Post -->
             <div class="post-default post-has-front-title">
                 {% if post.hero_image %}
-                    <div class="post-thumb">
-                        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ post.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.hero_image_alt }}" class="img-fluid"></a>
-                    </div>
+                <div class="post-thumb">
+                    <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ post.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.hero_image_alt }}" class="img-fluid"></a>
+                </div>
                 {% else %}
-                    <div class="post-thumb">
-                        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ '/images/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid"></a>
-                    </div>
+                <div class="post-thumb">
+                    <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ '/images/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid"></a>
+                </div>
                 {% endif %}
                 <div class="post-data">
-                     {% for category in post.categories %}
-                        <!-- Category -->
-                        <span class="cats"><a href="#">{{ category }}</a></span>
+                    {% for category in post.categories %}
+                    <!-- Category -->
+                    <span class="cats"><a href="#">{{ category }}</a></span>
                     {% endfor %}
+                    {% if post.title %}
                     <!-- Title -->
                     <div class="title">
                         <h2><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></h2>
                     </div>
+                    {% endif %}
                 </div>
             </div>
             <!-- End of Post -->
             {% endfor %}
-
         </div>
         <div class="col-lg-4">
             {% include sidebar.html %}

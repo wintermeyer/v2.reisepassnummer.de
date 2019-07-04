@@ -8,15 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{% if page.title %}{{ page.title | escape }} | {% endif %} {{ site.title | escape }} </title>
 
-  <link href="{{ site.url }}/assets/bower_components/podlove-web-player/dist/css/pwp-silver-blaze.min.css" rel="stylesheet" media="screen" type="text/css" />
-  <link href="{{ site.url }}/assets/bower_components/podlove-web-player/dist/css/vendor/progress-polyfill.css" rel="stylesheet" media="screen" type="text/css" />
+  <link href="{{ site.url }}/assets/css/pwp-silver-blaze.css" rel="stylesheet" media="screen" type="text/css" />
+  <link href="{{ site.url }}/assets/css/progress-polyfill.css" rel="stylesheet" media="screen" type="text/css" />
 
-  <script src="{{ site.url }}/assets/bower_components/podlove-web-player/dist/js/vendor/html5shiv.js"></script>
-  <script src="{{ site.url }}/assets/bower_components/podlove-web-player/dist/js/vendor/jquery.min.js"></script>
-  <script src="{{ site.url }}/assets/bower_components/podlove-web-player/dist/js/vendor/progress-polyfill.min.js"></script>
+  <script src="{{ site.url }}/assets/js/vendor/html5shiv.js"></script>
+  <script src="{{ site.url }}/assets/js/vendor/jquery.min.js"></script>
+  <script src="{{ site.url }}/assets/js/vendor/progress-polyfill.min.js"></script>
 
   <script src="{{ "assets/js/vendor/modernizr-2.7.1.custom.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
-<script src="{{ "/assets/bower_components/podlove-web-player/dist/js/vendor/jquery.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
+<script src="{{ "/assets/js/vendor/jquery.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
 
 </head>
 <body>
@@ -24,7 +24,7 @@
 
 </audio>
 
-<script src="{{ site.url }}/assets/bower_components/podlove-web-player/dist/js/podlove-web-player.min.js"></script>
+<script src="{{ site.url }}/assets/js/podlove-web-player.js"></script>
 <script>
 
 // Get URL query param value
