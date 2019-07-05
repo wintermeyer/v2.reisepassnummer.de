@@ -1,0 +1,375 @@
+{
+  "show": {
+    "title": "Reisepassnummer",
+    "subtitle": "Reisepodcast von Stefan Wintermeyer. Beruflich und privat auf Reisen. Mal mehr, mal weniger.",
+    "summary": "Travel features with many o-tones. When Stefan Wintermeyer travels professionally (alone) or privately (with family), he always takes the microphone with him. This creates exciting travel reports that you take with you to the respective goals.",
+    "poster": "/images/podcast/podcast-cover-1400x1400.jpg",
+    "url": "https://www.reisepassnummer.de/"
+  },
+  "license": {
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "profiles": [
+    {
+      "serviceName": "facebook",
+      "profile": "stefan.wintermeyer"
+    },
+    {
+      "serviceName": "email",
+      "profile": "stefan@wintermeyer.de"
+    },
+    {
+      "serviceName": "instagram",
+      "profile": "wintermeyer"
+    },
+    {
+      "serviceName": "twitter",
+      "profile": "wintermeyer"
+    }
+  ],
+  "episodes": [
+    {
+      "duration": "22:08.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 21315544,
+          "url": "https://www.reisepassnummer.de/mp3/2018/2018-01-25-queen-victoria.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2018/2018-01-25-queen-victoria.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2018/2018-01-25-queen-victoria.mp3"
+        }
+      ],
+      "transcripts": [
+        {
+          "start": "00:00:43.1",
+          "end": "00:01:17.2",
+          "speaker?": "Stefan Wintermeyer",
+          "test": "Transcribed text"
+        }
+      ],
+      "title": "Episode #1 - Queen Victoria",
+      "permalink": "https://www.reisepassnummer.de/episode/1/",
+      "subtitle": "In 2 Tagen von Southampton nach Hamburg.",
+      "publicationDate": "2018-01-25 09:12:16 +0100",
+      "recordingDate":"2018-01-25 09:12:16 +0100",
+      "poster":"/images/cover/2018-01-25-queen-victoria.jpg",
+      "summary": "🛳 🇬🇧 -> 🇩🇪In zwei Tagen mit dem Ocean Liner Queen Elizabeth von Southampton nach Hamburg.",
+      "tags":"Cruise, Travel, Ship, Travelblog",
+      "categories":"Podcast, Travelblog, Reisepodcast"
+    },
+    {
+      "duration": "11:21.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2018/2018-02-20-schatzsuche-festung-ehrenbreitstein.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2018/2018-02-20-schatzsuche-festung-ehrenbreitstein.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2018/2018-02-20-schatzsuche-festung-ehrenbreitstein.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Schatzsuche auf der Festung Ehrenbreitstein",
+      "permalink": "https://www.reisepassnummer.de/episode/2/",
+      "subtitle": "Die Jagd nach der goldenen Kanonenkugel.",
+      "publicationDate": "2018-02-20 10:12:16 +0100",
+      "recordingDate":"2018-01-25 09:12:16 +0100",
+      "poster":"/images/cover/2018-01-25-queen-victoria.jpg",
+      "summary": "🏰 🇩🇪 Mit der ganzen Familie 11 Rätsel lösen, um mit den Lösungen die goldene Kanonenkugel auf der Festung Ehrenbreitstein zu finden.",
+      "categories":"",
+      "explicit":"no"
+    },
+    {
+      "duration": "25:18.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2018/2018-03-12-zoo-neuwied.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2018/2018-03-12-zoo-neuwied.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2018/2018-03-12-zoo-neuwied.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Besuch im Zoo Neuwied",
+      "permalink": "https://www.reisepassnummer.de/episode/3/",
+      "subtitle": "Besuch im Zoo Neuwied",
+      "publicationDate": "2018-03-12 20:12:16 +0100",
+      "recordingDate":"2018-01-25 09:12:16 +0100",
+      "poster":"/images/cover/2018-03-12-zoo-neuwied.jpg",
+      "summary": "🇩🇪 Der Zoo Neuwied ist der größte Zoo in Rheinland-Pfalz. Wir haben ihn besucht und uns von Ziegen im Streichelzoo die Futtertüten klauen lassen.",
+      "explicit":"no"
+    },
+    {
+      "duration": "25:18.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2018/2018-03-23-breslau.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2018/2018-03-23-breslau.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2018/2018-03-23-breslau.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Episode #4",
+      "permalink": "https://www.reisepassnummer.de/episode/4/",
+      "subtitle": "Ein Besuch in Breslau (Wrocław).",
+      "publicationDate": "2018-04-11 14:56:16 +0100",
+      "recordingDate":"2018-04-11 14:56:16 +0100",
+      "poster":"/images/cover/2018-03-23-breslau.jpg",
+      "summary": "🇵🇱 Auf Höhe der Stadt Dresden liegt im Südosten von Polen die wunderschöne Stadt Breslau. Begleiten Sie mich auf eine kleine Tour durch die Stadt.",
+      "explicit":"no"
+    },
+    {
+      "duration": "21:16.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/assets/podcasts/2018-04-11-neustadt-an-der-weinstrasse.mp3",
+          "directAccess": "https://www.reisepassnummer.de/assets/podcasts/2018-04-11-neustadt-an-der-weinstrasse.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/assets/podcasts/2018-04-11-neustadt-an-der-weinstrasse.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Episode #5",
+      "permalink": "https://www.reisepassnummer.de/episode/5/",
+      "subtitle": "Neustadt an der Weinstrasse mit Kindern",
+      "publicationDate": "2019-05-11 20:24:16 +0100",
+      "recordingDate":"2018-01-25 09:12:16 +0100",
+      "poster":"/images/cover/2018-04-11-neustadt-an-der-weinstrasse.jpg",
+      "summary": "👨‍👩‍👧‍👦 🇩🇪 2 Tage in der Pfalz. Vom alla hopp Abenteuerspielplatz bis zum Hambacher Schloss.",
+      "explicit":"no"
+    },
+    {
+      "duration": "45:41.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2018/2018-04-16-podcasting-fuer-reiseblogger.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2018/2018-04-16-podcasting-fuer-reiseblogger.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2018/2018-04-16-podcasting-fuer-reiseblogger.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Episode #6",
+      "permalink": "https://www.reisepassnummer.de/episode/6/",
+      "subtitle": "Podcasting für Reiseblogger",
+      "publicationDate": "2018-04-16 11:56:16 +0100",
+      "recordingDate":"2018-04-16 11:56:16 +0100",
+      "poster":"/images/cover/2018-04-16-podcasting-fuer-reiseblogger.jpg",
+      "summary": "🎤 Mittschnitt meiner Podcast-Session beim Reiseblogger Camp 2018 in Wolfenbüttel.",
+      "explicit":"no"
+    },
+    {
+      "duration": "43:38.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2018/2018-05-06-minsk.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2018/2018-05-06-minsk.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2018/2018-05-06-minsk.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Spaziergang durch Minsk",
+      "permalink": "https://www.reisepassnummer.de/episode/7/",
+      "subtitle": "Spaziergang durch Minsk",
+      "publicationDate": "2018-05-06 20:36:16 +0100",
+      "recordingDate":"2018-05-06 20:36:16 +0100",
+      "poster":"/images/cover/2018-05-06-minsk.jpg",
+      "summary": "🇧🇾 Ein stürmischer Besuch in der modernen Hauptstadt von Weißrussland (Belarus). Dabei habe ich mir u.a. zwei Kirchen, ein Kaufhaus und das KGB Gebäude angeschaut. Und natürlich die gigantische Bibliothek.",
+      "explicit":"no"
+    },
+    {
+      "duration": "52:24.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2018/2018-05-22-wolfenbuettel.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2018/2018-05-22-wolfenbuettel.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2018/2018-05-22-wolfenbuettel.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Wolfenbüttel",
+      "permalink": "https://www.reisepassnummer.de/episode/8/",
+      "subtitle": "Wolfenbüttel",
+      "publicationDate": "2018-05-22 15:36:16 +0100",
+      "recordingDate":"2018-05-22 15:36:16 +0100",
+      "poster":"/images/cover/2018-05-22-wolfenbuettel.jpg",
+      "summary": "👨‍👧‍👦 🇩🇪 Eine Führung durch die Herzog August Bibliothek und durch die Stadt Wolfenbüttel.",
+      "explicit":"no"
+    },
+    {
+      "duration": "01:12:55.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2018/2018-07-02-altstadt-barcelona.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2018/2018-07-02-altstadt-barcelona.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2018/2018-07-02-altstadt-barcelona.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Altstadt Barcelona",
+      "permalink": "https://www.reisepassnummer.de/episode/9/",
+      "subtitle": "Altstadt Barcelona",
+      "publicationDate": "2018-07-02 10:36:16 +0100",
+      "recordingDate":"2018-07-02 10:36:16 +0100",
+      "poster":"/images/cover/2018-07-02-altstadt-barcelona.jpg",
+      "summary": "🇪🇸 In verwinkelten Gassen durch die Altstadt von Barcelona.",
+      "explicit":"no"
+    },
+    {
+      "duration": "50:27.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2018/2018-11-26-new-providence.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2018/2018-11-26-new-providence.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2018/2018-11-26-new-providence.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "New Providence (Bahamas)",
+      "permalink": "https://www.reisepassnummer.de/episode/10/",
+      "subtitle": "New Providence (Bahamas)",
+      "publicationDate": "2018-11-26 09:36:16 +0100",
+      "recordingDate":"2018-11-26 09:36:16 +0100",
+      "poster":"/images/cover/2018-11-26-new-providence.jpg",
+      "summary": "👨‍👩‍👧‍👧 🇧🇸 Eine Tour über die Insel New Providence auf den Bahamas.",
+      "explicit":"no"
+    },
+    {
+      "duration": "17:03.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2019/2019-01-23-nightjet.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2019/2019-01-23-nightjet.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2019/2019-01-23-nightjet.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Nightjet (Schlaf- und Liegewagen)",
+      "permalink": "https://www.reisepassnummer.de/episode/11/",
+      "subtitle": "Nightjet (Schlaf- und Liegewagen)",
+      "publicationDate": "2019-01-23 20:36:16 +0100",
+      "recordingDate":"2019-01-23 20:36:16 +0100",
+      "poster":"/images/cover/2019-01-23-nightjet.jpg",
+      "summary": "👨‍👩‍👧‍👧 🚆🛌💤 🇩🇪 Mit dem Nachtzug von Koblenz nach München. Im Liege- und im Schlafwagen.",
+      "explicit":"no"
+    },
+    {
+      "duration": "38:09.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2019/2019-03-08-kapstadt.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2019/2019-03-08-kapstadt.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2019/2019-03-08-kapstadt.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Episode #12",
+      "permalink": "https://www.reisepassnummer.de/episode/12/",
+      "subtitle": "Kapstadt und das Kap der Guten Hoffnung 🇿🇦",
+      "publicationDate": "2019-05-11 20:24:16 +0100",
+      "recordingDate":"2018-01-25 09:12:16 +0100",
+      "poster":"/images/cover/2018-01-25-queen-victoria.jpg",
+      "summary": "🇿🇦 Das Kap, der Wind, die Pinguine und der Tafelberg. Gutes Wetter, tolle Landschaften, interessante Menschen und eine komplexe Vergangenheit.",
+      "explicit":"no"
+    },
+    {
+      "duration": "23:40.000",
+      "downloads": [
+        {
+          "assetTitle": "MP3 Audio (mp3)",
+          "size": 50437359,
+          "url": "https://www.reisepassnummer.de/mp3/2019/2019-05-11-everglades.mp3",
+          "directAccess": "https://www.reisepassnummer.de/mp3/2019/2019-05-11-everglades.mp3",
+          "downloadUrl": "https://www.reisepassnummer.de/mp3/2019/2019-05-11-everglades.mp3"
+        }
+      ],
+      "chapters": [
+        {
+          "start": "00:00:00.000",
+          "title": "Stefan"
+        }
+      ],
+      "title": "Everglades - Florida",
+      "permalink": "https://www.reisepassnummer.de/episode/13/",
+      "subtitle": "Everglades - Florida",
+      "publicationDate": "2019-06-12 18:25:16 +0100",
+      "recordingDate":"2019-05-11 20:24:16 +0100",
+      "poster":"/images/podcast/cover/karl-bewick-1599524-unsplash.jpg",
+      "summary": "👨‍👧‍👦 🐊🇺🇸 Für 308 US-Dollar driften wir mit einem Airboat durch die Everglades. 90 Kilometer wird hier der langsamste Fluss der Welt breit. Einen Riesenpropeller im Rücken, Ohrstöpsel in den Ohren, begegnen wir am Ufer einem Alligator: „Mathilda“. Ob man hier auch zu Fuß laufen könnte? Ja, sagt unser Begleiter. „Aber…“",
+      "explicit":"no"
+    }
+  ]
+}
