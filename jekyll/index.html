@@ -16,15 +16,6 @@ layout: default
                     {% for item in all %}
                     <!-- Latest Post -->
                     <div class="post-default">
-                        <div class="post-thumb">
-                            <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
-                                {% if item.hero_image %}
-                                <img src="{{ item.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ item.hero_image_alt }}" class="img-fluid">
-                                {% else %}
-                                <img src="{{ '/images/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
-                                {% endif %}
-                            </a>
-                        </div>
                         <div class="post-data order-md-1">
                             {% for category in item.categories %}
                             <!-- Category -->
@@ -42,12 +33,28 @@ layout: default
                                 </li>
                                 <li class="meta-date">{{ item.date | date: '%b %d, %Y' }}</li>
                             </ul>
-                            <!-- Post Desc -->
-                            <div class="desc">
-                                <p>
-                                    {{ item.teaser_text | strip_html | truncatewords: 80 }}
-                                </p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!-- Post Desc -->
+                                    <div class="desc">
+                                        <p>
+                                            {{ item.teaser_text | strip_html | truncatewords: 80 }}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="post-thumb">
+                                        <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
+                                            {% if item.hero_image %}
+                                            <img src="{{ item.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ item.hero_image_alt }}" class="img-fluid">
+                                            {% else %}
+                                            <img src="{{ '/images/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
+                                            {% endif %}
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
+
                             <!-- Read More Button -->
                             <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary">View More</a>
                         </div>
