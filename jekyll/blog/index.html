@@ -21,10 +21,6 @@ title: Blog
                         <div class="post-thumb">
                             <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ post.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.hero_image_alt }}" class="img-fluid"></a>
                         </div>
-                        {% else %}
-                            <div class="post-thumb">
-                                <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ '/images/blog/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid"></a>
-                            </div>
                         {% endif %}
                         <div class="post-data">
                             {% for category in post.categories %}

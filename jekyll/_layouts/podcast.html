@@ -20,10 +20,6 @@ premalink: podcast
                         <div class="post-thumb">
                             <img src="{{ page.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ page.hero_image_alt }}" class="img-fluid">
                         </div>
-                    {% else %}
-                        <div class="post-thumb">
-                            <img src="{{ '/images/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
-                        </div>
                     {% endif %}
                     <!-- Post Meta Info -->
                     <div class="post-meta-info">
@@ -48,6 +44,7 @@ premalink: podcast
                         </ul>
                     </div>
                     <!-- End of Post Meta Info -->
+
                 </div>
                 <!-- End oF Post Thumbnail -->
                 <!-- Post Content -->
@@ -69,3 +66,5 @@ premalink: podcast
         </div>
     </div>
 </div>
+
+

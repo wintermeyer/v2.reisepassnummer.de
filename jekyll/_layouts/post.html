@@ -20,10 +20,6 @@ layout: default
                         <div class="post-thumb">
                             <img src="{{ page.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ page.hero_image_alt }}" class="img-fluid">
                         </div>
-                    {% else %}
-                        <div class="post-thumb">
-                            <img src="{{ '/images/blog/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
-                        </div>
                     {% endif %}
                     <!-- Post Meta Info -->
                     <div class="post-meta-info">
