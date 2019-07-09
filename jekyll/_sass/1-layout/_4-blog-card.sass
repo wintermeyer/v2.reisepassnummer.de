@@ -31,12 +31,12 @@
         .cats
             margin-bottom: 10px
             a
-                color: $hover
+                color: $white
+                background: #FF7171
                 font-weight: 700
                 font-family: $spec
-                font-size: 18px
-                &:hover
-                    color: #fe9494
+                font-size: 14px
+                padding: 0.15em 0.4em
                 &:after
                     content: ","
                     color: $para
@@ -57,21 +57,12 @@
         .meta
             margin-bottom: 20px
             li
-                margin-right: 36px
+                margin-right: 24px
                 position: relative
                 color: $para
                 +tab
                     margin-right: 22px
                 &:after
-                    content: ""
-                    position: absolute
-                    top: 50%
-                    left: 100%
-                    height: 4px
-                    width: 4px
-                    background-color: $para
-                    border-radius: 50%
-                    margin-left: 16px
                     +tab
                         margin-left: 10px
                 &:last-child

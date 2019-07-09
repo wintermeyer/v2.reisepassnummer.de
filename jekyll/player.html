@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{% if page.title %}{{ page.title | escape }} | {% endif %} {{ site.title | escape }} </title>
+  <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/podcast.xml">
 
   <link href="{{ site.url }}/assets/css/pwp-silver-blaze.css" rel="stylesheet" media="screen" type="text/css" />
   <link href="{{ site.url }}/assets/css/progress-polyfill.css" rel="stylesheet" media="screen" type="text/css" />
@@ -16,8 +17,7 @@
   <script src="{{ site.url }}/assets/js/vendor/progress-polyfill.min.js"></script>
 
   <script src="{{ "assets/js/vendor/modernizr-2.7.1.custom.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
-<script src="{{ "/assets/js/vendor/jquery.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
-
+  <script src="{{ "/assets/js/vendor/jquery.min.js" | prepend: site.baseurl | prepend: site.url}}"></script>
 </head>
 <body>
 <audio>

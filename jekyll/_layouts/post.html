@@ -38,7 +38,7 @@ layout: default
                         <ul class="nav meta align-items-center">
                             <li class="meta-author">
                                 <img src="{{ author.gravatar | prepend: site.baseurl | prepend: site.url }}" alt="{{ author.name }}" class="img-fluid"> {{ author.name }} </li>
-                            <li class="meta-date">{{ page.date | date: '%d %b %Y' }}</li>
+                            <li class="meta-date"><i class="fa fa-calendar"></i> &nbsp; {{ page.date | date: '%d %b %Y' }}</li>
                         </ul>
                     </div>
                     <!-- End of Post Meta Info -->

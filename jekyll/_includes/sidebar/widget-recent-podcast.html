@@ -1,17 +1,14 @@
-<!-- Recent Post Widget -->
+<!-- Recent Podcast Widget -->
 <div class="widget widget-recent-post">
     <!-- Widget Title -->
     <h4 class="widget-title">
-        Recent Post
+        Recent Podcast
     </h4>
     <!-- End of Widget Title -->
     <!-- Widget Content -->
     <div class="widget-content">
-        {% assign post = site.posts | sort: date | reverse %}
         {% assign podcast = site.podcast | sort: date | reverse %}
-        {% assign merge = post | concat: podcast %}
-        {% assign all = merge | sort: date | reverse %}
-        {% for post in all limit:4 %}
+        {% for post in podcast limit:4 %}
         {% if post.url != page.url %}
         <!-- Single Post -->
         <div class="wrp-cover">
@@ -35,4 +32,4 @@
     </div>
     <!-- End of Widget Content -->
 </div>
-<!-- End of Recent Post Widget -->
+<!-- End of Recent Podcast Widget -->

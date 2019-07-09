@@ -31,7 +31,7 @@ layout: default
                                     <img src="{{ author.gravatar | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
                                     {{ author.name }}
                                 </li>
-                                <li class="meta-date">{{ item.date | date: '%b %d, %Y' }}</li>
+                                <li class="meta-date"><i class="fa fa-calendar"></i> &nbsp; {{ item.date | date: '%b %d, %Y' }}</li>
                             </ul>
                             <div class="row">
                                 <div class="col-sm-6">

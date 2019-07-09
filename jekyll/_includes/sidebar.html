@@ -1,4 +1,9 @@
 <div class="my-sidebar">
+
+	{% if page.url == '/podcast/' %}
+    	{% include sidebar/widget-recent-podcast.html %}
+    {% endif %}
+
 	{% include sidebar/widget-subscribe-button.html %}
 
     {% if author %}
@@ -7,6 +12,8 @@
 
     {% include sidebar/widget-instagram.html clientId="924f677fa3854436947ab4372ffa688d" userId="246061780" accessToken="246061780.1677ed0.2c94002be40c4de6b4380328f1f1eb02" %}
 
-    {% include sidebar/widget-posts.html %}
+	{% if page.url != '/podcast/' %}
+    	{% include sidebar/widget-posts.html %}
+    {% endif %}
 
 </div>
