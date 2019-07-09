@@ -1,245 +1,44 @@
+---
+layout: none
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="de">
     <channel>
-        <atom:link href="https://www.reisepassnummer.de/podcast.xml" rel="self" type="application/rss+xml" />
-        <title>Reisepassnummer</title>
-        <link>https://www.reisepassnummer.de</link>
-        <language>de</language>
-        <copyright>&#xA9; 2019 Reisepassnummer</copyright>
-        <itunes:subtitle></itunes:subtitle>
-        <itunes:author>Stefan Wintermeyer</itunes:author>
+        <title>{{ site.title | xml_escape }}</title>
+        <description>{{ site.description | xml_escape }}</description>
+        <link>{{ site.url }}{{ site.baseurl }}/</link>
+        <language>{{ site.lang }}</language>
+        <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
+        <itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
+        <itunes:author>{{ site.author }}</itunes:author>
         <itunes:summary>Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das Mikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen, die Sie mit an die jeweiligen Ziele nehmen.</itunes:summary>
         <description>Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das Mikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen, die Sie mit an die jeweiligen Ziele nehmen.</description>
-        <webMaster>stefan@wintermeyer.de (Stefan Wintermeyer)</webMaster>
+        <webMaster>{{ site.email }} ({{ site.author }})</webMaster>
         <itunes:owner>
-            <itunes:name>Stefan Wintermeyer</itunes:name>
-            <itunes:email>stefan@wintermeyer.de</itunes:email>
+            <itunes:name>{{ site.author }}</itunes:name>
+            <itunes:email>{{ site.email }}</itunes:email>
         </itunes:owner>
         <itunes:category text="Society &amp; Culture">
             <itunes:category text="Places &amp; Travel" />
         </itunes:category>
-        <itunes:image href="https://www.reisepassnummer.de/assets/podcast-cover-1400x1400.jpg" />
+        <itunes:image href="{{ site.url }}/images/podcast/podcast-cover-1400x1400.jpg" />
         <itunes:explicit>no</itunes:explicit>
+        <atom:link href="{{ '/podcast.xml' | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+        {% for episode in site.data.episodes.episodes %}
         <item>
-            <title>Everglades - Florida</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Everglades - Florida</itunes:subtitle>
-            <itunes:summary>👨‍👧‍👦 🐊🇺🇸 Für 308 US-Dollar driften wir mit einem Airboat durch die Everglades. 90 Kilometer wird hier der langsamste Fluss der Welt breit. Einen Riesenpropeller im Rücken, Ohrstöpsel in den Ohren, begegnen wir am Ufer einem Alligator: „Mathilda“. Ob man hier auch zu Fuß laufen könnte? Ja, sagt unser Begleiter. „Aber…“</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/karl-bewick-1599524-unsplash.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2019/2019-05-11-everglades.mp3" length="34156086" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2019/05/11/everglades.html</guid>
-            <pubDate>Sat, 11 May 2019 21:24:16 +0200</pubDate>
-            <itunes:duration>00:23:40</itunes:duration>
+            <title>{{ episode.title }}: {{ episode.subtitle }}</title>
+            <link>{{ episode.permalink }}</link>
+            <pubDate>{{ episode.publicationDate | date_to_rfc822 }}</pubDate>
+            <description>{{ episode.subtitle }}</description>
+            <guid isPermaLink="true">{{ episode.permalink }}</guid>
+            {% assign download = episode.downloads[0] %}
+            <enclosure url="{{ download.directAccess }}" length="{{ download.size }}" type="audio/mp3" />
+            <itunes:author>Ando Roots</itunes:author>
+            <itunes:summary>{{ episode.summary }}</itunes:summary>
+            <itunes:keywords>{{ episode.summary }}</itunes:keywords>
+            <itunes:image href="{{ site.url }}/images/ando_large.jpg" />
             <itunes:explicit>no</itunes:explicit>
-            <description> Mit dem Sumpfboot durch das tropische Marschland. Alligatoren, Schildkröten, Vögel und Fische. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2019/05/11/everglades.html</description>
-            <itunes:block>no</itunes:block>
         </item>
-        <item>
-            <title>Kapstadt und das Kap der Guten Hoffnung</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Kapstadt und das Kap der Guten Hoffnung 🇿🇦</itunes:subtitle>
-            <itunes:summary>🇿🇦 Das Kap, der Wind, die Pinguine und der Tafelberg. Gutes Wetter, tolle Landschaften, interessante Menschen und eine komplexe Vergangenheit.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/zoe-reeve-1243758-unsplash.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2019/2019-03-08-kapstadt.mp3" length="55001801" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2019/03/08/kapstadt.html</guid>
-            <pubDate>Fri, 08 Mar 2019 16:41:16 +0100</pubDate>
-            <itunes:duration>00:38:09</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Ein Tagesausflug von Kapstadt in Südafrika bis zum Kap der Guten Hoffnung und wieder zurück zum Tafelberg. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2019/03/08/kapstadt.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>Nightjet (Schlaf- und Liegewagen)</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Nightjet (Schlaf- und Liegewagen)</itunes:subtitle>
-            <itunes:summary>👨‍👩‍👧‍👧 🚆🛌💤 🇩🇪 Mit dem Nachtzug von Koblenz nach München. Im Liege- und im Schlafwagen.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2019-01-23-nightjet.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2019/2019-01-23-nightjet.mp3" length="24624109" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2019/01/23/nightjet.html</guid>
-            <pubDate>Wed, 23 Jan 2019 20:36:16 +0100</pubDate>
-            <itunes:duration>00:17:03</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Mit dem Nachtzug von Koblenz nach München. Einmal alleine im Schlaf- und dann noch mal mit meiner Familie im Liegewagen. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2019/01/23/nightjet.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>New Providence (Bahamas)</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>New Providence (Bahamas)</itunes:subtitle>
-            <itunes:summary>👨‍👩‍👧‍👧 🇧🇸 Eine Tour über die Insel New Providence auf den Bahamas.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2018-11-26-new-providence.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2018/2018-11-26-new-providence.mp3" length="72723479" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2018/11/26/new-providence-bahamas.html</guid>
-            <pubDate>Mon, 26 Nov 2018 09:36:16 +0100</pubDate>
-            <itunes:duration>00:50:27</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Eine Tour über die Insel New Providence auf den Bahamas. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2018/11/26/new-providence-bahamas.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>Altstadt Barcelona</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Altstadt Barcelona</itunes:subtitle>
-            <itunes:summary>🇪🇸 In verwinkelten Gassen durch die Altstadt von Barcelona.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2018-07-02-altstadt-barcelona.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2018/2018-07-02-altstadt-barcelona.mp3" length="70066304" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2018/07/02/altstadt-barcelona.html</guid>
-            <pubDate>Mon, 02 Jul 2018 11:36:16 +0200</pubDate>
-            <itunes:duration>01:12:55</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> In verwinkelten Gassen durch die Altstadt von Barcelona. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2018/07/02/altstadt-barcelona.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>Wolfenbüttel</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Wolfenbüttel</itunes:subtitle>
-            <itunes:summary>👨‍👧‍👦 🇩🇪 Eine Führung durch die Herzog August Bibliothek und durch die Stadt Wolfenbüttel.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2018-05-22-wolfenbuettel.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2018/2018-05-22-wolfenbuettel.mp3" length="50366215" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2018/05/22/wolfenbuettel.html</guid>
-            <pubDate>Tue, 22 May 2018 16:36:16 +0200</pubDate>
-            <itunes:duration>52:24</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Ein Besuch in der Lessing-Stadt Wolfenbüttel. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2018/05/22/wolfenbuettel.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>Spaziergang durch Minsk</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Spaziergang durch Minsk</itunes:subtitle>
-            <itunes:summary>🇧🇾 Ein stürmischer Besuch in der modernen Hauptstadt von Weißrussland (Belarus). Dabei habe ich mir u.a. zwei Kirchen, ein Kaufhaus und das KGB Gebäude angeschaut. Und natürlich die gigantische Bibliothek.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2018-05-06-minsk.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2018/2018-05-06-minsk.mp3" length="41957295" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2018/05/06/spaziergang-durch-minsk.html</guid>
-            <pubDate>Sun, 06 May 2018 21:36:16 +0200</pubDate>
-            <itunes:duration>43:38</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Ein Besuch in der Hauptstadt von Weißrussland (Belarus). Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2018/05/06/spaziergang-durch-minsk.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>Podcasting für Reiseblogger</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Podcasting für Reiseblogger</itunes:subtitle>
-            <itunes:summary>🎤 Mittschnitt meiner Podcast-Session beim Reiseblogger Camp 2018 in Wolfenbüttel.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2018-04-16-podcasting-fuer-reiseblogger.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2018/2018-04-16-podcasting-fuer-reiseblogger.mp3" length="43917105" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2018/04/16/podcasting-fuer-reiseblogger.html</guid>
-            <pubDate>Mon, 16 Apr 2018 12:56:16 +0200</pubDate>
-            <itunes:duration>45:41</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Mit der Familie zwei Tage nach Neustadt an der Weinstrasse. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2018/04/16/podcasting-fuer-reiseblogger.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>Neustadt an der Weinstrasse mit Kindern</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Neustadt an der Weinstrasse mit Kindern</itunes:subtitle>
-            <itunes:summary>👨‍👩‍👧‍👦 🇩🇪 2 Tage in der Pfalz. Vom alla hopp Abenteuerspielplatz bis zum Hambacher Schloss.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2018-04-11-neustadt-an-der-weinstrasse.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2018/2018-04-11-neustadt-an-der-weinstrasse.mp3" length="20487149" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2018/04/11/neustadt-an-der-weinstrasse.html</guid>
-            <pubDate>Wed, 11 Apr 2018 15:56:16 +0200</pubDate>
-            <itunes:duration>21:16</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Mit der Familie zwei Tage nach Neustadt an der Weinstrasse. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2018/04/11/neustadt-an-der-weinstrasse.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>Breslau</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Ein Besuch in Breslau (Wrocław).</itunes:subtitle>
-            <itunes:summary>🇵🇱 Auf Höhe der Stadt Dresden liegt im Südosten von Polen die wunderschöne Stadt Breslau. Begleiten Sie mich auf eine kleine Tour durch die Stadt.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2018-03-23-breslau.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2018/2018-03-23-breslau.mp3" length="17047763" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2018/03/23/breslau.html</guid>
-            <pubDate>Fri, 23 Mar 2018 11:10:16 +0100</pubDate>
-            <itunes:duration>17:41</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Bericht über einen Reise nach Wrocław (Breslau). Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2018/03/23/breslau.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>Besuch im Zoo Neuwied</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Besuch im Zoo Neuwied</itunes:subtitle>
-            <itunes:summary>🇩🇪 Der Zoo Neuwied ist der größte Zoo in Rheinland-Pfalz. Wir haben ihn besucht und uns von Ziegen im Streichelzoo die Futtertüten klauen lassen.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2018-03-12-zoo-neuwied.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2018/2018-03-12-zoo-neuwied.mp3" length="24359123" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2018/03/12/zoo-neuwied.html</guid>
-            <pubDate>Mon, 12 Mar 2018 20:12:16 +0100</pubDate>
-            <itunes:duration>25:18</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Bericht über einen Besuch im Zoo Neuwied. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2018/03/12/zoo-neuwied.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>Schatzsuche auf der Festung Ehrenbreitstein</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>Die Jagd nach der goldenen Kanonenkugel.</itunes:subtitle>
-            <itunes:summary>🏰 🇩🇪 Mit der ganzen Familie 11 Rätsel lösen, um mit den Lösungen die goldene Kanonenkugel auf der Festung Ehrenbreitstein zu finden.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2018-02-20-schatzsuche-festung-ehrenbreitstein.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2018/2018-02-20-schatzsuche-festung-ehrenbreitstein.mp3" length="10964785" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/2018/02/20/schatzsuche-festung-ehrenbreitstein.html</guid>
-            <pubDate>Tue, 20 Feb 2018 10:12:16 +0100</pubDate>
-            <itunes:duration>11:21</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Bericht über die Jagd nach der goldenen Kanonenkugel auf der Festung Ehrenbreitstein. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/2018/02/20/schatzsuche-festung-ehrenbreitstein.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
-        <item>
-            <title>Queen Victoria</title>
-            <itunes:author>Stefan Wintermeyer</itunes:author>
-            <itunes:subtitle>In 2 Tagen von Southampton nach Hamburg.</itunes:subtitle>
-            <itunes:summary>🛳 🇬🇧 -&gt; 🇩🇪In zwei Tagen mit dem Ocean Liner Queen Elizabeth von Southampton nach Hamburg.</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de/images/cover/2018-01-25-queen-victoria.jpg" />
-            <itunes:category text="Society &amp; Culture">
-                <itunes:category text="Places &amp; Travel" />
-            </itunes:category>
-            <enclosure url="https://www.reisepassnummer.de/mp3/2018/2018-01-25-queen-victoria.mp3" length="21315544" type="audio/mp3" />
-            <guid isPermaLink="true">https://www.reisepassnummer.de/schiffe/queen-victoria.html</guid>
-            <pubDate>Thu, 25 Jan 2018 09:12:16 +0100</pubDate>
-            <itunes:duration>22:08</itunes:duration>
-            <itunes:explicit>no</itunes:explicit>
-            <description> Bericht über einen Fahrt mit der Queen Victoria von Southampton nach Hamburg. Weitere Informationen finden Sie auf https://www.reisepassnummer.de/schiffe/queen-victoria.html</description>
-            <itunes:block>no</itunes:block>
-        </item>
+        {% endfor %}
     </channel>
 </rss>
