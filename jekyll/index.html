@@ -16,25 +16,25 @@ layout: default
                     {% for item in all %}
                     <!-- Latest Post -->
                     <div class="post-default">
-                        <div class="post-data order-md-1">
-                            {% for category in item.categories %}
-                            <!-- Category -->
-                            <span class="cats"><a href="#">{{ category }}</a></span>
-                            {% endfor %}
-                            <!-- Title -->
-                            <div class="title">
-                                <h2><a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">{{ item.title }}</a></h2>
-                            </div>
-                            <!-- Post Meta -->
-                            <ul class="nav meta align-items-center">
-                                <li class="meta-author">
-                                    <img src="{{ author.gravatar | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
-                                    {{ author.name }}
-                                </li>
-                                <li class="meta-date"><i class="fa fa-calendar"></i> &nbsp; {{ item.date | date: '%b %d, %Y' }}</li>
-                            </ul>
-                            <div class="row">
-                                <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="post-data order-md-1">
+                                    {% for category in item.categories %}
+                                    <!-- Category -->
+                                    <span class="cats"><a href="#">{{ category }}</a></span>
+                                    {% endfor %}
+                                    <!-- Title -->
+                                    <div class="title">
+                                        <h2><a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">{{ item.title }}</a></h2>
+                                    </div>
+                                    <!-- Post Meta -->
+                                    <ul class="nav meta align-items-center">
+                                        <li class="meta-author">
+                                            <img src="{{ author.gravatar | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
+                                            {{ author.name }}
+                                        </li>
+                                        <li class="meta-date"><i class="fa fa-calendar"></i> &nbsp; {{ item.date | date: '%b %d, %Y' }}</li>
+                                    </ul>
                                     <!-- Post Desc -->
                                     <div class="desc">
                                         <p>
@@ -44,19 +44,18 @@ layout: default
                                         <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary">View More</a>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="post-thumb">
-                                        <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
-                                            {% if item.hero_image %}
-                                            <img src="{{ item.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ item.hero_image_alt }}" class="img-fluid">
-                                            {% else %}
-                                            <img src="{{ '/images/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
-                                            {% endif %}
-                                        </a>
-                                    </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="post-thumb">
+                                    <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
+                                        {% if item.hero_image %}
+                                        <img src="{{ item.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ item.hero_image_alt }}" class="img-fluid">
+                                        {% else %}
+                                        <img src="{{ '/images/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
+                                        {% endif %}
+                                    </a>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <!-- End of Post -->

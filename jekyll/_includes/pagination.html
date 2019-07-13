@@ -1,25 +1,7 @@
-{% if paginator.total_pages > 1 %}
-<!-- Post Pagination -->
-<div class="post-pagination d-flex justify-content-center">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}"><i class="fa fa-angle-left"></i></a>
-    {% else %}
-    <a style="background: #9e9898;cursor: not-allowed;"><i class="fa fa-angle-left"></i></a>
-    {% endif %}
-    {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-    <span class="current">{{ page }}</span>
-    {% elsif page == 1 %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
-    {% else %}
-    <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-    {% endfor %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}"><i class="fa fa-angle-right"></i></a>
-    {% else %}
-    <a style="background: #9e9898;cursor: not-allowed;"><i class="fa fa-angle-right"></i></a>
-    {% endif %}
-</div>
-<!-- End of Post Pagination -->
+{% if paginator.page_trail %}
+    <div class="post-pagination d-flex justify-content-center">
+        {% for trail in paginator.page_trail %}
+            <a href="{{ trail.path | prepend: site.baseurl | prepend: site.url }}" title="{{trail.title}}" {% if page.url==trail.path %} class="current" {% endif %}>{{ trail.num }}</a>
+        {% endfor %}
+    </div>
 {% endif %}

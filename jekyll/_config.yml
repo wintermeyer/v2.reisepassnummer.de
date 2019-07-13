@@ -20,15 +20,27 @@ markdown: kramdown
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 sass:
   sass_dir: _sass
   style: compressed
 
 # Pagination
-paginate: 20
-paginate_path: "/blog/page:num/"
+pagination:
+  enabled: true
+  collection: 'podcast'
+  per_page: 10
+  permalink: '/:num/'
+  title: 'Podcast Page - :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  indexpage: 'index'
+  trail:
+    before: 2 # The number of links before the current page
+    after: 2  # The number of links after the current page
+
 
 # Includes
 include: ["_pages"]

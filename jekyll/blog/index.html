@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Blog
+pagination:
+  enabled: true
+  collection: posts
+  permalink: '/:num/'
+  title: 'Blog Page - :num'
 ---
 <!-- Page title -->
 <div class="page-title">
@@ -14,7 +19,7 @@ title: Blog
         <div class="col-lg-8 pb-50">
             <div class="row">
                 <div class="col-sm-12">
-                    {% for post in site.posts %}
+                    {% for post in paginator.posts %}
                     <!-- Post -->
                     <div class="post-default">
                         {% if post.hero_image %}

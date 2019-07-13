@@ -1,19 +1,22 @@
 ---
 layout: default
+name: podcast
 title: Podcast
+pagination:
+  enabled: true
+  collection: podcast
 ---
 <!-- Page title -->
 <div class="page-title">
     <div class="container">
-        <h2>Podcast</h2>
+        <h2>{{ page.title }}</h2>
     </div>
 </div>
 <!-- End of Page title -->
 <div class="container pt-120 pb-90">
     <div class="row">
         <div class="col-lg-8 pb-50">
-            {% assign podcast_list = site.podcast | reverse %}
-            {% for post in podcast_list %}
+            {% for post in paginator.posts %}
             <!-- Post -->
             <div class="post-default post-has-front-title">
                 {% if post.hero_image %}
@@ -36,6 +39,9 @@ title: Podcast
             </div>
             <!-- End of Post -->
             {% endfor %}
+
+            {% include pagination.html %}
+
         </div>
         <div class="col-lg-4">
             {% include sidebar.html %}
