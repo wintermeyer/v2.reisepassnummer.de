@@ -50,7 +50,7 @@ $.getJSON( "/episodes.json", function( podcastInfo ) {
 
   // Build a JSON object that has data on the show as well as (only) the current episode
   episode = podcastInfo.episodes[currentEpisode]
-  episode.poster = podcastInfo.show.poster
+  episode.poster = podcastInfo.episodes[currentEpisode].poster
   episode.profiles = podcastInfo.show.profiles
   delete podcastInfo.episodes
   playerConfig = $.extend(podcastInfo, episode)
