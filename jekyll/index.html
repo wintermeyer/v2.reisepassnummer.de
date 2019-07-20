@@ -33,7 +33,25 @@ layout: default
                                             <img src="{{ author.gravatar | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
                                             {{ author.name }}
                                         </li>
-                                        <li class="meta-date"><i class="fa fa-calendar"></i> &nbsp; {{ item.date | date: '%b %d, %Y' }}</li>
+                                        <li class="meta-date"><i class="fa fa-calendar"></i> &nbsp; 
+                                            {% assign m = item.date | date: "%-m" %}
+                                            {{ item.date | date: "%-d." }}
+                                            {% case m %}
+                                              {% when '1' %}Jan.
+                                              {% when '2' %}Feb.
+                                              {% when '3' %}März
+                                              {% when '4' %}April
+                                              {% when '5' %}Mai
+                                              {% when '6' %}Juni
+                                              {% when '7' %}Juli
+                                              {% when '8' %}Aug.
+                                              {% when '9' %}Sept.
+                                              {% when '10' %}Okt.
+                                              {% when '11' %}Nov.
+                                              {% when '12' %}Dez.
+                                            {% endcase %}
+                                            {{ item.date | date: "%Y" }}
+                                        </li>
                                     </ul>
                                     <!-- Post Desc -->
                                     <div class="desc">
@@ -41,7 +59,7 @@ layout: default
                                             {{ item.teaser_text | strip_html | truncatewords: 80 }}
                                         </p>
                                         <!-- Read More Button -->
-                                        <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary">View More</a>
+                                        <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary">Weiter lesen ...</a>
                                     </div>
                                 </div>
                             </div>
