@@ -1,96 +1,61 @@
 ---
 layout: default
+title: Home
 ---
-{% assign post = site.posts | sort: date | reverse %}
-{% assign podcast = site.podcast | sort: date | reverse %}
-{% assign merge = post | concat: podcast %}
-{% assign all = merge | sort: date | reverse %}
-{% include default-author.html %}
-<!-- post with sidebar -->
-<div class="container pt-40 pb-90">
-    <div class="row">
-        <div class="col-lg-8">
-            <!-- Popular Post -->
-            <div class="row">
-                <div class="col-sm-12">
-                    {% for item in all %}
-                    <!-- Latest Post -->
-                    <div class="post-default">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="post-data order-md-1">
-                                    {% for category in item.categories %}
-                                    <!-- Category -->
-                                    <span class="cats"><a href="#">{{ category }}</a></span>
-                                    {% endfor %}
-                                    <!-- Title -->
-                                    <div class="title">
-                                        <h2><a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">{{ item.title }}</a></h2>
-                                    </div>
-                                    <!-- Post Meta -->
-                                    <ul class="nav meta align-items-center">
-                                        <li class="meta-author">
-                                            <img src="{{ author.gravatar | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
-                                            {{ author.name }}
-                                        </li>
-                                        <li class="meta-date"><i class="fa fa-calendar"></i> &nbsp; 
-                                            {% assign m = item.date | date: "%-m" %}
-                                            {{ item.date | date: "%-d." }}
-                                            {% case m %}
-                                              {% when '1' %}Jan.
-                                              {% when '2' %}Feb.
-                                              {% when '3' %}März
-                                              {% when '4' %}April
-                                              {% when '5' %}Mai
-                                              {% when '6' %}Juni
-                                              {% when '7' %}Juli
-                                              {% when '8' %}Aug.
-                                              {% when '9' %}Sept.
-                                              {% when '10' %}Okt.
-                                              {% when '11' %}Nov.
-                                              {% when '12' %}Dez.
-                                            {% endcase %}
-                                            {{ item.date | date: "%Y" }}
-                                        </li>
-                                    </ul>
-                                    <!-- Post Desc -->
-                                    <div class="desc">
-                                        <p>
-                                            {{ item.teaser_text | strip_html | truncatewords: 80 }}
-                                        </p>
-                                        <!-- Read More Button -->
-                                        <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary">Weiter lesen ...</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="post-thumb">
-                                    <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
-                                        {% if item.hero_image %}
-                                        <img src="{{ item.hero_image | prepend: site.baseurl | prepend: site.url }}" alt="{{ item.hero_image_alt }}" class="img-fluid">
-                                        {% else %}
-                                        <img src="{{ '/images/podcast/default.jpg' | prepend: site.baseurl | prepend: site.url }}" class="img-fluid">
-                                        {% endif %}
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Post -->
-                    {% endfor %}
-                </div>
-            </div>
-            <!-- End of Popular Post  -->
-            <!-- All Post Link -->
-            <div class="pt-40 pb-40 text-center">
-                <a class="btn btn-primary" href="{{ "/blog" | prepend: site.baseurl | prepend: site.url }}">View All Post</a> &nbsp;&nbsp;&nbsp;
-                <a class="btn btn-primary" href="{{ "/podcast" | prepend: site.baseurl | prepend: site.url }}">View All Podcast</a>
-            </div>
-            <!-- End of All Post Link -->
-        </div>
-        <div class="col-lg-4">
-            {% include sidebar.html %}
-        </div>
+
+{% if page.url == "/" %}
+
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Featured</span></h2>
     </div>
+    <div class="row">
+
+    {% for post in site.posts %}
+
+        {% if post.featured == true %}
+
+            {% include featuredbox.html %}
+
+        {% endif %}
+
+    {% endfor %}
+
+    </div>
+</section>
+
+{% endif %}
+
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts">
+
+    <div class="section-title">
+
+        <h2><span>All Stories</span></h2>
+
+    </div>
+
+    <div class="row listrecent">
+
+        {% for post in paginator.posts %}
+
+        {% include postbox.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
 </div>
-<!-- end of post with sidebar -->
+
