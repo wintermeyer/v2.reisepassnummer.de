@@ -10,7 +10,6 @@ hero_image_alt: 'Foto eines Weinberges mit Dorf im Hintergrund'
 length: "20487149"
 keywords: "Deutschland, Neustadt, Pfalz, Familie, Travelblog"
 block: "no"
-layout: podcast
 episode: 5
 ---
 

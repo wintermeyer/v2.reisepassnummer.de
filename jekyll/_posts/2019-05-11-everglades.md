@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Everglades - Florida"
+title:  "Everglades (Florida)"
 author: wintermeyer
 image: assets/images/2019/05/11/IMG_1492.jpg
+image_alt: 'Foto aus dem Airboat'
 featured: true
 hidden: true
 publication_date: 2019-05-11
@@ -12,8 +13,6 @@ description: 'Mit dem Sumpfboot durch das tropische Marschland. Alligatoren,
 Schildkröten, Vögel und Fische.'
 teaser: 'Für 308 US-Dollar driften wir mit einem Airboat durch die Everglades. 90 Kilometer wird hier der langsamste Fluss der Welt breit. Einen Riesenpropeller im Rücken, Ohrstöpsel in den Ohren, begegnen wir am Ufer einem Alligator: „Mathilda“. Ob man hier auch zu Fuß laufen könnte? Ja, sagt unser Begleiter. „Aber…“'
 categories: Reiseblogger Podcast USA Florida
-hero_image: '/images/2019/05/11/IMG_1492.jpg'
-hero_image_alt: 'Foto aus dem Airboat'
 
 podcast:
   cover_image: '/images/podcasts/2019/2019-05-11-everglades.jpg'

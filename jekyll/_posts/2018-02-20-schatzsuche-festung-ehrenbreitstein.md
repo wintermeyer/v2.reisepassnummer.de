@@ -10,9 +10,6 @@ hero_image: '/images/2018/02/20/IMG_2110-1200x701.jpg'
 hero_image_alt: 'Papiermodel der Schatzkiste'
 length: "10964785"
 keywords: "Treasure, Family, Germany, Travelblog"
-block: "no"
-layout: podcast
-episode: 2
 ---
 
 In den Wintermonaten (meist bis April) findet auf der [Festung Ehrenbreitstein](http://diefestungehrenbreitstein.de) in Koblenz eine Schnitzeljagd für Kinder und Jugendliche statt. Allerdings nur am Wochenende und von 10:00 bis 17:00 Uhr. Alle Teilnehmer bekommen eine von drei unterschiedlichen Rätselkarten. Jüngere Kinder bekommen einfachere und ältere schwierigere Fragen. So viel vorweg: Ohne Hilfe von Erwachsenen sind auch die einfachen Fragen nicht für Kinder alleine machbar. Dafür ist die Beschilderung und die Fragestellung zu suboptimal.

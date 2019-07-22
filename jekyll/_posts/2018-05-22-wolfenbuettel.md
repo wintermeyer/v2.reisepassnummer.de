@@ -13,7 +13,6 @@ hero_image_alt: 'Bibliothek der Stadt Wolfenbüttel'
 duration: "52:24"
 length: "50366215"
 block: "no"
-layout: podcast
 episode: 8
 ---
 Im April 2018 waren wir beim [Reiseblogger Camp](https://reisebloggercamp.de) in Wolfenbüttel. Die Lessing-Stadt hat uns so gut gefallen, das wir im Mai noch mal hingefahren sind und diesen Podcast erstellt haben.

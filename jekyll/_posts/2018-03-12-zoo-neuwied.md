@@ -9,9 +9,6 @@ hero_image: '/images/2018/03/12/zoo-neuwied/mittel/L1000657.jpg'
 hero_image_alt: 'Eingang Zoo Neuwied'
 length: "24359123"
 keywords: "Family, Germany, Zoo, Travelblog"
-block: "no"
-layout: podcast
-episode: 3
 ---
 
 Mein erster Zoobesuch war im Zoo Neuwied. Vor fast 40 Jahren. Aber das wollen wir jetzt mal nicht so genau ausrechnen. Der Zoo liegt im Ort [Heimbach-Weis](https://de.wikipedia.org/wiki/Heimbach-Weis) (aka Heimbach), der mit 7.186 Einwohnern so klein ist, das man nie im Leben auf die Idee kommen würde, das hier der größte Zoo von Rheinland-Pfalz zu finden ist. Ist aber so. Und ich kann noch eins drauf legen: In Heimbach gibt es sogar einen Golfplatz. Aber das ist eine Geschichte für einen anderen Podcast.

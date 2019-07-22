@@ -11,7 +11,6 @@ hero_image_alt: 'Mikrofon'
 length: "43917105"
 explicit: "no"
 block: "no"
-layout: podcast
 episode: 6
 ---
 Beim [Reiseblogger Camp 2018](https://reisebloggercamp.de/) in [Wolfenbüttel](https://www.wolfenbuettel.de) habe ich eine Session zum Thema Podcasting für Reiseblogger gehalten. Dieser Podcast enhält den Inhalt dieser Session.

@@ -8,7 +8,6 @@ hero_image: '/images/2018/11/26/20121012-L1007160.jpg'
 hero_image_alt: 'Foto aus der Altstadt'
 length: "72723479"
 block: "no"
-layout: podcast
 episode: 10
 ---
 

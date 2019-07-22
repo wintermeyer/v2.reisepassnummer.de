@@ -8,7 +8,6 @@ hero_image: '/images/2018/07/02/altstadt-barcelona/camille-minouflet-111751-unsp
 hero_image_alt: 'Foto aus der Altstadt'
 length: "70066304"
 block: "no"
-layout: podcast
 episode: 9
 ---
 
