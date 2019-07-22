@@ -2,8 +2,8 @@
 name: "Reisepassnummer Podcast"
 title: "Reisepassnummer Podcast"
 description: "Reisefeatures von und mit Stefan Wintermeyer (plus Familie)"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/podcast-cover-2000x2000.jpg'
+favicon: '/favicon.ico'
 baseurl: 
 google_analytics: 'UA-46278016-1'
 include: ["_pages"]
