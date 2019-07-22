@@ -65,8 +65,6 @@ podcast:
 
 Im April 2019 habe ich mit meinen Kindern eine private Airboat-Tour ([gatorpark.com](https://www.gatorpark.com)) durch den Everglades Nationalpark in Florida (USA) gemacht.
 
-{{ page.path }} <br /> {{ page.name }}
-
 {% include player.html %}
 
 ## Transkription
