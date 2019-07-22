@@ -14,10 +14,12 @@ categories: Reiseblogger Podcast USA Florida
 hero_image: '/images/2019/05/11/IMG_1492.jpg'
 hero_image_alt: 'Foto aus dem Airboat'
 length: '34156086'
-podcast_file: assets/podcasts/2019-05-11-everglades.mp3
+podcast_file: /assets/podcasts/2019-05-11-everglades.mp3
 ---
 
 Im April 2019 habe ich mit meinen Kindern eine private Airboat-Tour ([gatorpark.com](https://www.gatorpark.com)) durch den Everglades Nationalpark in Florida (USA) gemacht.
+
+{% include player.html %}
 
 ## Transkription
 
