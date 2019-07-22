@@ -2,7 +2,7 @@
 layout: post
 title:  "Everglades - Florida"
 author: wintermeyer
-image: assets/images/12.jpg
+image: assets/images/2019/05/11/IMG_1492.jpg
 featured: true
 hidden: true
 
