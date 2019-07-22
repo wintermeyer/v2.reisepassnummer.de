@@ -16,7 +16,7 @@ hero_image: '/images/2019/05/11/IMG_1492.jpg'
 hero_image_alt: 'Foto aus dem Airboat'
 
 podcast:
-  cover_image: '/images/podcasts/cover/2019-05-11-everglades.jpg'
+  cover_image: '/images/podcasts/2019/2019-05-11-everglades.jpg'
   duration: '00:23:40'
   mp3:
     file_name: 2019-05-everglades.mp3
