@@ -1,0 +1,11 @@
+<audio data-podlove-web-player-source="/player?episode={{ page.podcast_file }}">
+  <source src="#{url}" type="audio/mp3">
+</audio>
+
+<p>You can listen to the episode online or download it to your favourite podcast app <a href="{{ site.url }}/podcast.xml">from the RSS feed</a>.</p>
+
+<script>
+$(function(){
+  $('audio').podlovewebplayer();
+});
+</script>
