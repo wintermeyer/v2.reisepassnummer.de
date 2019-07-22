@@ -9,15 +9,61 @@ hidden: true
 subtitle: 'Mit einem Riesenpropeller im Rücken driften wir durch die Everglades'
 description: 'Mit dem Sumpfboot durch das tropische Marschland. Alligatoren,
 Schildkröten, Vögel und Fische.'
-teaser_text: 'Für 308 US-Dollar driften wir mit einem Airboat durch die Everglades. 90 Kilometer wird hier der langsamste Fluss der Welt breit. Einen Riesenpropeller im Rücken, Ohrstöpsel in den Ohren, begegnen wir am Ufer einem Alligator: „Mathilda“. Ob man hier auch zu Fuß laufen könnte? Ja, sagt unser Begleiter. „Aber…“'
+teaser: 'Für 308 US-Dollar driften wir mit einem Airboat durch die Everglades. 90 Kilometer wird hier der langsamste Fluss der Welt breit. Einen Riesenpropeller im Rücken, Ohrstöpsel in den Ohren, begegnen wir am Ufer einem Alligator: „Mathilda“. Ob man hier auch zu Fuß laufen könnte? Ja, sagt unser Begleiter. „Aber…“'
 categories: Reiseblogger Podcast USA Florida
 hero_image: '/images/2019/05/11/IMG_1492.jpg'
 hero_image_alt: 'Foto aus dem Airboat'
-length: '34156086'
-podcast_file: /assets/podcasts/2019-05-11-everglades.mp3
+
+podcast:
+  duration: '00:23:40'
+  mp3:
+    file_name: 2019-05-everglades.mp3
+    file_size: '34156086'
+  m4a:
+    file_name: 2019-05-everglades.m4a
+    file_size: '77044133'
+  chapters:
+    1:
+      start: '00:00:00'
+      title: 'Ankunft Gatorpark'
+    2:
+      start: '00:02:12'
+      title: 'Abfahrt mit dem Airboat'
+    3:
+      start: '00:05:23'
+      title: 'Erster Alligator (Matilda)'
+    4:
+      start: '00:06:01'
+      title: 'Wie gefährlich ist es hier für Menschen?'
+    5:
+      start: '00:06:56'
+      title: 'Schnelle Fahrt'
+    6:
+      start: '00:07:41'
+      title: 'Memorial Stop'
+    7:
+      start: '00:13:32'
+      title: 'Absturz Eastern Airlines 401'
+    8:
+      start: '00:14:45'
+      title: 'Baby Alligatoren'
+    9:
+      start: '00:16:51'
+      title: 'Dürfen Alligatoren gejagt werden?'
+    10:
+      start: '00:18:37'
+      title: 'Jumper'
+    11:
+      start: '00:20:48'
+      title: 'Zurück am Anleger'
+    12:
+      start: '00:23:12'
+      title: 'Stofftier Alligator'
 ---
 
 Im April 2019 habe ich mit meinen Kindern eine private Airboat-Tour ([gatorpark.com](https://www.gatorpark.com)) durch den Everglades Nationalpark in Florida (USA) gemacht.
+
+{{ page.path }} <br /> {{ page.name }}
 
 {% include player.html %}
 

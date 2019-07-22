@@ -1,12 +1,45 @@
-<audio data-podlove-web-player-source="/player?episode={{ page.podcast_file }}">
-  <source src="#{url}" type="audio/mp3">
-</audio>
 
-<p>You can listen to the episode online or download it to your favourite podcast app <a href="{{ site.url }}/podcast.xml">from the RSS feed</a>.</p>
+<script src="https://cdn.podlove.org/web-player/embed.js"></script>
+
+<div id="podlove"></div>
 
 <script>
-$(function(){
-  $('audio').podlovewebplayer();
-});
+    podlovePlayer('#podlove', {
+        title: '{{ page.title }}',
+        subtitle: '{{ page.subtitle }}',
+        summary: '{{ page.teaser }}',
+        publicationDate: '2016-02-11T03:13:55+00:00',
+        poster: 'https://freakshow.fm/wp-content/cache/podlove/04/662a9d4edcf77ea2abe3c74681f509/freak-show_200x200.jpg',
+        show: {
+            title: '{{ site.title }}',
+            subtitle: '{{ site.description }}',
+            summary: 'Muss noch mit Inhalt gefüllt werden.',
+            poster: 'https://freakshow.fm/wp-content/cache/podlove/04/662a9d4edcf77ea2abe3c74681f509/freak-show_200x200.jpg',
+            url: 'https://freakshow.fm'
+        },
+        duration: '{{ page.podcast.duration }}',
+        chapters: [
+          {% for chapter in page.podcast.chapters %}
+            { start:"{{ chapter[1].start }}", title: '{{ chapter[1].title }}'},
+          {% endfor %}
+        ],
+        audio: [{
+          url: '{{ site.baseurl }}/assets/podcasts/{{ page.date | date: '%Y' }}/{{ page.podcast.m4a.file_name }}',
+          mimeType: 'audio/mp4',
+          size: {{ page.podcast.m4a.file_size }},
+          title: 'Audio MP4'
+        }, {
+          url: '{{ site.baseurl }}/assets/podcasts/{{ page.date | date: '%Y' }}/{{ page.podcast.mp3.file_name }}',
+          mimeType: 'audio/mpeg',
+          size: {{ page.podcast.mp3.file_size }},
+          title: 'Audio MP3'
+        }],
+        contributors: [{
+          name: 'Stefan Wintermeyer',
+          avatar: 'https://gravatar.com/avatar/bf17ce921cca4b00b18381abea305c50',
+          role: { id: '1', slug: 'team', title: 'Team' },
+          group: { id: '1', slug: 'onair', title: 'On Air' },
+          comment: null
+        }]
+    });
 </script>
-
