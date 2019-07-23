@@ -26,7 +26,7 @@ podcast:
   chapters:
     1:
       start: '00:00:00'
-      title: 'Ankunft Gatorpark'
+      title: 'Ankunft Gator Park'
     2:
       start: '00:02:12'
       title: 'Abfahrt mit dem Airboat'
