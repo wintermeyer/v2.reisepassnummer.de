@@ -7,7 +7,7 @@
     podlovePlayer('#podlove', {
         title: '{{ page.title }}',
         subtitle: '{{ page.subtitle }}',
-        summary: '{{ page.teaser }}',
+        summary: '{{ page.teaser_text }}',
         publicationDate: '{{ page.publication_date }}',
         poster: '{{ site.baseurl }}/assets/{{ page.podcast.cover_image }}',
         show: {
@@ -24,15 +24,20 @@
           {% endfor %}
         ],
         audio: [{
+          url: '{{ site.baseurl }}/assets/podcasts/{{ page.date | date: '%Y' }}/{{ page.podcast.mp3.file_name }}',
+          mimeType: 'audio/mpeg',
+          size: {{ page.podcast.mp3.file_size }},
+          title: 'Audio MP3'
+        }, {
           url: '{{ site.baseurl }}/assets/podcasts/{{ page.date | date: '%Y' }}/{{ page.podcast.m4a.file_name }}',
           mimeType: 'audio/mp4',
           size: {{ page.podcast.m4a.file_size }},
           title: 'Audio MP4'
         }, {
-          url: '{{ site.baseurl }}/assets/podcasts/{{ page.date | date: '%Y' }}/{{ page.podcast.mp3.file_name }}',
-          mimeType: 'audio/mpeg',
-          size: {{ page.podcast.mp3.file_size }},
-          title: 'Audio MP3'
+          url: '{{ site.baseurl }}/assets/podcasts/{{ page.date | date: '%Y' }}/{{ page.podcast.opus.file_name }}',
+          mimeType: 'audio/opus',
+          size: {{ page.podcast.opus.file_size }},
+          title: 'Audio Opus'
         }],
         contributors: [{
           name: 'Stefan Wintermeyer',
