@@ -16,6 +16,19 @@ haben die Bibliothek, die Stadt und ein Museum besucht. Zwei ausgezeichnete
 Guides haben uns alles gezeigt und erklärt. Natürlich waren wir auch im
 Stadtbad. ;-)"
 categories: Reiseblogger Podcast Deutschland Familie Kinder
+
+podcast:
+  cover_image: '/images/podcasts/2018/wolfenbuttel-1607919_1920-square.jpg'
+  duration: '00:52:24'
+  mp3:
+    file_name: 2018-05-Wolfenbuettel.mp3
+    file_size: '50365797'
+  m4a:
+    file_name: 2018-05-Wolfenbuettel.m4a
+    file_size: '51872082'
+  opus:
+    file_name: 2018-05-Wolfenbuettel.opus
+    file_size: '38145619'
 ---
 Im April 2018 waren wir beim [Reiseblogger Camp](https://reisebloggercamp.de) in Wolfenbüttel. Die Lessing-Stadt hat uns so gut gefallen, das wir im Mai noch mal hingefahren sind und diesen Podcast erstellt haben.
 
