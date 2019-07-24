@@ -1,16 +1,19 @@
 ---
+layout: post
 title: "Neustadt an der Weinstrasse mit Kindern"
+author: wintermeyer
+image: 'assets/images/2018/04/11/neustadt/pfalz-weinanbau-impression.jpg'
+image_alt: 'Foto eines Weinberges mit Dorf im Hintergrund'
+featured: false
+hidden: false
+publication_date: 2018-04-11
+
 subtitle: "Ein Familienausflug in die Pfalz."
 description: "Mit der Familie zwei Tage nach Neustadt an der Weinstrasse."
 teaser_text: "2 Tage in der Pfalz. Vom alla hopp Abenteuerspielplatz bis zum
 Hambacher Schloss."
 categories: Deutschland Familie Podcast
-hero_image: '/images/2018/04/11/neustadt/pfalz-weinanbau-impression.jpg'
-hero_image_alt: 'Foto eines Weinberges mit Dorf im Hintergrund'
-length: "20487149"
 keywords: "Deutschland, Neustadt, Pfalz, Familie, Travelblog"
-block: "no"
-episode: 5
 ---
 
 Ostern 2018 sind wir für ein paar Tage in die [Pfalz](https://de.wikipedia.org/wiki/Pfalz_(Region)) gefahren (Region im Süden des Landes Rheinland-Pfalz in Südwestdeutschland). Genauer gesagt nach Neustadt an der Weinstrasse. Untergekommen sind wir in einer Ferienwohnung des Restaurants [Haardter Winzer](http://www.haardter-winzer.com). Ganz genau in der Ferienwohnung Nr. 7 ([airbnb.de Link](https://www.airbnb.de/rooms/12428501)) für ca. 120 Euro die Nacht (2 Erwachsene und 2 Kinder). Das Restaurant ist sehr gut und zu empfehlen. Die Ferienwohnung ist auch sehr gut, allerdings nicht 100% fehlerfrei. So hat die Geschirrspülmaschine nicht einmal problemlos funktioniert (das Gepiepse ist dann auch nervig). Aber trotzdem würden wir wieder dort übernachten. Wer lieber ein Hotel bucht, dem empfehle ich das [Panorama Hotel am Rosengarten](http://www.panorama-hotel.eu). Das ist für Neustädter Verhältnisse eine Bettenburg, aber die Zimmer und das Preis-Leistungs-Verhältnis sind gut. Ein Highlight ist der Frühstücksraum in einer der oberen Etagen. Von dort hat man einen herlichen Blick über Neustadt.

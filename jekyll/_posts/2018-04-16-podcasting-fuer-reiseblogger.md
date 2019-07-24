@@ -1,17 +1,19 @@
 ---
+layout: post
 title: "Podcasting für Reiseblogger"
+author: wintermeyer
+image: 'assets/images/2018/04/16/podcast/h4npro.jpg'
+image_alt: 'Mikrofon'
+featured: false
+hidden: false
+publication_date: 2018-04-16
+
 subtitle: "Mittschnitt meiner Podcast-Session beim ReisebloggerCamp 2018 in
 Wolfenbüttel"
 description: "Mit der Familie zwei Tage nach Neustadt an der Weinstrasse."
 teaser_text: "Wie erstelle ich meinen Reisepodcast und warum das Medium für
 andere Reiseblogger ebenfalls interessant ist."
 categories: Reiseblogger Podcast
-hero_image: '/images/2018/04/16/podcast/h4npro.jpg'
-hero_image_alt: 'Mikrofon'
-length: "43917105"
-explicit: "no"
-block: "no"
-episode: 6
 ---
 Beim [Reiseblogger Camp 2018](https://reisebloggercamp.de/) in [Wolfenbüttel](https://www.wolfenbuettel.de) habe ich eine Session zum Thema Podcasting für Reiseblogger gehalten. Dieser Podcast enhält den Inhalt dieser Session.
 

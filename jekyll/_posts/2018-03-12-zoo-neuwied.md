@@ -1,13 +1,18 @@
 ---
+layout: post
 title: "Besuch im Zoo Neuwied"
+author: wintermeyer
+image: 'assets/images/2018/03/12/zoo-neuwied/mittel/L1000657.jpg'
+image_alt: 'Eingang Zoo Neuwied'
+featured: false
+hidden: false
+publication_date: 2018-03-23
+
 subtitle: "Chimpansen, Seehunde, Känguru und freche Tiere im Streichelzoo"
 description: "Bericht über einen Besuch im Zoo Neuwied."
 teaser_text: "Der Zoo Neuwied ist der größte Zoo in Rheinland-Pfalz. Wir haben
 ihn besucht und uns von Ziegen im Streichelzoo die Futtertüten klauen lassen."
 categories: Familie Kinder Deutschland Zoo Podcast
-hero_image: '/images/2018/03/12/zoo-neuwied/mittel/L1000657.jpg'
-hero_image_alt: 'Eingang Zoo Neuwied'
-length: "24359123"
 keywords: "Family, Germany, Zoo, Travelblog"
 ---
 

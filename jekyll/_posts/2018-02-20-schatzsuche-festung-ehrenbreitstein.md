@@ -1,14 +1,19 @@
 ---
+layout: post
 title: "Schatzsuche auf der Festung Ehrenbreitstein"
+author: wintermeyer
+image: 'assets/images/2018/02/20/IMG_2110-1200x701.jpg'
+image_alt: 'Papiermodel der Schatzkiste'
+featured: false
+hidden: false
+publication_date: 2018-02-20
+
 subtitle: "Die Jagd nach der goldenen Kanonenkugel."
 description: "Bericht über die Jagd nach der goldenen Kanonenkugel auf der
 Festung Ehrenbreitstein."
 teaser_text: "Mit der ganzen Familie 11 Rätsel lösen, um mit den Lösungen die
 goldene Kanonenkugel auf der Festung Ehrenbreitstein zu finden."
 categories: Familie Kinder Deutschland Podcast
-hero_image: '/images/2018/02/20/IMG_2110-1200x701.jpg'
-hero_image_alt: 'Papiermodel der Schatzkiste'
-length: "10964785"
 keywords: "Treasure, Family, Germany, Travelblog"
 ---
 

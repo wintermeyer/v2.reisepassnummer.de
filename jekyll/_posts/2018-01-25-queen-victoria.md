@@ -1,9 +1,18 @@
 ---
-title: 'Reisepassnummer #1: Queen Victoria'
-excerpt: ""
+layout: post
+title: 'Queen Victoria'
+author: wintermeyer
+image: 'assets/images/schiffe/queen-victoria/L1000403-1200x576.jpg'
+image_alt: 'Model der Queen Victoria'
+featured: false
+hidden: false
+publication_date: 2018-01-25
+
+subtitle: "Mit einem Ocean Liner von England nach Hamburg."
+description: ""
+teaser_text: ""
 categories: 'Podcast, Travelblog, Reisepodcast'
-hero_image: '/images/2018/01/25/schiffe/queen-victoria/L1000403-1200x576.jpg'
-hero_image_alt: 'Model der Queen Victoria'
+
 ---
 
 Es gibt zwei Arten von Kreuzfahrtschiffen: Ganz normale wie die in Deutschland allseits bekannten Aida-Schiffe und sogenannte Ocean Liner. Ein klassisches Kreuzfahrtschiff fährt eine Woche durch das Mittelmeer oder die Karibik und steuert dabei jeden Tag einen anderen Hafen an. Ein klassischer Ocean Liner fährt von Europa in die USA. Wie ein Bus nach Fahrplan. Die Überfahrt von New York nach Southampton in England dauert etwa 5 Tage und in dieser Zeit wird logischerweise kein Hafen angesteuert. Früher war das ein normales Reisemittel in die USA. Heute gibt es nur noch die Cunard Rederei ([www.cunard.de](https://www.cunard.de)), die mit drei Schiffen (alle nach einer Englischen Königin benannt) diese Route halbwegs regelmässig fährt. Cunard fährt aber nicht nur diese Routen, sondern jedes Jahr über die ganze Welt (leider unbezahlbar - aber man wird ja mal träumen dürfen).

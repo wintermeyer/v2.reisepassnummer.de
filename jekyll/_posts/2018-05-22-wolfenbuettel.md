@@ -1,5 +1,13 @@
 ---
+layout: post
 title: "Wolfenbüttel"
+author: wintermeyer
+image: 'assets/images/2018/05/22/wolfenbuettel/wolfenbuttel-1607919_1920-original.jpg'
+image_alt: 'Bibliothek der Stadt Wolfenbüttel'
+featured: false
+hidden: false
+publication_date: 2018-05-22
+
 subtitle: "Lessing und natürlich noch vieles anderes."
 description: "Ein Besuch in der Lessing-Stadt Wolfenbüttel."
 teaser_text: "Ein Besuch mit meinen beiden Kindern in dieser sehr
@@ -8,12 +16,6 @@ haben die Bibliothek, die Stadt und ein Museum besucht. Zwei ausgezeichnete
 Guides haben uns alles gezeigt und erklärt. Natürlich waren wir auch im
 Stadtbad. ;-)"
 categories: Reiseblogger Podcast Deutschland Familie Kinder
-hero_image: '/images/2018/05/22/wolfenbuettel/wolfenbuttel-1607919_1920-original.jpg'
-hero_image_alt: 'Bibliothek der Stadt Wolfenbüttel'
-duration: "52:24"
-length: "50366215"
-block: "no"
-episode: 8
 ---
 Im April 2018 waren wir beim [Reiseblogger Camp](https://reisebloggercamp.de) in Wolfenbüttel. Die Lessing-Stadt hat uns so gut gefallen, das wir im Mai noch mal hingefahren sind und diesen Podcast erstellt haben.
 
