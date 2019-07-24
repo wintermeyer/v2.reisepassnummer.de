@@ -1,14 +1,31 @@
 ---
+layout: post
+title: "Altstadt Barcelona"
+author: wintermeyer
+image: 'assets/images/2018/07/02/altstadt-barcelona/camille-minouflet-111751-unsplash.png'
+image_alt: 'Foto aus der Altstadt'
+featured: false
+hidden: false
+publication_date: 2018-07-02
+
 title: "Altstadt Barcelona"
 subtitle: "In verwinkelten Gassen durch die Altstadt von Barcelona."
 description: "In verwinkelten Gassen durch die Altstadt von Barcelona."
-teaser_text: "In verwinkelten Gassen durch die Altstadt von Barcelona."
+teaser_text: "Mit einem einheimischen Guide durch die verwinkelten Gassen der Altstadt von Barcelona."
 categories: Reiseblogger Podcast Spanien Barcelona
-hero_image: '/images/2018/07/02/altstadt-barcelona/camille-minouflet-111751-unsplash.png'
-hero_image_alt: 'Foto aus der Altstadt'
-length: "70066304"
-block: "no"
-episode: 9
+
+podcast:
+  cover_image: '/images/podcasts/2018/camille-minouflet-fXMZKc_1Bi0-square.jpg'
+  duration: '01:12:55'
+  mp3:
+    file_name: 2018-06-Altstadt-Barcelona.mp3
+    file_size: '70066304'
+  m4a:
+    file_name: 2018-06-Altstadt-Barcelona.m4a
+    file_size: '72099512'
+  opus:
+    file_name: 2018-06-Altstadt-Barcelona.opus
+    file_size: '53086681'
 ---
 
 Im Juni 2018 war ich in Barcelona und habe diesen Podcast zur Altstadt aufgenommen. Mein sehr guter Guide war [Alexander Steindorff](http://katalonienbesuch.com).

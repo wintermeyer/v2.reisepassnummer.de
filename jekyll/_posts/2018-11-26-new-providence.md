@@ -1,14 +1,18 @@
 ---
+layout: post
 title: "New Providence (Bahamas)"
+author: wintermeyer
+image: 'assets/images/2018/11/26/20121012-L1007160.jpg'
+image_alt: 'Foto aus der Altstadt'
+featured: false
+hidden: false
+publication_date: 2018-11-26
+
 subtitle: "Piraten, Conch Salat und gutes Wetter."
 description: "Eine Tour über die Insel New Providence auf den Bahamas."
 teaser_text: "Eine Tour über die Insel New Providence auf den Bahamas."
 categories: Reiseblogger Podcast Bahamas
-hero_image: '/images/2018/11/26/20121012-L1007160.jpg'
-hero_image_alt: 'Foto aus der Altstadt'
-length: "72723479"
-block: "no"
-episode: 10
+
 ---
 
 Im Herbst 2018 hat uns [Ulrich Voges](https://www.linkedin.com/in/ulrich-voges-48b82360/) ein wenig von der Insel [New Providence](https://de.wikipedia.org/wiki/New_Providence_(Bahamas)) auf den [Bahamas](https://de.wikipedia.org/wiki/Bahamas) gezeigt. Uli kennt die Bahamas seit 20 Jahren und wohnt seit fast 10 Jahren auf New Providence.

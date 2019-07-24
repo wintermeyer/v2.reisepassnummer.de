@@ -1,4 +1,4 @@
-
+{% if page.podcast %}
 <script src="https://cdn.podlove.org/web-player/embed.js"></script>
 
 <div id="podlove"></div>
@@ -18,11 +18,13 @@
             url: 'https://www.reisepassnummer.de'
         },
         duration: '{{ page.podcast.duration }}',
+        {% if page.podcast.chapters %}
         chapters: [
           {% for chapter in page.podcast.chapters %}
             { start:"{{ chapter[1].start }}", title: '{{ chapter[1].title }}'},
           {% endfor %}
         ],
+        {% endif %}
         audio: [{
           url: '{{ site.baseurl }}/assets/podcasts/{{ page.date | date: '%Y' }}/{{ page.podcast.mp3.file_name }}',
           mimeType: 'audio/mpeg',
@@ -48,3 +50,4 @@
         }]
     });
 </script>
+{% endif %}
