@@ -15,6 +15,19 @@ teaser_text: "Mit der ganzen Familie 11 Rätsel lösen, um mit den Lösungen die
 goldene Kanonenkugel auf der Festung Ehrenbreitstein zu finden."
 categories: Familie Kinder Deutschland Podcast
 keywords: "Treasure, Family, Germany, Travelblog"
+
+podcast:
+  cover_image: '/images/podcasts/2018/IMG_2098_square.jpg'
+  duration: '00:11:21'
+  mp3:
+    file_name: 2018-02-Festung-Ehrenbreitstein-Schatzsuche.mp3
+    file_size: '43917105'
+  m4a:
+    file_name: 2018-02-Festung-Ehrenbreitstein-Schatzsuche.m4a
+    file_size: '45293767'
+  opus:
+    file_name: 2018-02-Festung-Ehrenbreitstein-Schatzsuche.opus
+    file_size: '33245538'
 ---
 
 In den Wintermonaten (meist bis April) findet auf der [Festung Ehrenbreitstein](http://diefestungehrenbreitstein.de) in Koblenz eine Schnitzeljagd für Kinder und Jugendliche statt. Allerdings nur am Wochenende und von 10:00 bis 17:00 Uhr. Alle Teilnehmer bekommen eine von drei unterschiedlichen Rätselkarten. Jüngere Kinder bekommen einfachere und ältere schwierigere Fragen. So viel vorweg: Ohne Hilfe von Erwachsenen sind auch die einfachen Fragen nicht für Kinder alleine machbar. Dafür ist die Beschilderung und die Fragestellung zu suboptimal.
@@ -27,16 +40,16 @@ Unsere Kinder hatten Spaß. Ich habe die Gelegenheit genutzt und unseren ersten 
 
 <div class="row">
 	<div class="col-sm-6">
-		{% include figure.html image="/images/2018/02/20/IMG_2098.jpg" alt="Promenadendeck (Achtern) auf Deck 3" caption="Im ersten Rätsel geht es um Klein- und Großkarierte Bettwäsche in den Soldatenstuben." position="left" width="440" height="300" %}
+		{% include figure.html image="/assets/images/2018/02/20/IMG_2098.jpg" alt="Promenadendeck (Achtern) auf Deck 3" caption="Im ersten Rätsel geht es um Klein- und Großkarierte Bettwäsche in den Soldatenstuben." position="left" width="440" height="300" %}
 	</div>
 	<div class="col-sm-6">
-		{% include figure.html image="/images/2018/02/20/IMG_2099.jpg" alt="Links ein Schiff im Ärmelkanal. Rechts das Promenadendeck." caption="Blick auf das Deutsche Eck. Auch dazu gibt es Rätselfragen." position="right" width="440" height="300" %}
+		{% include figure.html image="/assets/images/2018/02/20/IMG_2099.jpg" alt="Links ein Schiff im Ärmelkanal. Rechts das Promenadendeck." caption="Blick auf das Deutsche Eck. Auch dazu gibt es Rätselfragen." position="right" width="440" height="300" %}
 	</div>
 	<div class="col-sm-6">
-		{% include figure.html image="/images/2018/02/20/IMG_2103.jpg" alt="Promenadendeck (Achtern) auf Deck 3" caption="Die goldene Kanonenkugel!" position="left" width="440" height="300" %}
+		{% include figure.html image="/assets/images/2018/02/20/IMG_2103.jpg" alt="Promenadendeck (Achtern) auf Deck 3" caption="Die goldene Kanonenkugel!" position="left" width="440" height="300" %}
 	</div>
 	<div class="col-sm-6">
-		{% include figure.html image="/images/2018/02/20/IMG_2109.jpg" alt="Links ein Schiff im Ärmelkanal. Rechts das Promenadendeck." caption="Hier werden die Urkunden geschrieben." position="right" width="440" height="300" %}
+		{% include figure.html image="/assets/images/2018/02/20/IMG_2109.jpg" alt="Links ein Schiff im Ärmelkanal. Rechts das Promenadendeck." caption="Hier werden die Urkunden geschrieben." position="right" width="440" height="300" %}
 	</div>
 </div>
 
@@ -90,7 +103,7 @@ Wo ist der Zugang zur Landbastion? Wenn Sie auf den großen Platz der Festung ko
 
 **Telefon:** [0261 6675-0](tel:+492616675-0)
 
-[![Screenshot der Festung Ehrenbreitstein Homepage](/images/2018/02/20/screenshot-festung-ehrenbreitstein-homepage.png)](http://www.diefestungehrenbreitstein.de/) [www.diefestungehrenbreitstein.de](http://www.diefestungehrenbreitstein.de/)
+[![Screenshot der Festung Ehrenbreitstein Homepage](/assets/images/2018/02/20/screenshot-festung-ehrenbreitstein-homepage.png)](http://www.diefestungehrenbreitstein.de/) [www.diefestungehrenbreitstein.de](http://www.diefestungehrenbreitstein.de/)
 
 
 ## Anreise
@@ -98,17 +111,17 @@ Wo ist der Zugang zur Landbastion? Wenn Sie auf den großen Platz der Festung ko
 ### Seilbahn
 
 Von der Talstation in den Rheinanlagen (Konrad-Adenauer-Ufer, 56068 Koblenz) über den Rhein schweben. [www.seilbahn-koblenz.de](https://www.seilbahn-koblenz.de)
-[![Screenshot der Seilbahn Homepage](/images/2018/02/20/seilbahn-screenshot.png)](https://www.seilbahn-koblenz.de)
+[![Screenshot der Seilbahn Homepage](/assets/images/2018/02/20/seilbahn-screenshot.png)](https://www.seilbahn-koblenz.de)
 
 ### Schrägaufzug
 
 Es gibt nicht nur eine Seilbahn, sondern auch noch einen Schrägaufzug vom Stadtteil Ehrenbreitstein aus (Vor dem Sauerwassertor, 56077 Koblenz). [www.schraegaufzug-ehrenbreitstein.de](http://www.schraegaufzug-ehrenbreitstein.de)
-[![Screenshot der Schrägaufzug Homepage](/images/2018/02/20/schraegaufzug-screenshot.png)](http://www.schraegaufzug-ehrenbreitstein.de)
+[![Screenshot der Schrägaufzug Homepage](/assets/images/2018/02/20/schraegaufzug-screenshot.png)](http://www.schraegaufzug-ehrenbreitstein.de)
 
 ### Bus
 
 Bus bis Haltestelle _Festungsaufzug / Jugendherberge_ (Linien 9 und 10, weiter mit Schrägaufzug) oder _Ehrenbreitstein Bahnhof_ (Linie 8, ca. 10 Minuten Fußweg, weiter mit Schrägaufzug). Bahn bis Bahnhof _Koblenz-Ehrenbreitstein_ (ca. 10 Minuten Fußweg, weiter mit Schrägaufzug). [www.evm.de](https://www.evm.de)
-[![Screenshot der EVM Homepage](/images/2018/02/20/evm-screenshot.png)](https://www.evm.de)
+[![Screenshot der EVM Homepage](/assets/images/2018/02/20/evm-screenshot.png)](https://www.evm.de)
 
 ### Auto
 
