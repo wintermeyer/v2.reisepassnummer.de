@@ -14,6 +14,19 @@ teaser_text: "2 Tage in der Pfalz. Vom alla hopp Abenteuerspielplatz bis zum
 Hambacher Schloss."
 categories: Deutschland Familie Podcast
 keywords: "Deutschland, Neustadt, Pfalz, Familie, Travelblog"
+
+podcast:
+  cover_image: '/images/podcasts/2018/karsten-wurth-karsten-wuerth-49aQgxkOrO4-unsplash-square.jpg'
+  duration: '00:21:16'
+  mp3:
+    file_name: 2018-04-Neustadt-an-der-Weinstrasse.mp3
+    file_size: '43917105'
+  m4a:
+    file_name: 2018-04-Neustadt-an-der-Weinstrasse.m4a
+    file_size: '45293767'
+  opus:
+    file_name: 2018-04-Neustadt-an-der-Weinstrasse.opus
+    file_size: '33245538'
 ---
 
 Ostern 2018 sind wir für ein paar Tage in die [Pfalz](https://de.wikipedia.org/wiki/Pfalz_(Region)) gefahren (Region im Süden des Landes Rheinland-Pfalz in Südwestdeutschland). Genauer gesagt nach Neustadt an der Weinstrasse. Untergekommen sind wir in einer Ferienwohnung des Restaurants [Haardter Winzer](http://www.haardter-winzer.com). Ganz genau in der Ferienwohnung Nr. 7 ([airbnb.de Link](https://www.airbnb.de/rooms/12428501)) für ca. 120 Euro die Nacht (2 Erwachsene und 2 Kinder). Das Restaurant ist sehr gut und zu empfehlen. Die Ferienwohnung ist auch sehr gut, allerdings nicht 100% fehlerfrei. So hat die Geschirrspülmaschine nicht einmal problemlos funktioniert (das Gepiepse ist dann auch nervig). Aber trotzdem würden wir wieder dort übernachten. Wer lieber ein Hotel bucht, dem empfehle ich das [Panorama Hotel am Rosengarten](http://www.panorama-hotel.eu). Das ist für Neustädter Verhältnisse eine Bettenburg, aber die Zimmer und das Preis-Leistungs-Verhältnis sind gut. Ein Highlight ist der Frühstücksraum in einer der oberen Etagen. Von dort hat man einen herlichen Blick über Neustadt.
@@ -30,9 +43,9 @@ Die Anlage ist sehr familienfreundlich. Es gibt Bereiche und Spielgeräte für a
 
 Insgesamt gibt es 19 alla hopp Anlagen. Wer mal in der Pfalz ist, sollte auf jeden Fall mal auf [http://alla-hopp.de](http://alla-hopp.de) nachschauen und einen Besuch einplanen.
 
-{% include figure.html image="/images/2018/04/11/neustadt/L1000932.jpg" caption="Ein Teil der alla hop Anlage." alt="alla hop Anlage" width="440" height="300" %}
+{% include figure.html image="/assets/images/2018/04/11/neustadt/L1000932.jpg" caption="Ein Teil der alla hop Anlage." alt="alla hop Anlage" width="440" height="300" %}
 
-{% include figure.html image="/images/2018/04/11/neustadt/L1000994.jpg" caption="Die große Rutschanlage bringt Spaß für die ganze Familie." alt="Kind rutscht die Rutsche runter" width="440" height="300" %}
+{% include figure.html image="/assets/images/2018/04/11/neustadt/L1000994.jpg" caption="Die große Rutschanlage bringt Spaß für die ganze Familie." alt="Kind rutscht die Rutsche runter" width="440" height="300" %}
 
 ## Teufelstisch
 
@@ -44,9 +57,9 @@ Am Felsen können Kinder klettern und Eidechsen beobachten. Hört sich langweili
 
 Hinter dem Parkplatz gibt es eine Gaststätte. Die sah eher mittelmässig aus. Dahinter wieder fängt eine Art Abenteuerspielplatz an. Nicht so groß wie die alla hopp Anlage, aber auch schön und ebenfalls kostenlos.
 
-{% include figure.html image="/images/2018/04/11/neustadt/IMG_2330.jpg" caption="Vom Tal aus sieht der Teufelstisch gar nicht so imposant aus. Im Fordergrund sieht man den Spielplatz und die sehr lange Rutsche." alt="Blick auf den Teufelstisch vom Tal aus." width="280" height="360" %}
-{% include figure.html image="/images/2018/04/11/neustadt/IMG_2289.jpg" caption="Der Teufelstisch (im Vordergrund meine beiden Kinder)" alt="Jogger" width="280" height="360" %}
-{% include figure.html image="/images/2018/04/11/neustadt/IMG_2318.jpg" caption="Eidechse. Davon gibt es ein paar am Teufelstisch." alt="Eidechse" width="280" height="360" %}
+{% include figure.html image="/assets/images/2018/04/11/neustadt/IMG_2330.jpg" caption="Vom Tal aus sieht der Teufelstisch gar nicht so imposant aus. Im Fordergrund sieht man den Spielplatz und die sehr lange Rutsche." alt="Blick auf den Teufelstisch vom Tal aus." width="280" height="360" %}
+{% include figure.html image="/assets/images/2018/04/11/neustadt/IMG_2289.jpg" caption="Der Teufelstisch (im Vordergrund meine beiden Kinder)" alt="Jogger" width="280" height="360" %}
+{% include figure.html image="/assets/images/2018/04/11/neustadt/IMG_2318.jpg" caption="Eidechse. Davon gibt es ein paar am Teufelstisch." alt="Eidechse" width="280" height="360" %}
 
 ## Wanderung zur Wolfsburg
 
@@ -74,9 +87,9 @@ Ich weiß es nicht genau, aber ich glaube Weißenburg lebt zu einem sehr großen
 
 Auf jeden Fall sollte man sich dort mit [Baguettes](https://de.wikipedia.org/wiki/Baguette) und [Croissants](https://de.wikipedia.org/wiki/Croissant) eindecken. Es wird mir immer ein Rätsel bleiben, warum diese beiden Produkte in Frankreich so sehr viel besser schmecken, als in Deutschland.
 
-{% include figure.html image="/images/2018/04/11/neustadt/IMG_2357.jpg" caption="Auf dem Weg zur Kirche St. Peter und Paul" alt="Strasse mit der Kirche St. Peter und Paul im Hintegrund." width="440" height="300" %}
+{% include figure.html image="/assets/images/2018/04/11/neustadt/IMG_2357.jpg" caption="Auf dem Weg zur Kirche St. Peter und Paul" alt="Strasse mit der Kirche St. Peter und Paul im Hintegrund." width="440" height="300" %}
 
-{% include figure.html image="/images/2018/04/11/neustadt/IMG_2359.jpg" caption="Dieser Bach fließt durch die Ortschaft" alt="Der Bach" width="440" height="300" %}
+{% include figure.html image="/assets/images/2018/04/11/neustadt/IMG_2359.jpg" caption="Dieser Bach fließt durch die Ortschaft" alt="Der Bach" width="440" height="300" %}
 
 ## Transkription
 
@@ -664,5 +677,5 @@ Stadtverwaltung
 Marktplatz 1
 67433 Neustadt an der Weinstraße
 
-[![Screenshot der Homepage von Neustadt](/images/2018/04/11/neustadt/neustadt-eu-screenshot.png)](https://www.neustadt.eu)
+[![Screenshot der Homepage von Neustadt](/assets/images/2018/04/11/neustadt/neustadt-eu-screenshot.png)](https://www.neustadt.eu)
 [www.neustadt.eu](https://www.neustadt.eu)
