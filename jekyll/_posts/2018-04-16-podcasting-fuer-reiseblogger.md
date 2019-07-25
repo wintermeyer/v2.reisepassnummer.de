@@ -5,7 +5,7 @@ author: wintermeyer
 image: 'assets/images/2018/04/16/podcast/h4npro.jpg'
 image_alt: 'Mikrofon'
 featured: false
-hidden: false
+hidden: true
 publication_date: 2018-04-16
 
 subtitle: "Mittschnitt meiner Podcast-Session beim ReisebloggerCamp 2018 in
@@ -14,6 +14,19 @@ description: "Mit der Familie zwei Tage nach Neustadt an der Weinstrasse."
 teaser_text: "Wie erstelle ich meinen Reisepodcast und warum das Medium für
 andere Reiseblogger ebenfalls interessant ist."
 categories: Reiseblogger Podcast
+
+podcast:
+  cover_image: '/images/podcasts/2018/james-baldwin-aBBLoTDmINo-unsplash_square.jpg'
+  duration: '00:45:41'
+  mp3:
+    file_name: 2018-04-Reisebloggercamp-Podcast.mp3
+    file_size: '43917105'
+  m4a:
+    file_name: 2018-04-Reisebloggercamp-Podcast.m4a
+    file_size: '45293767'
+  opus:
+    file_name: 2018-04-Reisebloggercamp-Podcast.opus
+    file_size: '33245538'
 ---
 Beim [Reiseblogger Camp 2018](https://reisebloggercamp.de/) in [Wolfenbüttel](https://www.wolfenbuettel.de) habe ich eine Session zum Thema Podcasting für Reiseblogger gehalten. Dieser Podcast enhält den Inhalt dieser Session.
 
