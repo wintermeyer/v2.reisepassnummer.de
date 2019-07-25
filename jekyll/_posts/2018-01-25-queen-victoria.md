@@ -8,18 +8,30 @@ featured: false
 hidden: false
 publication_date: 2018-01-25
 
-subtitle: "Mit einem Ocean Liner von England nach Hamburg."
+subtitle: "Mit einem Ocean Liner von Southampton (England) nach Hamburg."
 description: ""
-teaser_text: ""
+teaser_text: "Die Queen Victoria ist einer der wenigen Schiffe die regelmässig eine Transatlantik-Überquerung machen. Mit diesem Kurztrip von Southampton nach Hamburg kann man ein wenig reinschnuppern in diese Reiseart."
 categories: 'Podcast, Travelblog, Reisepodcast'
 
+podcast:
+  cover_image: '/images/podcasts/2018/L1000368_square.jpg'
+  duration: '00:22:08'
+  mp3:
+    file_name: 2018-01-queen-victoria.mp3
+    file_size: '21315126'
+  m4a:
+    file_name: 2018-01-queen-victoria.m4a
+    file_size: '21829697'
+  opus:
+    file_name: 2018-01-queen-victoria.opus
+    file_size: '16102501'
 ---
 
 Es gibt zwei Arten von Kreuzfahrtschiffen: Ganz normale wie die in Deutschland allseits bekannten Aida-Schiffe und sogenannte Ocean Liner. Ein klassisches Kreuzfahrtschiff fährt eine Woche durch das Mittelmeer oder die Karibik und steuert dabei jeden Tag einen anderen Hafen an. Ein klassischer Ocean Liner fährt von Europa in die USA. Wie ein Bus nach Fahrplan. Die Überfahrt von New York nach Southampton in England dauert etwa 5 Tage und in dieser Zeit wird logischerweise kein Hafen angesteuert. Früher war das ein normales Reisemittel in die USA. Heute gibt es nur noch die Cunard Rederei ([www.cunard.de](https://www.cunard.de)), die mit drei Schiffen (alle nach einer Englischen Königin benannt) diese Route halbwegs regelmässig fährt. Cunard fährt aber nicht nur diese Routen, sondern jedes Jahr über die ganze Welt (leider unbezahlbar - aber man wird ja mal träumen dürfen).
 
-Kreuzfahrtschiffe stellt man sich so vor, wie eine Folge aus ["Das Traumschiff"](https://de.wikipedia.org/wiki/Das_Traumschiff) und Cunard Ocean Liner so, als wenn dort nur alter Geldadel, Russische Oligarschen, High Society und Royals aus England an Bord sind. Alle in gediegenen englischen Möbeln sitzend. Im Hintergrund spielt jemand Klavier. Dicke Uhren bei den Männern und teilweise zu viel Botox bei den teilweise zu jungen Frauen. Stellt sich raus: Ist nicht so. Ich kann nicht für das ZDF-Traumschiff sprechen, aber die Passagiere der Queen Victoria sind recht normal. Es gibt schon 1-2 bunte Ausnahmen, aber nicht unangenehm. Das Durchschnittsalter der Passagiere ist allerdings höher als das auf einem AIDA-Schiff (vermute ich mal). Aber es gab auch jüngere Mitreisende und eine Familie mit Kleinkind. In der Bibliothek trafen sich sogar eine Hand voll Schüler, um Hausaufgaben zu machen. Aber im großen und ganzen scheint der typische Cunard-Kunde über 60 Jahre alt zu sein.
-
 {% include player.html %}
+
+Kreuzfahrtschiffe stellt man sich so vor, wie eine Folge aus ["Das Traumschiff"](https://de.wikipedia.org/wiki/Das_Traumschiff) und Cunard Ocean Liner so, als wenn dort nur alter Geldadel, Russische Oligarschen, High Society und Royals aus England an Bord sind. Alle in gediegenen englischen Möbeln sitzend. Im Hintergrund spielt jemand Klavier. Dicke Uhren bei den Männern und teilweise zu viel Botox bei den teilweise zu jungen Frauen. Stellt sich raus: Ist nicht so. Ich kann nicht für das ZDF-Traumschiff sprechen, aber die Passagiere der Queen Victoria sind recht normal. Es gibt schon 1-2 bunte Ausnahmen, aber nicht unangenehm. Das Durchschnittsalter der Passagiere ist allerdings höher als das auf einem AIDA-Schiff (vermute ich mal). Aber es gab auch jüngere Mitreisende und eine Familie mit Kleinkind. In der Bibliothek trafen sich sogar eine Hand voll Schüler, um Hausaufgaben zu machen. Aber im großen und ganzen scheint der typische Cunard-Kunde über 60 Jahre alt zu sein.
 
 Mich hat die Art der Atlantiküberquerung der Cunard Schiffe schon lange gereizt. Aber da waren auch immer viele Fragen: Was ist, wenn ich fünf Tage am Stück seekrank bin? Was macht man überhaupt fünf Tage auf einem Schiff mitten im Atlantik? Wie ist das Essen an Bord? Wie klein die Kabinen? Um diese und andere Fragen zu beantworten habe ich mich deshalb für eine kleine Test-Tour entschieden. Cunard bietet auf den Zubringerstrecken Southampton-Hamburg kleine Reise-Pakete mit zwei Übernachtungen an Bord an. Genau richtig, um ein Gefühl für diese Art der Reise zu bekommen. Am 03.01.2018 ging es los. Und Dank des Sturmtiefs [Burglind](https://de.wikipedia.org/wiki/Sturmtief_Burglind) konnte ich dann auch direkt die Sache mit der Seekrankheit ausprobieren.
 
@@ -79,7 +91,7 @@ Beim Check-In gibt man das vorher hoffentlich brav zu Hause ausgedruckte E-Ticke
 </div>
 
 <div class="col-sm-6">
-    {% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/IMG_1991-800x518.jpg" caption="Key-Karte der Queen Victoria" position="right" width="800" height="518" %}
+    {% include figure.html image="/assets/images/schiffe/queen-victoria/IMG_1991-800x518.jpg" caption="Key-Karte der Queen Victoria" position="right" width="800" height="518" %}
 </div>
 </div>
 
@@ -91,8 +103,8 @@ Die erste Ziffer der 4-stelligen Kabinennummer steht für das Deck. Hat man eine
 
 Es gibt viele verschiedene Kabinenarten und auch Suiten. Ich kann hier nur die Kabine beschreiben, in der ich untergebracht war (7096). Kabinen auf einem Schiff sind natürlich nicht mit Hotelzimmern vergleichbar. Es herscht weniger Platz und die Raumhöhe ist geringer. Das Bad in meiner Kabine errinnert ein wenig an ein Wohnmobil. Ist aber nicht schlimm. Es macht alles einen guten Eindruck. Hier kann man auch eine längere Reise gut aushalten.
 
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000178-800x533.jpg" alt="Foto der Kabine (Blick zum Balkon)" caption="Blick zum Balkon. Rechts sieht man die Couch. Links den Schreibtisch." position="left" width="350" height="300" %}
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000178-800x533.jpg" alt="Foto der Kabine (Blick zum Balkon)" caption="Blick vom Balkon in die Kabine." position="right" width="395" height="300" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000178-800x533.jpg" alt="Foto der Kabine (Blick zum Balkon)" caption="Blick zum Balkon. Rechts sieht man die Couch. Links den Schreibtisch." position="left" width="350" height="300" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000178-800x533.jpg" alt="Foto der Kabine (Blick zum Balkon)" caption="Blick vom Balkon in die Kabine." position="right" width="395" height="300" %}
 
 
 ### Zwei Klassen-System
@@ -117,16 +129,16 @@ Die Softgetränke-Automaten errinnern an eine Autobahn-Raststätte.
 
 Wahrscheinlich würde ich morgen aber wieder ins Lido gehen. Es ist nicht schlecht. Es ist einfach nur auch nicht richtig gut.
 
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000217-800x533.jpg" alt="Foto der Kabine (Blick zum Balkon)" width="440" height="300" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000217-800x533.jpg" alt="Foto der Kabine (Blick zum Balkon)" width="440" height="300" %}
 
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000221-800x533.jpg" alt="Büfett im Lido" width="440" height="300" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000221-800x533.jpg" alt="Büfett im Lido" width="440" height="300" %}
 
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000213-800x533.jpg" alt="Büfett im Lido" width="440" height="300" %}
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000210-800x533.jpg" alt="Büfett im Lido" width="440" height="300" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000213-800x533.jpg" alt="Büfett im Lido" width="440" height="300" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000210-800x533.jpg" alt="Büfett im Lido" width="440" height="300" %}
 
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000208-800x533.jpg" alt="Büfett im Lido" width="440" height="300" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000208-800x533.jpg" alt="Büfett im Lido" width="440" height="300" %}
 
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000222-800x533.jpg" alt="Büfett im Lido" width="440" height="300" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000222-800x533.jpg" alt="Büfett im Lido" width="440" height="300" %}
 
 ### Verandah Restaurant
 
@@ -164,7 +176,7 @@ Man kann die Bücher dort lesen oder mit seiner Key-Karte auch ausleihen und wo 
 
 Im Eingangsbereich der Bibliothek gibt es einen Aufsteller mit aktuellen Informationen und einem täglich wechselnden Rätsel.
 
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000406-800x533.jpg" alt="Bücherreihe in der Bibliothek" caption="Wenn man kein Zugriff auf Google hat, dann findet man hier in der Bibliothek hilfe." width="800" height="500" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000406-800x533.jpg" alt="Bücherreihe in der Bibliothek" caption="Wenn man kein Zugriff auf Google hat, dann findet man hier in der Bibliothek hilfe." width="800" height="500" %}
 
 ## TV, Radio und Internet
 
@@ -192,9 +204,9 @@ Auf Deck 3 erstreckt sich rund um das ganze Schiff eine Art breiter Gehweg. Dort
 
 Zusätzlich gibt es auf dem Deck 10 noch Aussenbereiche, auf denen man spazieren gehen kann. Aber das Promenadendeck auf Deck 3 hat einen eigenen und ganz besonderen Charme.
 
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000368-300x450.jpg" alt="Liegestühle auf dem Promenadendeck" width="300" height="450" %}
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000349-300x450.jpg" alt="Jogger auf dem Promenadendeck" width="300" height="450" %}
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000336-300x450.jpg" alt="Promenadendeck" width="300" height="450" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000368-300x450.jpg" alt="Liegestühle auf dem Promenadendeck" width="300" height="450" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000349-300x450.jpg" alt="Jogger auf dem Promenadendeck" width="300" height="450" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000336-300x450.jpg" alt="Promenadendeck" width="300" height="450" %}
 
 ## Kinder
 
@@ -248,9 +260,9 @@ Die Anreise über die Alster ist spannend. Ich war um 05:00 Uhr morgens wach und
 
 Die Passagiere, die von Bord gehen müssen bis zu einer bestimmten Uhrzeit das Schiff verlassen (ca. 09:30 Uhr). Vorher kann man noch Frühstücken. Großes Gepäck kann man dann an Land abholen. Es gibt einen relativ günstigen Bustransfer zum Bahnhof oder in die Innenstadt. Alternativ kann man auch mit dem Taxi fahren (ca. 25 Euro). Zu Fuss ist es ein wenig weit.
 
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000503-800x533.jpg" position="right" alt="Liegestühle auf dem Promenadendeck" caption="Die Queen Victoria an der Anlegestelle in Hamburg." width="440" height="300" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000503-800x533.jpg" position="right" alt="Liegestühle auf dem Promenadendeck" caption="Die Queen Victoria an der Anlegestelle in Hamburg." width="440" height="300" %}
 
-{% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/L1000515-800x533.jpg" position="left" alt="Jogger auf dem Promenadendeck" width="440" height="300" %}
+{% include figure.html image="/assets/images/schiffe/queen-victoria/L1000515-800x533.jpg" position="left" alt="Jogger auf dem Promenadendeck" width="440" height="300" %}
 
 ## Empfehlung?
 
@@ -260,11 +272,7 @@ Die Passagiere, die von Bord gehen müssen bis zu einer bestimmten Uhrzeit das S
 </div>
 
 <div class="col-sm-6">
-    {% include figure.html image="/images/2018/01/25/schiffe/queen-victoria/IMG_1947-600x799.jpg" alt="Selfie in Hamburg" caption="Ein Selfie kurz vorm Ausschiffen in Hamburg." width="410" height="300" %}
+    {% include figure.html image="/assets/images/schiffe/queen-victoria/IMG_1947-600x799.jpg" alt="Selfie in Hamburg" caption="Ein Selfie kurz vorm Ausschiffen in Hamburg." width="410" height="300" %}
 </div>
 
-</div>
-
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K-V2QoI7aq8?rel=0" allowfullscreen></iframe>
 </div>
