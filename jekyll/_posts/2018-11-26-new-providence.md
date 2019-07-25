@@ -13,6 +13,61 @@ description: "Eine Tour über die Insel New Providence auf den Bahamas."
 teaser_text: "Eine Tour über die Insel New Providence auf den Bahamas."
 categories: Reiseblogger Podcast Bahamas
 
+podcast:
+  cover_image: '/images/podcasts/2018/20121012-L1007160-square.jpg'
+  duration: '00:49:54'
+  mp3:
+    file_name: 2018-10-Bahamas.mp3
+    file_size: '47965040'
+  m4a:
+    file_name: 2018-10-Bahamas.m4a
+    file_size: '49098230'
+  opus:
+    file_name: 2018-10-Bahamas.opus
+    file_size: '36295568'
+  chapters:
+    1:
+      start: '00:00:00'
+      title: 'Landeanflug Nassau'
+    2:
+      start: '00:00:37'
+      title: 'Passkontrolle am Flughafen'
+    3:
+      start: '00:01:44'
+      title: 'New Providence'
+    4:
+      start: '00:02:18'
+      title: 'Potter`s Cay'
+    5:
+      start: '00:09:17'
+      title: 'Seelenverkäufer (Fischerboote und Fähren)'
+    6:
+      start: '00:14:01'
+      title: 'Fort Montagu (Piraten)'
+    7:
+      start: '00:24:24'
+      title: 'Doongalik'
+    8:
+      start: '00:26:10'
+      title: 'Over the hill'
+    9:
+      start: '00:31:43'
+      title: 'Martin Luther King'
+    10:
+      start: '00:34:07'
+      title: 'Graycliff Hotel'
+    11:
+      start: '00:39:31'
+      title: 'National Art Gallery'
+    12:
+      start: '00:43:42'
+      title: 'Korruption'
+    13:
+      start: '00:45:21'
+      title: 'Tourempfehlungen'
+    14:
+      start: '00:49:37'
+      title: 'Abschied'
 ---
 
 Im Herbst 2018 hat uns [Ulrich Voges](https://www.linkedin.com/in/ulrich-voges-48b82360/) ein wenig von der Insel [New Providence](https://de.wikipedia.org/wiki/New_Providence_(Bahamas)) auf den [Bahamas](https://de.wikipedia.org/wiki/Bahamas) gezeigt. Uli kennt die Bahamas seit 20 Jahren und wohnt seit fast 10 Jahren auf New Providence.
