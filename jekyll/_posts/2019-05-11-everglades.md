@@ -18,11 +18,14 @@ podcast:
   cover_image: '/images/podcasts/2019/2019-05-11-everglades.jpg'
   duration: '00:23:40'
   mp3:
-    file_name: 2019-05-everglades.mp3
+    file_name: 2019-05-Everglades.mp3
     file_size: '34156086'
   m4a:
-    file_name: 2019-05-everglades.m4a
+    file_name: 2019-05-Everglades.m4a
     file_size: '77044133'
+  opus:
+    file_name: 2019-05-Everglades.opus
+    file_size: '27745392'
   chapters:
     1:
       start: '00:00:00'
