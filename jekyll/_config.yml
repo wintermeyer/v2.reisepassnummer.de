@@ -7,7 +7,7 @@ favicon: '/favicon.ico'
 baseurl: 
 google_analytics: 'UA-109693998-1'
 include: ["_pages"]
-permalink: /episodes/:title/
+permalink: /:year/:title:output_ext
 
 # Authors
 authors:
