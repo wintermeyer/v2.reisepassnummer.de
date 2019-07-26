@@ -11,7 +11,7 @@ publication_date: 2019-05-11
 subtitle: 'Mit einem Riesenpropeller im Rücken driften wir durch die Everglades'
 description: 'Mit dem Sumpfboot durch das tropische Marschland. Alligatoren,
 Schildkröten, Vögel und Fische.'
-teaser_text: 'Für 308 US-Dollar driften wir mit einem Airboat durch die Everglades. 90 Kilometer wird hier der langsamste Fluss der Welt breit. Einen Riesenpropeller im Rücken, Ohrstöpsel in den Ohren, begegnen wir am Ufer einem Alligator: „Mathilda“. Ob man hier auch zu Fuß laufen könnte? Ja, sagt unser Begleiter. „Aber…“'
+teaser_text: '👨‍👧‍👦 🐊🇺🇸 Für 308 US-Dollar driften wir mit einem Airboat durch die Everglades. 90 Kilometer wird hier der langsamste Fluss der Welt breit. Einen Riesenpropeller im Rücken, Ohrstöpsel in den Ohren, begegnen wir am Ufer einem Alligator: „Mathilda“. Ob man hier auch zu Fuß laufen könnte? Ja, sagt unser Begleiter. „Aber…“'
 categories: Reiseblogger Podcast USA Florida
 
 podcast:

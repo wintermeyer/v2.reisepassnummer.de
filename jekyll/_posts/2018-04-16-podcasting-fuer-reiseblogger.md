@@ -10,8 +10,7 @@ publication_date: 2018-04-16
 
 subtitle: "Mittschnitt meiner Podcast-Session beim ReisebloggerCamp 2018 in
 Wolfenbüttel"
-description: "Mit der Familie zwei Tage nach Neustadt an der Weinstrasse."
-teaser_text: "Wie erstelle ich meinen Reisepodcast und warum das Medium für
+teaser_text: "🎤 Wie erstelle ich meinen Reisepodcast und warum das Medium für
 andere Reiseblogger ebenfalls interessant ist."
 categories: Reiseblogger Podcast
 

@@ -11,7 +11,7 @@ publication_date: 2018-02-20
 subtitle: "Die Jagd nach der goldenen Kanonenkugel."
 description: "Bericht über die Jagd nach der goldenen Kanonenkugel auf der
 Festung Ehrenbreitstein."
-teaser_text: "Mit der ganzen Familie 11 Rätsel lösen, um mit den Lösungen die
+teaser_text: "🏰 🇩🇪 Mit der ganzen Familie 11 Rätsel lösen, um mit den Lösungen die
 goldene Kanonenkugel auf der Festung Ehrenbreitstein zu finden."
 categories: Familie Kinder Deutschland Podcast
 keywords: "Treasure, Family, Germany, Travelblog"
