@@ -6,6 +6,9 @@
 <script>
     podlovePlayer('#podlove', {
         title: '{{ page.title }}',
+        {% if page.podcast.transcripts %}
+        transcripts: '{{ page.podcast.transcripts }}',
+        {% endif %}
         subtitle: '{{ page.subtitle }}',
         summary: '{{ page.teaser_text }}',
         publicationDate: '{{ page.publication_date }}',
