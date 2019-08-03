@@ -96,14 +96,27 @@ ga('send', 'pageview');
         <script>window.podcastData={
             "title":"Reisepassnummer",
             "subtitle":"Reisepodcast",
-            "description":"Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das M ikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen, die Sie mit an die jeweiligen Ziele nehmen.",
+            "description":"Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das M ikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen.",
             "cover":"https://www.reisepassnummer.de/assets/images/podcast-cover-2000x2000.jpg",
             "feeds":[
                 {
-                    "type":"audio",
-                    "format":"mp3",
-                    "url":"https://www.reisepassnummer.de/podcast.xml",
-                    "directory-url-itunes":"https://podcasts.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2"
+                    "type": "audio",
+                    "format": "mp3",
+                    "url": "https://www.reisepassnummer.de/feeds/mp3.xml",
+                    "variant": "high"
+                },
+                {
+                    "type": "audio",
+                    "format": "aac",
+                    "url": "https://www.reisepassnummer.de/feeds/m4a.xml",
+                    "variant": "high",
+                    "directory-url-itunes": "https://podcasts.apple.com/de/podcast/reisepassnummer/id1350502461"
+                },
+                {
+                    "type": "audio",
+                    "format": "opus",
+                    "url": "https://www.reisepassnummer.de/feeds/opu.xmls",
+                    "variant": "high"
                 }
                     ]}
         </script>

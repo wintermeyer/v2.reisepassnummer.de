@@ -36,7 +36,7 @@
             <itunes:category text="Places &amp; Travel"/>
             <itunes:category text="Society &amp; Culture">
             </itunes:category>
-            <enclosure url="{{ site.url }}/assets/podcasts/{{ post.date | date: '%Y' }}/{{ post.podcast.mp3.file_name }}" length="{{ post.podcast.mp3.file_size }}" type="audio/mp3"/>
+            <enclosure url="{{ site.url }}/assets/podcasts/{{ post.date | date: '%Y' }}/{{ post.podcast.m4a.file_name }}" length="{{ post.podcast.m4a.file_size }}" type="audio/m4a"/>
             <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
             <pubDate>{{ post.publication_date | date_to_rfc822 }}</pubDate>
             <itunes:duration>{{ post.podcast.duration }}</itunes:duration>
