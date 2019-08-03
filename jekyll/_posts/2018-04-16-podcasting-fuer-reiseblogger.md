@@ -12,7 +12,7 @@ subtitle: "Mittschnitt meiner Podcast-Session beim ReisebloggerCamp 2018 in
 Wolfenbüttel"
 teaser_text: "🎤 Wie erstelle ich meinen Reisepodcast und warum das Medium für
 andere Reiseblogger ebenfalls interessant ist."
-categories: Reiseblogger Podcast
+categories: Konferenz Reiseblogger
 
 podcast:
   cover_image: '/images/podcasts/2018/james-baldwin-aBBLoTDmINo-unsplash_square.jpg'

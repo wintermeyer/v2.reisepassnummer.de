@@ -10,7 +10,7 @@ publication_date: 2018-01-25
 
 subtitle: "Mit einem Ocean Liner von Southampton (England) nach Hamburg."
 teaser_text: "🛳 🇬🇧 -> 🇩🇪 Die Queen Victoria ist einer der wenigen Schiffe die regelmässig eine Transatlantik-Überquerung machen. Mit diesem Kurztrip von Southampton nach Hamburg kann man ein wenig reinschnuppern in diese Reiseart."
-categories: 'Podcast, Travelblog, Reisepodcast'
+categories: Schiff Southhampton Hamburg England
 
 podcast:
   cover_image: '/images/podcasts/2018/L1000368_square.jpg'

@@ -12,7 +12,7 @@ title: "Altstadt Barcelona"
 subtitle: "In verwinkelten Gassen durch die Altstadt von Barcelona."
 description: "In verwinkelten Gassen durch die Altstadt von Barcelona."
 teaser_text: "🇪🇸 Mit einem in Barcelona geborenen Guide durch die verwinkelten Gassen der Altstadt von Barcelona. Vorbei an vielen Geschäften, Restaurants und Denkmälern."
-categories: Reiseblogger Podcast Spanien Barcelona
+categories: Spanien Barcelona Stadtführung
 
 podcast:
   cover_image: '/images/podcasts/2018/camille-minouflet-fXMZKc_1Bi0-square.jpg'

@@ -11,8 +11,7 @@ publication_date: 2018-04-11
 subtitle: "Ein Familienausflug in die Pfalz."
 description: "Mit der Familie zwei Tage nach Neustadt an der Weinstrasse."
 teaser_text: "👨‍👩‍👧‍👦 🇩🇪 2 Tage in der Pfalz. Vom alla hopp Abenteuerspielplatz bis zum Hambacher Schloss."
-categories: Deutschland Familie Podcast
-keywords: "Deutschland, Neustadt, Pfalz, Familie, Travelblog"
+categories: Deutschland Neustadt Pfalz Familie
 
 podcast:
   cover_image: '/images/podcasts/2018/karsten-wurth-karsten-wuerth-49aQgxkOrO4-unsplash-square.jpg'

@@ -12,8 +12,7 @@ subtitle: "Chimpansen, Seehunde, Känguru und freche Tiere im Streichelzoo"
 description: "Bericht über einen Besuch im Zoo Neuwied."
 teaser_text: "🇩🇪 Der Zoo Neuwied ist der größte Zoo in Rheinland-Pfalz. Wir haben
 ihn besucht und uns von Ziegen im Streichelzoo die Futtertüten klauen lassen."
-categories: Familie Kinder Deutschland Zoo Podcast
-keywords: "Family, Germany, Zoo, Travelblog"
+categories: Familie Deutschland Zoo Neuwied
 
 podcast:
   cover_image: '/images/podcasts/2018/L1000657-square.jpg'
