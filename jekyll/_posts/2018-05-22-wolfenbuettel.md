@@ -15,7 +15,12 @@ geschichtsträchtigen Stadt, die den 900sten Geburtstag feiert. Wir
 haben die Bibliothek, die Stadt und ein Museum besucht. Zwei ausgezeichnete
 Guides haben uns alles gezeigt und erklärt. Natürlich waren wir auch im
 Stadtbad. ;-) 🏊‍♂️"
-categories: Deutschland Familie Stadtführung Wolfenbüttel Museum
+categories: 
+  - Deutschland
+  - Wolfenbüttel
+  - Stadtführung
+  - Familie
+  - Museum
 
 podcast:
   cover_image: '/images/podcasts/2018/wolfenbuttel-1607919_1920-square.jpg'

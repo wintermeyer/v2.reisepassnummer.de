@@ -13,7 +13,10 @@ description: "Bericht über die Jagd nach der goldenen Kanonenkugel auf der
 Festung Ehrenbreitstein."
 teaser_text: "🏰 🇩🇪 Mit der ganzen Familie 11 Rätsel lösen, um mit den Lösungen die
 goldene Kanonenkugel auf der Festung Ehrenbreitstein zu finden."
-categories: Familie Deutschland Koblenz
+categories:
+  - Deutschland
+  - Koblenz
+  - Familie
 
 podcast:
   cover_image: '/images/podcasts/2018/IMG_2098_square.jpg'

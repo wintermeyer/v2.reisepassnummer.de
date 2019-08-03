@@ -42,7 +42,7 @@
             <itunes:duration>{{ post.podcast.duration }}</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <description>{{ post.description | xml_escape }} Weitere Informationen finden Sie auf {{ site.url }}{{ site.baseurl }}{{ post.url }}</description>
-            <itunes:keywords>{{ post.categories }}</itunes:keywords>
+            <itunes:keywords>{{ post.categories | join: "," }}</itunes:keywords>
   		  </item>
     {% endif %}
   {% endfor %}
