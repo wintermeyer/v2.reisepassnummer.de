@@ -1,0 +1,50 @@
+---
+
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
+
+    <channel>
+		<atom:link href="{{ site.url }}/podcast.xml" rel="self" type="application/rss+xml" />
+		<title>Reisepassnummer</title>
+		<link>https://www.reisepassnummer.de</link>
+		<language>{{ site.lang }}</language>
+    <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
+		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
+    <itunes:author>{{ site.authors.wintermeyer.name }}</itunes:author>
+		<itunes:summary>Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das Mikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen, die Sie mit an die jeweiligen Ziele nehmen.</itunes:summary>
+    <description>Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das Mikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen, die Sie mit an die jeweiligen Ziele nehmen.</description>
+		<webMaster>{{ site.authors.wintermeyer.email }} ({{ site.authors.wintermeyer.name }})</webMaster>
+    <itunes:owner>
+			<itunes:name>{{ site.authors.wintermeyer.name }}</itunes:name>
+			<itunes:email>{{ site.authors.wintermeyer.email }}</itunes:email>
+		</itunes:owner>
+    <itunes:category text="Society &amp; Culture">
+    <itunes:category text="Places &amp; Travel"/>
+    </itunes:category>
+    <itunes:image href="{{ site.url }}/assets/images/podcast-cover-2000x2000.jpg" />
+    <itunes:explicit>no</itunes:explicit>
+
+    {% for post in site.posts %}
+      {% if post.podcast %}
+        <item>
+            <title>{{ post.title | xml_escape }}</title>
+            <itunes:author>{{ site.authors.wintermeyer.name }}</itunes:author>
+            <itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
+            <itunes:summary>{{ post.teaser_text | xml_escape }}</itunes:summary>
+            <itunes:image href="{{ site.url }}{{ post.podcast.cover_image }}" />
+            <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Places &amp; Travel"/>
+            </itunes:category>
+            <enclosure url="{{ site.url }}{{ post.podcast_file }}" length="{{ post.length }}" type="audio/mp3"/>
+            <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
+            <pubDate>{{ post.publication_date | date_to_rfc822 }}</pubDate>
+            <itunes:duration>{{ post.podcast.duration }}</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <description>{{ post.description | xml_escape }} Weitere Informationen finden Sie auf {{ site.url }}{{ site.baseurl }}{{ post.url }}</description>
+            <itunes:keywords>{{ post.categories }}</itunes:keywords>
+  		  </item>
+    {% endif %}
+  {% endfor %}
+	</channel>
+</rss>

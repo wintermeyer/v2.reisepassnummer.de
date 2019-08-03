@@ -91,11 +91,32 @@ ga('send', 'pageview');
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
+    <div class="float-md-right">
+        <!-- Podlove Subscribe Button -->
+        <script>window.podcastData={
+            "title":"Reisepassnummer",
+            "subtitle":"Reisepodcast",
+            "description":"Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das M ikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen, die Sie mit an die jeweiligen Ziele nehmen.",
+            "cover":"https://www.reisepassnummer.de/assets/images/podcast-cover-2000x2000.jpg",
+            "feeds":[
+                {
+                    "type":"audio",
+                    "format":"mp3",
+                    "url":"https://www.reisepassnummer.de/podcast.xml",
+                    "directory-url-itunes":"https://podcasts.apple.com/de/podcast/reisepassnummer/id1350502461?mt=2"
+                }
+                    ]}
+        </script>
+        <script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="de" data-size="big" data-json-data="podcastData" data-format="cover" data-style="filled"></script>
+        <noscript><a href="https://www.reisepassnummer.de/podcast.xml">Podcast als MP3 feed abonnieren.</a></noscript>
+    </div>
+
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
         {{ site.description }}
-    </p>
+    </p>    
 </div>
+
 
 <!-- Content
 ================================================== -->

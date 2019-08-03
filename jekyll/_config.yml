@@ -8,6 +8,7 @@ baseurl:
 google_analytics: 'UA-109693998-1'
 include: ["_pages"]
 permalink: /:year/:title:output_ext
+lang: de
 
 # Authors
 authors:
