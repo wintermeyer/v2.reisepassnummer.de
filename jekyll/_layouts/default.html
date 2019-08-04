@@ -91,43 +91,17 @@ ga('send', 'pageview');
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
-    <div class="float-md-right">
-        <!-- Podlove Subscribe Button -->
-        <script>window.podcastData={
-            "title":"Reisepassnummer",
-            "subtitle":"Reisepodcast",
-            "description":"Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das M ikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen.",
-            "cover":"https://www.reisepassnummer.de/assets/images/podcast-cover-2000x2000.jpg",
-            "feeds":[
-                {
-                    "type": "audio",
-                    "format": "mp3",
-                    "url": "https://www.reisepassnummer.de/feeds/mp3.xml",
-                    "variant": "high"
-                },
-                {
-                    "type": "audio",
-                    "format": "aac",
-                    "url": "https://www.reisepassnummer.de/feeds/m4a.xml",
-                    "variant": "high",
-                    "directory-url-itunes": "https://podcasts.apple.com/de/podcast/reisepassnummer/id1350502461"
-                },
-                {
-                    "type": "audio",
-                    "format": "opus",
-                    "url": "https://www.reisepassnummer.de/feeds/opu.xmls",
-                    "variant": "high"
-                }
-                    ]}
-        </script>
-        <script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="de" data-size="big" data-json-data="podcastData" data-format="cover" data-style="filled"></script>
-        <noscript><a href="https://www.reisepassnummer.de/podcast.xml">Podcast als MP3 feed abonnieren.</a></noscript>
+  <div class="row">
+    <div class="col-md-8">
+        <h1 class="sitetitle">{{ site.name }}</h1>
+        <p class="lead">
+            {{ site.description }}
+        </p>
     </div>
-
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
-        {{ site.description }}
-    </p>    
+    <div class="col-md-4">
+        {% include subscribe_button.html %}
+    </div>
+  </div>
 </div>
 
 

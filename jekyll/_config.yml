@@ -1,7 +1,7 @@
 # Site
-name: "Reisepassnummer Podcast"
+name: "Reisepassnummer"
 title: "Reisefeatures"
-description: "Reisefeatures von und mit Stefan Wintermeyer (plus Familie)"
+description: "Stefan Wintermeyer nimmt das Mikrofon mit auf Reisen. Das Resultant ist ein spannender Reisepodcast mit vielen O-Tönen."
 logo: 'assets/images/podcast-cover-2000x2000.jpg'
 favicon: '/favicon.ico'
 baseurl: 
