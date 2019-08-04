@@ -5,25 +5,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
 
     <channel>
-		<atom:link href="{{ site.url }}/podcast.xml" rel="self" type="application/rss+xml" />
-		<title>Reisepassnummer</title>
-		<link>https://www.reisepassnummer.de</link>
-		<language>{{ site.lang }}</language>
-    <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
-		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
-    <itunes:author>{{ site.authors.wintermeyer.name }}</itunes:author>
-		<itunes:summary>Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das Mikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen.</itunes:summary>
-    <description>Reisefeatures mit vielen O-Tönen. Wenn Stefan Wintermeyer beruflich (alleine) oder privat (mit Familie) verreist, nimmt er das Mikrofon immer mit. Dadurch entstehen spannende Reise-Reportagen.</description>
-		<webMaster>{{ site.authors.wintermeyer.email }} ({{ site.authors.wintermeyer.name }})</webMaster>
-    <itunes:owner>
-			<itunes:name>{{ site.authors.wintermeyer.name }}</itunes:name>
-			<itunes:email>{{ site.authors.wintermeyer.email }}</itunes:email>
-		</itunes:owner>
-    <itunes:category text="Society &amp; Culture">
-    <itunes:category text="Places &amp; Travel"/>
-    </itunes:category>
-    <itunes:image href="{{ site.url }}/assets/images/podcast-cover-2000x2000.jpg" />
-    <itunes:explicit>no</itunes:explicit>
+		<atom:link href="{{ site.url }}/feeds/m4a.xml" rel="self" type="application/rss+xml" />
+    {% include podcast-feed-header.xml %}
 
     {% for post in site.posts %}
       {% if post.podcast %}

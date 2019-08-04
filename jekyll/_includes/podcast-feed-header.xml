@@ -1,0 +1,18 @@
+<title>Reisepassnummer</title>
+<link>https://www.reisepassnummer.de</link>
+<language>{{ site.lang }}</language>
+<copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
+<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
+<itunes:author>{{ site.authors.wintermeyer.name }}</itunes:author>
+<itunes:summary>{{ site.description }}</itunes:summary>
+<description>{{ site.description }}</description>
+<webMaster>{{ site.authors.wintermeyer.email }} ({{ site.authors.wintermeyer.name }})</webMaster>
+<itunes:owner>
+  <itunes:name>{{ site.authors.wintermeyer.name }}</itunes:name>
+  <itunes:email>{{ site.authors.wintermeyer.email }}</itunes:email>
+</itunes:owner>
+<itunes:category text="Society &amp; Culture">
+<itunes:category text="Places &amp; Travel"/>
+</itunes:category>
+<itunes:image href="{{ site.url }}/assets/images/podcast-cover-2000x2000.jpg" />
+<itunes:explicit>no</itunes:explicit>
