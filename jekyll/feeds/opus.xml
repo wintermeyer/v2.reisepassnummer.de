@@ -5,7 +5,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
 
     <channel>
-		<atom:link href="{{ site.url }}/feeds/opus.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://www.reisepassnummer.de/feeds/opus.xml" rel="self" type="application/rss+xml" />
     {% include podcast-feed-header.xml %}
 
     {% for post in site.posts %}
@@ -15,16 +15,16 @@
             <itunes:author>{{ site.authors.wintermeyer.name }}</itunes:author>
             <itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.teaser_text | xml_escape }}</itunes:summary>
-            <itunes:image href="{{ site.url }}{{ post.podcast.cover_image }}" />
+            <itunes:image href="https://www.reisepassnummer.de{{ post.podcast.cover_image }}" />
             <itunes:category text="Places &amp; Travel"/>
             <itunes:category text="Society &amp; Culture">
             </itunes:category>
-            <enclosure url="{{ site.url }}/assets/podcasts/{{ post.date | date: '%Y' }}/{{ post.podcast.opus.file_name }}" length="{{ post.podcast.opus.file_size }}" type="audio/opus"/>
-            <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
+            <enclosure url="https://www.reisepassnummer.de/assets/podcasts/{{ post.date | date: '%Y' }}/{{ post.podcast.opus.file_name }}" length="{{ post.podcast.opus.file_size }}" type="audio/opus"/>
+            <guid isPermaLink="true">https://www.reisepassnummer.de{{ post.url }}</guid>
             <pubDate>{{ post.publication_date | date_to_rfc822 }}</pubDate>
             <itunes:duration>{{ post.podcast.duration }}</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
-            <description>{{ post.description | xml_escape }} Weitere Informationen und eine Transkription finden Sie auf {{ site.url }}{{ site.baseurl }}{{ post.url }}</description>
+            <description>{{ post.description | xml_escape }} Weitere Informationen und eine Transkription finden Sie auf https://www.reisepassnummer.de{{ site.baseurl }}{{ post.url }}</description>
             <itunes:keywords>{{ post.categories | join: "," }}</itunes:keywords>
   		  </item>
     {% endif %}

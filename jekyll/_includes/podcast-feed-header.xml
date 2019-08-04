@@ -14,5 +14,5 @@
 <itunes:category text="Society &amp; Culture">
 <itunes:category text="Places &amp; Travel"/>
 </itunes:category>
-<itunes:image href="{{ site.url }}/assets/images/podcast-cover-2000x2000.jpg" />
+<itunes:image href="https://www.reisepassnummer.de/assets/images/podcast-cover-2000x2000.jpg" />
 <itunes:explicit>no</itunes:explicit>
