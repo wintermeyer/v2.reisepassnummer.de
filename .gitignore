@@ -16,3 +16,6 @@ export/
 # Misc
 old-jekyll/
 new/
+
+# Export Directory
+jekyll/exports/
