@@ -15,7 +15,7 @@
             <itunes:author>{{ site.authors.wintermeyer.name }}</itunes:author>
             <itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.teaser_text | xml_escape }}</itunes:summary>
-            <itunes:image href="https://www.reisepassnummer.de{{ post.podcast.cover_image }}" />
+            <itunes:image href="https://www.reisepassnummer.de/assets{{ post.podcast.cover_image }}" />
             <itunes:category text="Places &amp; Travel"/>
             <itunes:category text="Society &amp; Culture">
             </itunes:category>
