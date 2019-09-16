@@ -5,7 +5,7 @@ author: wintermeyer
 image: 'assets/images/2019/08/EmpBuilderCalendar.jpg'
 image_alt: 'Foto von Downtown Doha'
 featured: true
-hidden: true
+hidden: false
 publication_date: 2019-08-21
 
 subtitle: 'Mit dem Amtrak Texas Eagle über 2.000 km vom Norden nach Süden durch die USA.'

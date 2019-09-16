@@ -5,7 +5,7 @@ author: wintermeyer
 image: assets/images/2019/05/11/IMG_1492.jpg
 image_alt: 'Foto aus dem Airboat'
 featured: false
-hidden: true
+hidden: false
 publication_date: 2019-05-11
 
 subtitle: 'Mit einem Riesenpropeller im Rücken driften wir durch die Everglades'

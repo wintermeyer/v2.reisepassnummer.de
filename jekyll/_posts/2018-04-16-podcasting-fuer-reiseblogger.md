@@ -5,7 +5,7 @@ author: wintermeyer
 image: 'assets/images/2018/04/16/podcast/h4npro.jpg'
 image_alt: 'Mikrofon'
 featured: false
-hidden: true
+hidden: false
 publication_date: 2018-04-16
 
 subtitle: "Mittschnitt meiner Podcast-Session beim ReisebloggerCamp 2018 in
