@@ -6,7 +6,7 @@ image: 'assets/images/2019/10/robert-bye-GgMm-KNhofg-unsplash-hero.jpg'
 image_alt: 'Sonnenuntergang in Manhatten'
 featured: true
 hidden: false
-publication_date: 2019-10-21
+publication_date: 2019-10-11
 
 subtitle: 'Ein Rundgang durch Midtown Manhattan.'
 description: 'Zu Fuss und mit der U-Bahn schaue ich mir mit dem Guide Oli Grieb die Highlights von Manhatten in New York City an.'
