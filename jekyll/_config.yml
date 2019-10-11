@@ -1,7 +1,7 @@
 # Site
 name: "Reisepassnummer"
 title: "Reisepodcast"
-description: "Vor-Ort-Reiseberichte. Stefan Wintermeyer nimmt das Mikrofon mit auf Geschäfts- und Privatreisen. 🎤✈️🛳🚆"
+description: "Reiseberichte, Bewertungen und Interviews. Getrieben von Neugierde. 🎤✈️🛳🚆"
 logo: 'assets/images/podcast-cover-2000x2000.jpg'
 favicon: '/favicon.ico'
 baseurl: 
