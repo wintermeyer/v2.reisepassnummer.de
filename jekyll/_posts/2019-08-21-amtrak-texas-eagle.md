@@ -4,7 +4,7 @@ title:  "Von Chicago nach Dallas mit dem Zug"
 author: wintermeyer
 image: 'assets/images/2019/08/EmpBuilderCalendar.jpg'
 image_alt: 'Foto von Downtown Doha'
-featured: true
+featured: false
 hidden: false
 publication_date: 2019-08-21
 
