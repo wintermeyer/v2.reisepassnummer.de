@@ -14,6 +14,8 @@ teaser_text: "👨‍👩‍👧‍👧 🇧🇸 Eine Tour mit einem spannenden 
 categories: 
   - Bahamas
   - New Providence
+  - Strand
+  - Meer
 
 podcast:
   cover_image: '/images/podcasts/2018/20121012-L1007160-square.jpg'

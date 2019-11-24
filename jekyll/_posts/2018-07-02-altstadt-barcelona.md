@@ -16,6 +16,7 @@ categories:
   - Spanien
   - Barcelona
   - Stadtführung
+  - Stadt
 
 podcast:
   cover_image: '/images/podcasts/2018/camille-minouflet-fXMZKc_1Bi0-square.jpg'

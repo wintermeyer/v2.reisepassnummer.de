@@ -53,7 +53,7 @@ tempfoo=`basename $0`
 TMPFILE=`mktemp /tmp/${tempfoo}.XXXXXX` || exit 1
 
 echo "* Deploy with rsync"
-rsync -rlpcgoDvz --log-file=$TMPFILE --delete export/jekyll/_site/* stefan@mothership.frankfurt.amooma.de:/var/www/$URL/current/
+rsync --progress -rlpcgoDvz --log-file=$TMPFILE --delete export/jekyll/_site/* stefan@mothership.frankfurt.amooma.de:/var/www/$URL/current/
 
 # Remove the tempfile
 #

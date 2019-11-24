@@ -21,6 +21,7 @@ categories:
   - Stadtführung
   - Familie
   - Museum
+  - Stadt
 
 podcast:
   cover_image: '/images/podcasts/2018/wolfenbuttel-1607919_1920-square.jpg'
