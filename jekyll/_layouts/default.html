@@ -5,10 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+{% if page.rss_feed_link == true %}
+<link rel="alternate" type="application/rss+xml" title="Reisepassnummer RSS-Feed (MP3)" href="/feeds/mp3.xml" />
+{% endif %}
 
-<title>{{ page.title }} | {{site.name}}</title>
+<title>{{ page.title }}</title>
 
-{% seo %}
+{% seo title=false %}
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     

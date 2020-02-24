@@ -1,11 +1,11 @@
-<title>Reisepassnummer</title>
+<title>{{ site.podcast_title }}</title>
 <link>https://www.reisepassnummer.de</link>
 <language>{{ site.lang }}</language>
 <copyright>&#xA9; {{ site.time | date: "%Y" }} by Stefan Wintermeyer</copyright>
 <itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
 <itunes:author>{{ site.authors.wintermeyer.name }}</itunes:author>
-<itunes:summary>{{ site.description }}</itunes:summary>
-<description>{{ site.description }}</description>
+<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
+<description>{{ site.description | xml_escape }}</description>
 <webMaster>{{ site.authors.wintermeyer.email }} ({{ site.authors.wintermeyer.name }})</webMaster>
 <itunes:owner>
   <itunes:name>{{ site.authors.wintermeyer.name }}</itunes:name>
