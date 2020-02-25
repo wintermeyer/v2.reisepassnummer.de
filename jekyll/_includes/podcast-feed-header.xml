@@ -2,7 +2,7 @@
 <link>https://www.reisepassnummer.de</link>
 <language>{{ site.lang }}</language>
 <copyright>&#xA9; {{ site.time | date: "%Y" }} by Stefan Wintermeyer</copyright>
-<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
+<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
 <itunes:author>{{ site.authors.wintermeyer.name }}</itunes:author>
 <itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
 <description>{{ site.description | xml_escape }}</description>

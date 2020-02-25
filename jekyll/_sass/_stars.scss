@@ -135,3 +135,38 @@ $rating-icons-paths: (
     font-size: 150%;
   }
 }
+
+.btn-podcast-apple {
+  width: 14em;
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.btn-podcast-button {
+  background: #0000;
+  color: #fff;
+  width: 14em;
+  text-align: center;
+  padding: .85em 0;
+  display: inline-block;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  line-height: 1em;
+  i {
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 0 .25em 0 0;
+    vertical-align: text-bottom;
+  }
+  span {
+    display: inline-block;
+    line-height: 1em;
+  }
+  body:not(.touch) &:hover {
+    color: $color_mint;
+    background: #fff;
+  } 
+}

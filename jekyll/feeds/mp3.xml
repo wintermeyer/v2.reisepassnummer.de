@@ -12,6 +12,7 @@
       {% if post.podcast %}
         <item>
             <title>{{ post.title | xml_escape }}</title>
+            <itunes:title>{{ post.title | xml_escape }}</itunes:title>
             <itunes:author>{{ site.authors.wintermeyer.name }}</itunes:author>
             <itunes:subtitle>{{ post.subtitle | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.teaser_text | xml_escape }}</itunes:summary>
@@ -26,6 +27,7 @@
             <itunes:explicit>no</itunes:explicit>
             <description>{{ post.description | xml_escape }} Weitere Informationen und eine Transkription finden Sie auf https://www.reisepassnummer.de{{ site.baseurl }}{{ post.url }}</description>
             <itunes:keywords>{{ post.categories | join: "," }}</itunes:keywords>
+            <link>https://www.reisepassnummer.de{{ post.url }}</link>
   		  </item>
     {% endif %}
   {% endfor %}
