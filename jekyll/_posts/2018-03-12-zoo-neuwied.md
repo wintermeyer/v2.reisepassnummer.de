@@ -17,6 +17,7 @@ categories:
   - Deutschland
   - Neuwied
   - Familie
+  - Tiere
 
 podcast:
   cover_image: '/images/podcasts/2018/L1000657-square.jpg'
