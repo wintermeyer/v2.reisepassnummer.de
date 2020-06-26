@@ -21,10 +21,10 @@ podcast:
   duration: '00:32:29'
   mp3:
     file_name: 2020-06-26-wattwanderung-cuxhaven.mp3
-    file_size: '39051852'
+    file_size: '38986710'
   m4a:
     file_name: 2020-06-26-wattwanderung-cuxhaven.m4a
-    file_size: '22153048'
+    file_size: '21686589'
   chapters:
     1:
       start: '00:00:00'
