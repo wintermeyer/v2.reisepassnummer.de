@@ -38,11 +38,6 @@
           mimeType: 'audio/mp4',
           size: {{ page.podcast.m4a.file_size }},
           title: 'Audio MP4'
-        }, {
-          url: '{{ site.baseurl }}/assets/podcasts/{{ page.date | date: '%Y' }}/{{ page.podcast.opus.file_name }}',
-          mimeType: 'audio/opus',
-          size: {{ page.podcast.opus.file_size }},
-          title: 'Audio Opus'
         }],
         contributors: [{
           name: 'Stefan Wintermeyer',
