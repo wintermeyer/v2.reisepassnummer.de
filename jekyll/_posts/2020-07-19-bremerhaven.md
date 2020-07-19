@@ -4,7 +4,7 @@ title:  "Bremerhaven"
 author: wintermeyer
 image: 'assets/images/2020/07/19/IMG_1116.jpg'
 image_alt: 'Hafenrundfahrt in Bremerhaven'
-featured: true
+featured: false
 hidden: false
 publication_date: 2020-07-19
 
@@ -57,7 +57,7 @@ podcast:
       title: 'Abspann'
 ---
 
-Am 30. Mai 2020 (Samstag) finden wir uns im neuen Hafen von Bremerhaven ein. Nachdem wir eingecheckt haben und uns der Hafenmeister ein wenig vom Hotel Im Jaich und dem Yachthafen gezeigt hat, gehen wir über die Füssgängerbrücke der Schleuse in Richtung Alter Hafen. Dort besuchen wir das Museum U-Boot Wilhelm Bauer (ehemals U 2540). Um 16:00 Uhr geht es dann zu einer Hafenrundfahrt, um uns die Werft und die Auto-Verladung anzuschauen. Zum Schluss zeigt uns ein Tour-Guide noch ein paar Highlights rund um den Hafen.
+An einem sonnigen Samstag finden wir uns im neuen Hafen der Stadt Bremerhaven ein. Nachdem wir eingecheckt haben und uns der Hafenmeister ein wenig vom Hotel Im Jaich und dem Yachthafen gezeigt hat, gehen wir über die Füssgängerbrücke der Schleuse in Richtung Alter Hafen. Dort besuchen wir das Museum U-Boot Wilhelm Bauer (ehemals U 2540). Um 16:00 Uhr geht es dann zu einer Hafenrundfahrt, um uns die Werft und die Auto-Verladung anzuschauen. Zum Schluss zeigt uns ein Tour-Guide noch ein paar Highlights rund um den Hafen.
 
 {% include player.html %}
 
