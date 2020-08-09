@@ -14,6 +14,7 @@ teaser_text: '👨‍👦‍👦🇩🇪 Ein sonniger Samstag im neuen Hafen von
 categories: 
   - Deutschland
   - Stadt
+  - Bremerhaven
 
 podcast:
   cover_image: '/images/podcasts/2020/2020-07-19-IMG_1115.jpg'
