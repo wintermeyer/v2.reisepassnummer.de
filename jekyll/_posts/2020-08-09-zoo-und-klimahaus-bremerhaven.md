@@ -106,19 +106,19 @@ Am zweiten Tag in Bremerhaven geht es morgens in den Zoo am Meer. Dort schauen w
 
 **00:00:01 Juna**
 
-OK, dann fange ich schon mal an. Und diesmal bitte nicht stören. Herzlich willkommen zur Fortsetzung, also zum zweiten Teil, meines Podcasts. Heute gehen wir in den Zoo Bremerhaven und dort haben die auch eine Eisbäraufzuchtstation, wo gerade zwei Eisbärbabys sind.
+OK, dann fange ich schon mal an. Und diesmal bitte nicht stören. Herzlich willkommen zur Fortsetzung, also zum zweiten Teil, meines Podcasts. Heute gehen wir in den [Zoo Bremerhaven](https://zoo-am-meer-bremerhaven.de) und dort haben die auch eine Eisbäraufzuchtstation, wo gerade zwei Eisbärbabys sind.
 
 **00:00:26 Stefan-Off**
 
-Diese Eisbärenbabys heißen Anna und Elsa. Wo wir gerade bei dem Namen sind: Mein Name ist Stefan Wintermeyer, das war eben meine Tochter Juna, mein Sohn Aurelius macht auch mit und das ist der Podcast Reisepassnummer. Heute geht es nach Bremerhaven. Als erstes gehen wir zum Zoo am Meer Bremerhaven und danach ins Klimahaus. Und auf dem Weg vom Hotel zum Zoo kommen wir an einem großen Segelschiff mit grünen Segeln vorbei. 
+Diese Eisbärenbabys heißen Anna und Elsa. Wo wir gerade bei dem Namen sind: Mein Name ist Stefan Wintermeyer, das war eben meine Tochter Juna, mein Sohn Aurelius macht auch mit und das ist der Podcast Reisepassnummer. Heute geht es nach Bremerhaven. Als erstes gehen wir zum Zoo am Meer Bremerhaven und danach ins [Klimahaus](https://www.klimahaus-bremerhaven.de). Und auf dem Weg vom Hotel zum Zoo kommen wir an einem großen Segelschiff mit grünen Segeln vorbei. 
 
 **00:00:53 Juna**
 
-Und jetzt gerade gehen wir an der Alexander von Humboldt II entlang. Das ist ein ganz berühmtes Schiff. Darauf wurde mal eine Werbung sogar gedreht. 
+Und jetzt gerade gehen wir an der [Alexander von Humbold II](https://alex-2.de) entlang. Das ist ein ganz berühmtes Schiff. Darauf wurde mal eine Werbung sogar gedreht. 
 
 **00:01:10 Stefan-Off**
 
-Genau genommen wurde die Beck's Werbung auf dem Vorgängerschiff der Alexander von Humboldt gedreht. Die beiden Schiffe sehen aber identisch aus. 
+Genau genommen wurde die Beck's Werbung auf dem Vorgängerschiff der [Alexander von Humboldt](https://www.alex-das-schiff.de) gedreht. Die beiden Schiffe sehen aber identisch aus. 
 
 **00:01:18 Juna**
 
@@ -374,7 +374,7 @@ Wir gehen jetzt hier eine Treppe hoch.
 
 **00:08:09 Stefan-Off**
 
-Als erstes landen wir im Offshore Center. Auf der Webseite steht dazu: Entdecke das Abenteuer Offshore-Windenergie! 
+Als erstes landen wir im [Offshore Center](https://www.klimahaus-bremerhaven.de/entdecken/ausstellungen/offshore-center.html). Auf der Webseite steht dazu: Entdecke das Abenteuer Offshore-Windenergie! 
 
 **00:08:19 Sprecherin**
 
@@ -402,7 +402,7 @@ Genau. Eigentlich ist es selbsterklärend. Die Aufgaben erscheinen dann hier im 
 
 **00:10:12 Stefan-Off**
 
-Irgendwie sind wir jetzt im World Future Lab gelandet. In der Mitte des Raums ist ein großer Globus, der sich dreht - also der ist bestimmt 3m, 3,5m groß - und drumrum sind so Arbeitsstationen mit Touchscreens. 
+Irgendwie sind wir jetzt im [World Future Lab](https://www.klimahaus-bremerhaven.de/world-future-lab.html) gelandet. In der Mitte des Raums ist ein großer Globus, der sich dreht - also der ist bestimmt 3m, 3,5m groß - und drumrum sind so Arbeitsstationen mit Touchscreens. 
 
 **00:10:29 Juna**
 
@@ -454,7 +454,7 @@ Am Ende der Ansage öffnet sich eine Tür und wir gehen alle raus. Auf dem Boden
 
 **00:13:12 Juna**
 
-Sind wir jetzt schon in der Schweiz? Ich gehe eh dahin. [Kuhglocke] Oh, sind die laut. [Kuhglocke] Hä? [Kuhglocke] OK. [Kuhglocke] 
+Sind wir jetzt schon in der [Schweiz](https://www.klimahaus-bremerhaven.de/entdecken/ausstellungen/schweiz.html? Ich gehe eh dahin. [Kuhglocke] Oh, sind die laut. [Kuhglocke] Hä? [Kuhglocke] OK. [Kuhglocke] 
 
 **00:13:40 Stefan-Off**
 
@@ -538,7 +538,7 @@ Wo ich gerade war, muss man so kurbeln, um Wasser aus dem Brunnen zu holen. Papa
 
 **00:17:43 Stefan-Off**
 
-In der Ausstellung sind die Sprünge zwischen den Ländern und Klimazonen mal größer, mal kleiner. Unser nächster Sprung führt uns nach Kamerun in den nächtlichen Regenwald. Vor uns ist so ein Gewässer, das ist nicht sehr tief - das sind vielleicht 10cm - mit lauter bunten tropischen Fischen und in der Mitte des Raums ist eine Hängebrücke. 
+In der Ausstellung sind die Sprünge zwischen den Ländern und Klimazonen mal größer, mal kleiner. Unser nächster Sprung führt uns nach [Kamerun](https://www.klimahaus-bremerhaven.de/entdecken/ausstellungen/kamerun.html) in den nächtlichen Regenwald. Vor uns ist so ein Gewässer, das ist nicht sehr tief - das sind vielleicht 10cm - mit lauter bunten tropischen Fischen und in der Mitte des Raums ist eine Hängebrücke. 
 
 **00:18:05 Juna**
 
@@ -570,7 +570,7 @@ Oh, ist das kalt hier.
 
 **00:20:22 Stefan-Off**
 
-Der Antarktis-Raum ist ein riesiger Tiefkühlschrank. Wir gehen über so einen Weg, rechts und links liegt überall Schnee, an den Wänden hängt überall Eis und das ganze Setup erinnert tatsächlich an die Antarktis. Auf dem Schnee ist so ein Expeditionszelt. Das wird von innen beleuchtet und sieht total dramatisch aus. Und das geht durch Mark und Bein, weil es einfach so eisig kalt ist und wir vorher ja im Warmen waren, und wir sind froh, wie wir wieder raus sind. Und dann kommt direkt das nächste Extrem. Wir sind nämlich dann in so einer Art tropischem Regenwald. 
+Der [Antarktis](https://www.klimahaus-bremerhaven.de/entdecken/ausstellungen/antarktis.html)-Raum ist ein riesiger Tiefkühlschrank. Wir gehen über so einen Weg, rechts und links liegt überall Schnee, an den Wänden hängt überall Eis und das ganze Setup erinnert tatsächlich an die Antarktis. Auf dem Schnee ist so ein Expeditionszelt. Das wird von innen beleuchtet und sieht total dramatisch aus. Und das geht durch Mark und Bein, weil es einfach so eisig kalt ist und wir vorher ja im Warmen waren, und wir sind froh, wie wir wieder raus sind. Und dann kommt direkt das nächste Extrem. Wir sind nämlich dann in so einer Art tropischem Regenwald. 
 
 **00:20:58 Juna**
 
@@ -578,7 +578,7 @@ Oh, heiß. Wäre ich doch lieber in der Arktis geblieben. Da ist eine Schlange d
 
 **00:21:33 Stefan-Off**
 
-Wir sind mittlerweile in Samoa angekommen, einem Inselstaat in Polynesien. Vor uns ist ein Nachbau der Südsee. 
+Wir sind mittlerweile in [Samoa](https://www.klimahaus-bremerhaven.de/entdecken/ausstellungen/samoa.html) angekommen, einem Inselstaat in Polynesien. Vor uns ist ein Nachbau der Südsee. 
 
 **00:21:42 Juna**
 
@@ -618,7 +618,7 @@ Da habe ich mich sowas von erschreckt.
 
 **00:23:17 Stefan-Off**
 
-Das war es jetzt für die zweite Folge Bremerhaven. Sie können sich schon denken: Das Klimahaus ist einen Besuch wert. Kann ich wirklich nur empfehlen. Zum Schluss möchte ich mich noch bei folgenden Leuten bedanken: Holger Bockholt vom Klimahaus, danke für die Einladung. Tanja Albert von der Erlebnis Bremerhaven GmbH, vielen Dank für die Organisation. Thomas Reintjes - den habe ich bis jetzt noch nie erwähnt. Der mischt und schneidet den Podcast aber schon seit, ich glaube, eineinhalb Jahren, wenn nicht sogar noch länger. Das heißt, wenn ich fertig bin mit meiner Arbeit, also der Podcast so grob geschnitten ist, dann nimmt der sich das noch mal alles vor, zieht das gerade, löscht ganz langweilige Sachen raus, gibt mir Feedback, hin und wieder schreiben wir dann immer hin und her, dann macht er noch Musik drunter. Das heißt, er sorgt dafür, dass der Podcast sich im Gesamten noch einfach schön anhört. Ganz zum Schluss möchte ich mich dann auch noch mal bei meiner Familie bedanken. Also ganz besonders bei meinen Kindern, ohne die diese Familienfolgen ja gar nicht gehen würden und mit denen ich unheimlich gerne zusammenarbeite. Also das macht mir wahnsinnig viel Spaß und das ist toll. Das kann ich gar nicht beschreiben. Und natürlich auch bei meiner Frau, die ganz selten auch mitmacht, aber uns natürlich oft den Rücken freihält. 
+Das war es jetzt für die zweite Folge Bremerhaven. Sie können sich schon denken: Das Klimahaus ist einen Besuch wert. Kann ich wirklich nur empfehlen. Zum Schluss möchte ich mich noch bei folgenden Leuten bedanken: Holger Bockholt vom Klimahaus, danke für die Einladung. Tanja Albert von der Erlebnis Bremerhaven GmbH, vielen Dank für die Organisation. [Thomas Reintjes](https://de.wikipedia.org/wiki/Thomas_Reintjes) - den habe ich bis jetzt noch nie erwähnt. Der mischt und schneidet den Podcast aber schon seit, ich glaube, eineinhalb Jahren, wenn nicht sogar noch länger. Das heißt, wenn ich fertig bin mit meiner Arbeit, also der Podcast so grob geschnitten ist, dann nimmt der sich das noch mal alles vor, zieht das gerade, löscht ganz langweilige Sachen raus, gibt mir Feedback, hin und wieder schreiben wir dann immer hin und her, dann macht er noch Musik drunter. Das heißt, er sorgt dafür, dass der Podcast sich im Gesamten noch einfach schön anhört. Ganz zum Schluss möchte ich mich dann auch noch mal bei meiner Familie bedanken. Also ganz besonders bei meinen Kindern, ohne die diese Familienfolgen ja gar nicht gehen würden und mit denen ich unheimlich gerne zusammenarbeite. Also das macht mir wahnsinnig viel Spaß und das ist toll. Das kann ich gar nicht beschreiben. Und natürlich auch bei meiner Frau, die ganz selten auch mitmacht, aber uns natürlich oft den Rücken freihält. 
 
 **00:24:44 Juna**
 
@@ -634,7 +634,7 @@ Warum nicht?
 
 **00:24:48 Stefan**
 
-Weil wir schon so viel aus dem Shop haben aus allen Shops dieser Welt und nichts davon brauchen. 
+Weil wir schon so viel aus dem Shop haben, aus allen Shops dieser Welt und nichts davon brauchen. 
 
 **00:24:57 Juna**
 
