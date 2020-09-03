@@ -4,7 +4,7 @@ title:  "Zoo und Klimahaus Bremerhaven"
 author: wintermeyer
 image: 'assets/images/2020/08/09/IMG_1164.jpg'
 image_alt: 'Blick von der Aussichtsplattform des Zoos am Meer'
-featured: false
+featured: true
 hidden: false
 publication_date: 2020-08-09
 

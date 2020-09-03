@@ -4,7 +4,7 @@ title:  "Wattwanderung Cuxhaven"
 author: wintermeyer
 image: 'assets/images/2020/06/26/IMG_1073-16x9.jpeg'
 image_alt: 'Esel schaut in die Kamera.'
-featured: true
+featured: false
 hidden: false
 publication_date: 2020-06-26
 
