@@ -116,6 +116,7 @@ Der Hüttenwirt Peter Jochum nimmt sich Zeit, erzählt uns etwas vom Leben auf d
 
 ## Links
 
+- [Jürgen Strolz (HolzSchopf)](http://www.holzschopf.com)
 - [Widdersteinhütte](http://widderstein-huette.at)
 - [Hotel Adler](https://www.hoteladler.at)
 - [Warth-Schröcken](https://www.warth-schroecken.at/)
