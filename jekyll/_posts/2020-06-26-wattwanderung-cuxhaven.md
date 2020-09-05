@@ -10,7 +10,7 @@ publication_date: 2020-06-26
 
 subtitle: '12 km durchs Watt zu den Seehundsbänken.'
 description: 'Eine 4 stündige Wattwanderung durch das UNESCO-Weltnaturerbe.'
-teaser_text: '👨‍👦‍👦🇩🇪🌊 Wir wandern über 12 km durch das Watt, um uns die Seehunde in der freien Wildbahn anzuschauen. Dabei erklärt unser Guide Thomas Lehmann die Besonderheiten des Ökosystems Watt.'
+teaser_text: '🇩🇪👨‍👦‍👦🌊 Deutschland. Cuxhaven. Wir wandern über 12 km durch das Watt, um uns die Seehunde in der freien Wildbahn anzuschauen. Dabei erklärt unser Guide Thomas Lehmann die Besonderheiten des Ökosystems Watt.'
 categories: 
   - Deutschland
   - Meer

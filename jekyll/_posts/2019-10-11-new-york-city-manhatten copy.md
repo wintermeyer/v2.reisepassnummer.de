@@ -10,7 +10,7 @@ publication_date: 2019-10-11
 
 subtitle: 'Ein Rundgang durch Midtown Manhattan.'
 description: 'Der deutschsprachige Guide Oli Grieb zeigt mir einige Midtown Klassiker (u.a. Times Square, Rockefeller Center und das Grand Central Terminal). Dabei sprechen wir über Hotdog-Preise, die Tricks der Verkäufer, Trinkgeld, die U-Bahn und über die Activiy Zone, in der vom Krümelmonster bis zum Iron Man Filmfiguren für Fotos bereit stehen.'
-teaser_text: '🇺🇸 Ich habe gut zwei Stunden Zeit und möchte mir die Highlights von Midtown Manhattan anschauen. Das Herz von New York City. Was sollte man sich auf jeden Fall anschauen? Zu Fuss und mit der U-Bahn mache ich mich mit einem Guide auf den Weg.'
+teaser_text: '🇺🇸👨‍ USA. New York. Ich habe gut zwei Stunden Zeit und möchte mir die Highlights von Midtown Manhattan anschauen. Das Herz von New York City. Was sollte man sich auf jeden Fall anschauen? Zu Fuss und mit der U-Bahn mache ich mich mit einem Guide auf den Weg.'
 categories: 
   - USA
   - Stadt

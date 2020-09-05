@@ -10,7 +10,7 @@ publication_date: 2019-11-23
 
 subtitle: 'All-Inclusive Hotel im Süd-Osten der griechischen Insel Rhodos.'
 description: 'Das TUI Magic Life Plimmiri ist ein All-Inclusive Hotel. Wir waren mit der ganzen Familie eine Woche dort. '
-teaser_text: '👨‍👩‍👧‍👦🇬🇷🏨 Hotelbewertung des All-Inclusive Hotels TUI Magic Life Plimmiri auf der griechischen Insel Rhodos. Das Familien-/Sport-Hotel liegt direkt am Meer und bietet Programm für die ganze Familie.'
+teaser_text: '🇬🇷👨‍👩‍👧‍👦🏨 Griechenland. Rhodos. Hotelbewertung des All-Inclusive Hotels TUI Magic Life Plimmiri. Das Familien-/Sport-Hotel liegt direkt am Meer und bietet Programm für die ganze Familie.'
 categories: 
   - Griechenland
   - Strand

@@ -10,7 +10,7 @@ publication_date: 2020-09-03
 
 subtitle: 'Zur Fuss den Berg rauf. Die Hütte liegt auf 2.015m. Bei Regen.'
 description: 'Die Widdersteinhütte liegt auf 2.015m direkt unter der Spitze des Großen Widdersteins. Zusammen mit meinem Guide Jürgen Strolz gehe ich vom Hotel Adler aus zur Hütte. Das Hotel Adler befindet sich im Ort Warth in Österreich. #warthschröcken #atemderberge'
-teaser_text: '👨‍🥾⛰🌧🇦🇹 An einem regnerischen Tag gehen wir vom Hotel Adler in Warth (Österreich) zur Widdersteinhütte. Diese Schutzhütte liegt auf 2.015m. Dort kehren wir ein. Der Hüttenwirt Peter Jochum erzählt uns etwas vom Leben auf der Hütte und zeigt uns die kleine Seilbahn, mit der Materal vom Tal zur Hütte transportiert wird.'
+teaser_text: '🇦🇹👨‍🥾⛰🌧 Österreich. Warth. An einem regnerischen Tag wandern wir vom Hotel Adler zur Widdersteinhütte. Diese Schutzhütte liegt auf 2.015m. Dort kehren wir ein. Der Hüttenwirt Peter Jochum erzählt uns etwas vom Leben auf der Hütte und zeigt uns die kleine Seilbahn, mit der Materal vom Tal zur Hütte transportiert wird.'
 categories: 
   - Österreich
   - Berg

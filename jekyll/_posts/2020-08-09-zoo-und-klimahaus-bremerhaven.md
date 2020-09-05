@@ -10,7 +10,7 @@ publication_date: 2020-08-09
 
 subtitle: 'Ein Besuch im Zoo am Meer und danach ein Rundgang im Klimahaus 8 Grad Ost Bremerhaven.'
 description: 'Im Zoo am Meer (dem kleinsten Zoo in Europa) schauen wir uns u.a. das Eisbärengehege mit den Eisbärenbabys an. Danach geht es zu Fuß ins Klimahaus 8 Grad Ost. Dort erfahren wir die unterschiedlichen Klimazonen am 8 Längengrad.'
-teaser_text: '👨‍👦‍👦☀️❄️🇩🇪 Ein sonniger Sonntag in der Bremerhaven Havenwelten. Erst besuchen wir den Zoo am Meer mit den Eisbärenbabys und danch geht es in das Klimahaus 8 Grad Ost.'
+teaser_text: '🇩🇪👨‍👦‍👦☀️❄️ Deutschland. Bremerhaven. Ein sonniger Sonntag in der Bremerhaven Havenwelten. Erst besuchen wir den Zoo am Meer mit den Eisbärenbabys und danch geht es in das Klimahaus 8 Grad Ost.'
 categories: 
   - Deutschland
   - Stadt

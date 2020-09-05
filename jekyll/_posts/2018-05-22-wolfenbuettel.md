@@ -10,7 +10,7 @@ publication_date: 2018-05-22
 
 subtitle: "Lessing und natürlich noch vieles anderes."
 description: "Ein Besuch in der Lessing-Stadt Wolfenbüttel."
-teaser_text: "👨‍👧‍👦 🇩🇪 Ein Besuch mit meinen beiden Kindern in dieser sehr
+teaser_text: "🇩🇪👨‍👧‍👦  Ein Besuch mit meinen beiden Kindern in dieser sehr
 geschichtsträchtigen Stadt, die den 900sten Geburtstag feiert. Wir
 haben die Bibliothek, die Stadt und ein Museum besucht. Zwei ausgezeichnete
 Guides haben uns alles gezeigt und erklärt. Natürlich waren wir auch im

@@ -10,7 +10,7 @@ publication_date: 2020-07-19
 
 subtitle: 'Wir flanieren am neuen und alten Hafen, besichtigen das U-Boot Wilhelm Bauer und machen eine kurzweilige Hafenrundfahrt.'
 description: 'Nach dem Einchecken im Hotel Im Jaich schauen wir uns den Yachthafen an und flanieren über die Schleusenbrücke in Richtung alter Hafen. Dort besuchen wir das U-Boot Museum Wilhelm Bauer (ehemals U 2540) und machen eine einstündige Hafenrundfahrt. Danach zeigt uns noch ein Tour-Guide ein paar Highlights im Hafen.'
-teaser_text: '👨‍👦‍👦🇩🇪 Ein sonniger Samstag im neuen Hafen von Bremerhaven. Wir flanieren im neuen und alten Hafen und schauen uns das U-Boot Museum Wilhelm Bauer (ehemals U 2540) an. Am Ende machen wir noch eine Hafenrundfahrt und schauen uns die großen Vehicle Carrier Schiffe an.'
+teaser_text: '🇩🇪👨‍👦‍👦 Deutschland. Bremerhaven. Ein sonniger Samstag im neuen Hafen von Bremerhaven. Wir flanieren im neuen und alten Hafen und schauen uns das U-Boot Museum Wilhelm Bauer (ehemals U 2540) an. Am Ende machen wir noch eine Hafenrundfahrt und schauen uns die großen Vehicle Carrier Schiffe an.'
 categories: 
   - Deutschland
   - Stadt

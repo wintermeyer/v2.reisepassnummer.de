@@ -10,7 +10,7 @@ publication_date: 2018-11-26
 
 subtitle: "Piraten, Conch Salat und gutes Wetter."
 description: "Eine Tour über die Insel New Providence auf den Bahamas."
-teaser_text: "👨‍👩‍👧‍👧 🇧🇸 Eine Tour mit einem spannenden Guide über die Insel New Providence auf den Bahamas. Wir starten mit einem Rundgang auf Potter`s Cay und fahren dann mit dem Kleinbus nach Fort Montago. Von dort geht es über Doongalik bis zur National Art Gallery."
+teaser_text: "🇧🇸👨‍👩‍👧‍👧 Eine Tour mit einem spannenden Guide über die Insel New Providence auf den Bahamas. Wir starten mit einem Rundgang auf Potter`s Cay und fahren dann mit dem Kleinbus nach Fort Montago. Von dort geht es über Doongalik bis zur National Art Gallery."
 categories: 
   - Bahamas
   - New Providence

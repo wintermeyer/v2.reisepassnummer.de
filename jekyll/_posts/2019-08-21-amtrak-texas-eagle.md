@@ -10,7 +10,7 @@ publication_date: 2019-08-21
 
 subtitle: 'Mit dem Amtrak Texas Eagle über 2.000 km vom Norden nach Süden durch die USA.'
 description: 'Wir fahren mit einem eher langsamen aber dafür sehr großen Amtrak Zug vom kalten Chicago ins warme Dallas. Dabei schauen wir den Amerikanern in die Hintergärten und sehen endlose weite Landschaften zwischen den Städten.'
-teaser_text: '👨‍👧‍👦 🚆🛤 🇺🇸 Wir fahren mit einem eher langsamen aber dafür sehr großen Amtrak Zug vom kalten Chicago ins warme Dallas. Dabei schauen wir den Amerikanern in die Hintergärten und sehen endlose weite Landschaften zwischen den Städten.'
+teaser_text: '🇺🇸👨‍👧‍👦 🚆🛤 USA. Chicago -> Dallas. Wir fahren mit einem eher langsamen und sehr großen Amtrak Zug vom kalten Chicago ins warme Dallas. Dabei schauen wir den Amerikanern in die Hintergärten und sehen endlose weite Landschaften zwischen den Städten.'
 categories: 
   - USA
   - Zug

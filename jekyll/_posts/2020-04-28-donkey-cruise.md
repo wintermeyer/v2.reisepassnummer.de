@@ -10,7 +10,7 @@ publication_date: 2020-04-28
 
 subtitle: 'Mit Eseln in die Berge der griechischen Insel Rhodos.'
 description: 'Donkey Cruise Asklipio-Kiotari bieten Ausflüge mit Eseln in das Hinterland von Rhodos an.'
-teaser_text: '👨‍👩‍👧‍👦🇬🇷 Mit der ganzen Familie geht es auf Eseln in die Berge von Rhodos. Wir besuchen eine kleine Kapelle und unsere Kinder finden eine Schlange.'
+teaser_text: '🇬🇷👨‍👩‍👧‍👦 Griechenland. Rhodos. Mit der ganzen Familie geht es auf Eseln in die Berge. Wir besuchen eine kleine Kapelle und unsere Kinder finden eine Schlange.'
 categories: 
   - Griechenland
   - Tiere
