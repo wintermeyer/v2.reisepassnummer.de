@@ -88,7 +88,7 @@ Meine Reise nach Warth-Schröcken führt mich zu wunderbaren Naturschauplätzen 
 österreichischen Vorarlberg und in die faszinierende Welt der Kräuter. Der Start meiner geplanten
 Tour verläuft jedoch etwas holprig ...
 
-Als ich morgens den vereinbarten Treffpunkt von Veronika Walchs Kräuterwanderung erreiche, ist
+Als ich morgens den vereinbarten Treffpunkt von [Veronika Walchs Kräuterwanderung](https://www.kraeuterwerkstatt-lech.at) erreiche, ist
 weit und breit niemand zu sehen. Zum Glück hilft ein Anruf beim Warth-Schröcken Tourismus, um
 das Rätsel aufzuklären: man hatte mich tatsächlich vergessen. Der freundliche Mitarbeiter Christoph
 erscheint kurzerhand mit einem geländegängigen Auto und setzt mich ein Stückchen weiter – gerade
@@ -102,7 +102,7 @@ schnell klar: Gegen so ziemlich alles ist ein Kraut gewachsen.
 
 Unsere Wanderung führt vorbei an Weiden, Kühen und verspielten Bächen zum offiziell schönsten
 Platz Österreichs 2017 – so schön, dass unsere Wanderleiterin sichtlich ins Schwärmen gerät.
-Nach einer lehrreichen Tour endet der Tag im malerisch gelegenen Berghotel Körbersee bei der
+Nach einer lehrreichen Tour endet der Tag im malerisch gelegenen [Berghotel Körbersee](https://www.koerbersee.at) bei der
 Familie Schlierenzauer. Das "Refugium auf 1675 Höhenmetern" kann nicht mit dem Auto erreicht
 werden und sieht wirklich aus wie aus dem Bilderbuch – Seilbahn für das Gepäck der Gäste inklusive.
 Mein Resümee: mit einem normalen Hotelurlaub hat dieser Ort der Stille wenig zu tun.
